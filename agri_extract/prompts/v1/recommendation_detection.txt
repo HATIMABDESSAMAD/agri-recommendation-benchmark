@@ -1,0 +1,1 @@
+Detect every passage that may prescribe FERTILIZATION. Return JSON {"candidates":[{"candidate_id":"c1","page_number":1,"action":"...","source_text":"..."}]}. Do not formalize logic yet. Include titles, tables and notes. Do not add recommendations from general knowledge.

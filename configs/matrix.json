@@ -1,0 +1,149 @@
+{
+  "version": "1",
+  "runs": [
+    {
+      "run": "R01",
+      "provider": "anthropic",
+      "strategy": "E1",
+      "schema": "S1",
+      "parser": "P4",
+      "validation": "V1"
+    },
+    {
+      "run": "R02",
+      "provider": "openai",
+      "strategy": "E1",
+      "schema": "S1",
+      "parser": "P4",
+      "validation": "V1"
+    },
+    {
+      "run": "R03",
+      "provider": "deepinfra",
+      "strategy": "E1",
+      "schema": "S1",
+      "parser": "P4",
+      "validation": "V1"
+    },
+    {
+      "run": "R04",
+      "provider": "anthropic",
+      "strategy": "E1",
+      "schema": "S3",
+      "parser": "P4",
+      "validation": "V1"
+    },
+    {
+      "run": "R05",
+      "provider": "openai",
+      "strategy": "E1",
+      "schema": "S3",
+      "parser": "P4",
+      "validation": "V1"
+    },
+    {
+      "run": "R06",
+      "provider": "deepinfra",
+      "strategy": "E1",
+      "schema": "S3",
+      "parser": "P4",
+      "validation": "V1"
+    },
+    {
+      "run": "R07",
+      "provider": "anthropic",
+      "strategy": "E1",
+      "schema": "S5",
+      "parser": "P4",
+      "validation": "V1"
+    },
+    {
+      "run": "R08",
+      "provider": "openai",
+      "strategy": "E1",
+      "schema": "S5",
+      "parser": "P4",
+      "validation": "V1"
+    },
+    {
+      "run": "R09",
+      "provider": "deepinfra",
+      "strategy": "E1",
+      "schema": "S5",
+      "parser": "P4",
+      "validation": "V1"
+    },
+    {
+      "run": "R10",
+      "provider": "anthropic",
+      "strategy": "E2",
+      "schema": "S1",
+      "parser": "P4",
+      "validation": "V1"
+    },
+    {
+      "run": "R11",
+      "provider": "openai",
+      "strategy": "E2",
+      "schema": "S1",
+      "parser": "P4",
+      "validation": "V1"
+    },
+    {
+      "run": "R12",
+      "provider": "deepinfra",
+      "strategy": "E2",
+      "schema": "S1",
+      "parser": "P4",
+      "validation": "V1"
+    },
+    {
+      "run": "R13",
+      "provider": "anthropic",
+      "strategy": "E2",
+      "schema": "S3",
+      "parser": "P4",
+      "validation": "V1"
+    },
+    {
+      "run": "R14",
+      "provider": "openai",
+      "strategy": "E2",
+      "schema": "S3",
+      "parser": "P4",
+      "validation": "V1"
+    },
+    {
+      "run": "R15",
+      "provider": "deepinfra",
+      "strategy": "E2",
+      "schema": "S3",
+      "parser": "P4",
+      "validation": "V1"
+    },
+    {
+      "run": "R16",
+      "provider": "anthropic",
+      "strategy": "E2",
+      "schema": "S5",
+      "parser": "P4",
+      "validation": "V1"
+    },
+    {
+      "run": "R17",
+      "provider": "openai",
+      "strategy": "E2",
+      "schema": "S5",
+      "parser": "P4",
+      "validation": "V1"
+    },
+    {
+      "run": "R18",
+      "provider": "deepinfra",
+      "strategy": "E2",
+      "schema": "S5",
+      "parser": "P4",
+      "validation": "V1"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "version": "1",
+  "runs": [
+    {"run":"C01","strategy":"E3","schema":"S4","validation":"V3","providers":["anthropic","openai"],"parser":"P0"},
+    {"run":"C02","strategy":"E4","schema":"S4","validation":"V4","providers":["anthropic","openai"],"parser":"P0"},
+    {"run":"C03","strategy":"E5","schema":"S3","validation":"V2","providers":["anthropic","openai"],"parser":"P0"},
+    {"run":"C04","strategy":"E6","schema":"S3","validation":"V2","providers":["openai","anthropic"],"parser":"P0"},
+    {"run":"C05","strategy":"E7","schema":"S5","validation":"V1","providers":["anthropic"],"parser":"P0"},
+    {"run":"C06","strategy":"E8","schema":"S1","validation":"V1","providers":["openai"],"parser":"P0"},
+    {"run":"C07","strategy":"E1","schema":"S2","validation":"V1","providers":["anthropic"],"parser":"P0"},
+    {"run":"C08","strategy":"E1","schema":"S4","validation":"V1","providers":["openai"],"parser":"P0"},
+    {"run":"C09","strategy":"E1","schema":"S5","validation":"V5","providers":["anthropic"],"parser":"P0"}
+  ]
+}

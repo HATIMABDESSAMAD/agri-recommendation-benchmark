@@ -1,0 +1,11 @@
+pydantic==2.13.5
+pypdf==7.1.0
+docling==2.150.1
+pint==0.26.2
+anthropic==2.9.0
+openai==3.52.0
+pytest==9.2.0
+reportlab==5.1.0
+jsonschema==4.26.0
+matplotlib==3.10.0
+numpy==2.1.3

@@ -1,0 +1,14 @@
+{
+  "sample_crop_manual": {
+    "path": "docs/sample_manual.pdf",
+    "title": "Sample crop manual",
+    "crop": "sample crop",
+    "crop_aliases": [],
+    "country": "unspecified",
+    "publisher": "unspecified",
+    "publication_year": 2020,
+    "version": "1",
+    "fertilizer_page": 2,
+    "context_page": 3
+  }
+}

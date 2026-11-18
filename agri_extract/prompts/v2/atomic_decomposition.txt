@@ -1,0 +1,1 @@
+Split each detected fertilization passage into independent atomic applications or prohibitions. Preserve candidate_id and source_text. Return JSON {"atoms":[{"candidate_id":"c1","atom_id":"a1","action":"...","source_text":"..."}]}. Do not invent actions.

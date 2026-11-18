@@ -1,0 +1,48 @@
+{
+  "example_type": "SYNTHETIC_NOT_REAL",
+  "ruleset": {
+    "document_id": "synthetic",
+    "rules": [
+      {
+        "rule_id": "synthetic-r1",
+        "document_id": "synthetic",
+        "schema_version": "S3",
+        "crop": "test crop",
+        "modality": "SHOULD",
+        "product": "urea",
+        "nutrient": null,
+        "notes": "Synthetic fixture",
+        "action": {
+          "verb": "apply",
+          "target": "urea",
+          "method": null
+        },
+        "quantity": {
+          "value": 50,
+          "unit": "kg/ha",
+          "basis": "product",
+          "original": "50 kg/ha",
+          "status": "EXPLICIT"
+        },
+        "context": {
+          "crop": "test crop"
+        },
+        "timing": "at planting",
+        "conditions": {
+          "kind": "PREDICATE",
+          "variable": "soil_moisture",
+          "operator": "EQ",
+          "value": "moist"
+        },
+        "exceptions": [
+          {
+            "kind": "PREDICATE",
+            "variable": "field_state",
+            "operator": "EQ",
+            "value": "flooded"
+          }
+        ]
+      }
+    ]
+  }
+}

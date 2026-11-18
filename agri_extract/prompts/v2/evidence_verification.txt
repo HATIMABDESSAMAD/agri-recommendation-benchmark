@@ -1,0 +1,1 @@
+Compare the two rule sets against the original document. Return JSON {"agreements":[],"disagreements":[],"supported_rule_ids":[],"review_required":[]}. An agreement is not proof. Do not consolidate a field unless the cited source supports it.

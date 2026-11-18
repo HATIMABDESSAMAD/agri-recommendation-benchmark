@@ -1,0 +1,1 @@
+Repair only the flagged fields in the supplied rule JSON using cited original passages. Return JSON {"repairs":[{"rule_id":"...","field":"...","old":null,"new":null,"source_text":"..."}]}. Do not add a recommendation without evidence.

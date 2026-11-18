@@ -1,0 +1,77 @@
+{
+  "version": "1",
+  "experiments": [
+    {
+      "id": "X01",
+      "name": "model_comparison",
+      "status": "CONFIGURABLE",
+      "requires_gold": true
+    },
+    {
+      "id": "X02",
+      "name": "E1_vs_E2",
+      "status": "CONFIGURABLE",
+      "requires_gold": true
+    },
+    {
+      "id": "X03",
+      "name": "S1_to_S5",
+      "status": "CONFIGURABLE",
+      "requires_gold": true
+    },
+    {
+      "id": "X04",
+      "name": "V0_to_V5",
+      "status": "CONFIGURABLE",
+      "requires_gold": true
+    },
+    {
+      "id": "X05",
+      "name": "multi_model",
+      "status": "CONFIGURABLE",
+      "requires_gold": true
+    },
+    {
+      "id": "X06",
+      "name": "cross_model",
+      "status": "CONFIGURABLE",
+      "requires_gold": true
+    },
+    {
+      "id": "X07",
+      "name": "P0_to_P4",
+      "status": "CONFIGURABLE",
+      "requires_gold": true
+    },
+    {
+      "id": "X08",
+      "name": "same_vs_cross_verifier",
+      "status": "CONFIGURABLE",
+      "requires_gold": true
+    },
+    {
+      "id": "X09",
+      "name": "same_model_repeated",
+      "status": "CONFIGURABLE",
+      "requires_gold": true
+    },
+    {
+      "id": "X10",
+      "name": "E2_vs_E7",
+      "status": "CONFIGURABLE",
+      "requires_gold": true
+    },
+    {
+      "id": "X11",
+      "name": "prompt_sensitivity",
+      "status": "CONFIGURABLE",
+      "requires_gold": true
+    },
+    {
+      "id": "X12",
+      "name": "cost_quality",
+      "status": "CONFIGURABLE",
+      "requires_gold": true
+    }
+  ]
+}

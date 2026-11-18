@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=75", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agri-recommendation-extraction"
+version = "0.1.0"
+description = "Auditable experimental extraction of agricultural fertilization recommendations"
+requires-python = ">=3.13"
+dependencies = [
+  "pydantic==2.13.5",
+  "pypdf==7.1.0",
+  "docling==2.150.1",
+  "pint==0.26.2",
+  "anthropic==2.9.0",
+  "openai==3.52.0",
+  "jsonschema==4.26.0",
+]
+
+[project.optional-dependencies]
+test = ["pytest==9.2.0", "reportlab==5.1.0"]
+analysis = ["matplotlib==3.10.0", "numpy==2.1.3"]
+
+[project.scripts]
+agri-extract = "agri_extract.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["agri_extract*"]
+
+[tool.setuptools.package-data]
+agri_extract = ["prompts/v1/*.txt", "prompts/v2/*.txt"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

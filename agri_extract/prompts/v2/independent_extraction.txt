@@ -1,0 +1,1 @@
+Independently extract every atomic FERTILIZATION recommendation from the document. You must not see or infer another extractor's output. Return ruleset JSON matching the supplied schema, using only documentary evidence.

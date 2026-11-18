@@ -1,0 +1,1 @@
+For each supplied candidate or atom, extract its dose, unit, product, nutrient basis, timing, method, conditions and exceptions from the document. Return one ruleset JSON matching the supplied schema. Keep candidate links in notes when representable. Do not create a rule without a candidate. Preserve uncertainty.

@@ -1,0 +1,1 @@
+Evaluate only the flagged fields against the cited original passages. Return JSON {"checks":[{"rule_id":"...","field":"...","status":"SUPPORTED|CONTRADICTED|INSUFFICIENT_EVIDENCE|AMBIGUOUS","reason":"..."}]}. Do not use external agronomy.

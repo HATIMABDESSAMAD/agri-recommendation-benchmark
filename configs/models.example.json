@@ -1,0 +1,39 @@
+{
+  "anthropic": {
+    "model": null,
+    "api_key_env": "ANTHROPIC_API_KEY",
+    "context_window_tokens": null,
+    "supports_json_schema": null,
+    "temperature": null,
+    "seed": null,
+    "snapshot": null,
+    "input_usd_per_million": null,
+    "output_usd_per_million": null
+  },
+  "openai": {
+    "model": null,
+    "api_key_env": "OPENAI_API_KEY",
+    "context_window_tokens": null,
+    "supports_json_schema": null,
+    "temperature": null,
+    "seed": null,
+    "snapshot": null,
+    "input_usd_per_million": null,
+    "output_usd_per_million": null
+  },
+  "deepinfra": {
+    "model": null,
+    "endpoint": null,
+    "api_key_env": null,
+    "api_protocol": null,
+    "auth_scheme": null,
+    "underlying_model_family": null,
+    "context_window_tokens": null,
+    "supports_json_schema": null,
+    "temperature": null,
+    "seed": null,
+    "snapshot": null,
+    "input_usd_per_million": null,
+    "output_usd_per_million": null
+  }
+}

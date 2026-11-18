@@ -1,0 +1,1 @@
+Independently list potentially prescriptive fertilization passages from the document as JSON {"passages":[{"page_number":1,"source_text":"..."}]}. These are audit signals, not automatically valid recommendations.

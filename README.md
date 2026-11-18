@@ -1,6 +1,6 @@
 # Agricultural Recommendation Extraction and Decision Benchmark
 
-Research code for turning agricultural PDF manuals into structured recommendations and evaluating whether a question should be **answered**, **clarified**, or **left unanswered**. This repository contains the extraction framework, decision methods, tests, and an aggregate three-model benchmark. Original PDFs, question-level annotations, model responses, and credentials are excluded.
+Research code for turning agricultural PDF manuals into structured recommendations and evaluating whether a question should be **answered**, **clarified**, or **left unanswered**. This repository contains the extraction framework, decision methods, the three original CC BY 4.0 source PDFs, tests, and an aggregate three-model benchmark. Question-level annotations, model responses, and credentials remain excluded.
 
 **Python 3.13 · MIT license · Offline tests · DeepInfra benchmark results**
 
@@ -38,7 +38,7 @@ The [S5 query and matching guide](docs/S5_MATCHER_PIPELINE.md) explains the sche
 
 ## Benchmark design
 
-- **Document:** one 24-page garlic manual, retained locally and excluded from this repository.
+- **Document:** the included [24-page garlic manual](docs/Bestfitmanual_MUCASCAPE_Garlic_Sep2019final.pdf).
 - **Questions:** the same 15 reference-labeled questions for each model and method: five `ANSWER`, five `ASK`, and five `ABSTAIN`.
 - **Models:** `Qwen/Qwen3.5-9B`, `Qwen/Qwen3.5-27B`, and `deepseek-ai/DeepSeek-V4.1-Flash-1017`, called through DeepInfra in the saved experiment.
 - **Measures:** accuracy, macro-F1 across the three reference classes, per-class recall, confusion matrices, invalid outputs, class-level false answers, and observed API cost.
@@ -98,7 +98,7 @@ python -m agri_extract --help
 
 The test suite uses synthetic fixtures and mocked providers; it needs no PDF or API key. The locally validated suite has **86 passing tests**. For a smoke run across extraction variants, configure local documents first, then run `python scripts/smoke_all_variants.py`.
 
-To register your own PDFs, copy `configs/documents.example.json` to `configs/documents.local.json` and set local paths and metadata. The local config is ignored by Git. `AGRI_DOCUMENT_CONFIG` can point to another configuration file. The general CLI supports parsing, planning, extraction, validation, evaluation, and reporting; use `python -m agri_extract <command> --help` for command-specific options. Live model calls require explicit local configuration and the relevant API key in the process environment.
+To use the three included manuals, copy `configs/documents.cascape.example.json` to `configs/documents.local.json`. The local config is ignored by Git. To register a different PDF, use `configs/documents.example.json` as a template and set its path and metadata. `AGRI_DOCUMENT_CONFIG` can point to another configuration file. The general CLI supports parsing, planning, extraction, validation, evaluation, and reporting; use `python -m agri_extract <command> --help` for command-specific options. Live model calls require explicit local configuration and the relevant API key in the process environment.
 
 For the **offline** S5 question workflow, supply your own S5 RuleSet:
 
@@ -117,7 +117,7 @@ The checked-in figures and aggregate JSON can be inspected without private data.
 python scripts/build_v5_dashboard.py --comparison results/annotation_v5_three_model_comparison/comparison.json --questions results/annotation_v5_three_model_comparison/questions.csv --out reports/v5
 ```
 
-This command is offline. A fresh public clone does **not** contain the original PDF, question-level reference data, model responses, or the supplied S5 rule file; it cannot independently rerun the published model evaluation without those inputs.
+This command is offline. A fresh public clone contains the original PDFs, but **not** the question-level reference data, model responses, or the supplied S5 rule file; it cannot independently rerun the published model evaluation without those remaining inputs.
 
 ## Repository structure and data policy
 
@@ -129,8 +129,9 @@ This command is offline. A fresh public clone does **not** contain the original 
 | `scripts/` | Offline dashboard builder and variant smoke test |
 | `tests/` | Synthetic and mocked validation tests |
 | `reports/v5/` | Aggregate benchmark report, JSON summary, PNG and SVG figures |
+| `docs/*.pdf` | Three unchanged CC BY 4.0 source manuals |
 
-`.gitignore` excludes local PDFs, `data/private/`, `results/`, `artifacts/`, local configs, credentials, and generated caches. Keep API keys out of commits and logs. Third-party PDFs and model weights are not distributed here.
+`.gitignore` allows only the three listed source PDFs and excludes other local PDFs, `data/private/`, `results/`, `artifacts/`, local configs, credentials, and generated caches. Keep API keys out of commits and logs. Third-party model weights are not distributed here.
 
 ## License and citation
 
@@ -138,8 +139,8 @@ The repository code and original documentation are released under the [MIT Licen
 
 | Source manual | Source attribution shown in the PDF | PDF license |
 | --- | --- | --- |
-| *Best Fit Practice Manual for Potato Production and Utilization in Tigray Region, Ethiopia* | Mekelle University CASCAPE project (2018) | CC BY 4.0, PDF p. 2 |
-| *Best Fit Practice Manual for Garlic Production in Tigray, Ethiopia* | Yemane G/Meskel, Harnet Abrha, Alem G/Tsadik, and Girmay G/Samuel (2017) | CC BY 4.0, PDF p. 2 |
-| *Best Fit Manual for Improved Sesame Production in Tigray Region, Ethiopia* | Woldemariam Gebrehiwot, Zenawi Gebregergs, Girmay Gebresamuel, and Dawit Legese (2020) | CC BY 4.0, PDF p. 2 |
+| [*Best Fit Practice Manual for Potato Production and Utilization in Tigray Region, Ethiopia*](docs/BestfitmanualMU_CASCAPE_potato_final_12.pdf) | Mekelle University CASCAPE project (2018) | CC BY 4.0, PDF p. 2 |
+| [*Best Fit Practice Manual for Garlic Production in Tigray, Ethiopia*](docs/Bestfitmanual_MUCASCAPE_Garlic_Sep2019final.pdf) | Yemane G/Meskel, Harnet Abrha, Alem G/Tsadik, and Girmay G/Samuel (2017) | CC BY 4.0, PDF p. 2 |
+| [*Best Fit Manual for Improved Sesame Production in Tigray Region, Ethiopia*](docs/Bestfitproductionmanualforsesame.pdf) | Woldemariam Gebrehiwot, Zenawi Gebregergs, Girmay Gebresamuel, and Dawit Legese (2020) | CC BY 4.0, PDF p. 2 |
 
-The PDFs are used locally but are not redistributed in this repository. Anyone sharing or adapting them should credit their source authors, link the CC BY 4.0 license, and indicate modifications. The MIT code license does not replace their CC BY 4.0 license or govern third-party model weights and services. For a reference to this software, use the repository URL and the version or commit hash used in your study; the repository also includes [citation metadata](CITATION.cff).
+The three PDFs are included **without modification**. Anyone sharing or adapting them should credit their source authors, link the CC BY 4.0 license, and indicate modifications. The MIT code license does not replace their CC BY 4.0 license or govern third-party model weights and services. For a reference to this software, use the repository URL and the version or commit hash used in your study; the repository also includes [citation metadata](CITATION.cff).

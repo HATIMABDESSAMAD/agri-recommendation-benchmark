@@ -29,6 +29,9 @@ htmlcov/
 *.ipynb_checkpoints/
 docs/*.pdf
 *.pdf
+!docs/BestfitmanualMU_CASCAPE_potato_final_12.pdf
+!docs/Bestfitmanual_MUCASCAPE_Garlic_Sep2019final.pdf
+!docs/Bestfitproductionmanualforsesame.pdf
 *questions*gold*.jsonl
 *questions*blind*.jsonl
 *.private.json

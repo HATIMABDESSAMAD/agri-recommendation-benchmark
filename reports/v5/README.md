@@ -1,6 +1,6 @@
 # V5 decision benchmark
 
-This public report summarizes a retrospective experiment on 15 owner-reviewed reference questions from one agricultural PDF. It compares three DeepInfra models and three decision methods. Individual questions, reference files, model responses and API credentials are kept in ignored local directories. The charts and `summary.json` contain aggregate metrics; the question-level audit chart shows IDs and correctness states only.
+This public report summarizes a retrospective experiment on 15 owner-reviewed reference questions from the included [garlic PDF](../../docs/Bestfitmanual_MUCASCAPE_Garlic_Sep2019final.pdf). It compares three DeepInfra models and three decision methods. Individual questions, reference files, model responses and API credentials are kept in ignored local directories. The charts and `summary.json` contain aggregate metrics; the question-level audit chart shows IDs and correctness states only.
 
 ## Results
 
@@ -69,4 +69,4 @@ The ignored local inputs are `results/annotation_v5_three_model_comparison/compa
 python scripts/build_v5_dashboard.py --comparison results/annotation_v5_three_model_comparison/comparison.json --questions results/annotation_v5_three_model_comparison/questions.csv --out reports/v5
 ```
 
-This command is offline. The original raw model outputs, S5 file, reference annotations and PDF remain separate and unchanged. An earlier Qwen-235B run remains preserved locally because its task outputs failed JSON validation; it is not included in this three-model comparison.
+This command is offline. The original raw model outputs, S5 file, reference annotations and included PDF remain separate and unchanged. An earlier Qwen-235B run remains preserved locally because its task outputs failed JSON validation; it is not included in this three-model comparison.

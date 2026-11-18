@@ -1,0 +1,36 @@
+{
+  "potato": {
+    "path": "docs/BestfitmanualMU_CASCAPE_potato_final_12.pdf",
+    "title": "Best Fit Practice Manual for Potato Production and Utilization in Tigray Region, Ethiopia",
+    "crop": "potato",
+    "crop_aliases": ["irish potato"],
+    "country": "Ethiopia",
+    "publisher": "Mekelle University / CASCAPE",
+    "publication_year": 2018,
+    "version": "BFM_MU_2018_1",
+    "fertilizer_page": 13,
+    "context_page": 11
+  },
+  "garlic": {
+    "path": "docs/Bestfitmanual_MUCASCAPE_Garlic_Sep2019final.pdf",
+    "title": "Best Fit Practice Manual for Garlic in Tigray Region, Ethiopia",
+    "crop": "garlic",
+    "country": "Ethiopia",
+    "publisher": "Mekelle University / CASCAPE",
+    "publication_year": 2017,
+    "version": "BFM_MU_2017_2",
+    "fertilizer_page": 12,
+    "context_page": 9
+  },
+  "sesame": {
+    "path": "docs/Bestfitproductionmanualforsesame.pdf",
+    "title": "Best Fit Manual for Improved Sesame Production in Tigray Region, Ethiopia",
+    "crop": "sesame",
+    "country": "Ethiopia",
+    "publisher": "Mekelle University / CASCAPE",
+    "publication_year": 2020,
+    "version": "4.6.4",
+    "fertilizer_page": 15,
+    "context_page": 9
+  }
+}

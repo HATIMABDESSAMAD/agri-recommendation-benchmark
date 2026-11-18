@@ -1,5 +1,7 @@
 # Annotation guide: fertilization recommendations
 
+This guide governs the full-PDF extraction gold templates for each crop. The separately owner-reviewed final garlic S5 file and V5 question annotations used in the decision benchmark are different inputs; see [reference provenance](reference_review.md). The extraction templates' review status should not be used to infer the status of those final benchmark inputs.
+
 Annotate each original PDF page by page. LLM output is not a gold standard. Mark every page as reviewed, including pages without recommendations. Preserve annotator disagreements until adjudication. The original PDFs must remain unchanged.
 
 ## Atomic unit

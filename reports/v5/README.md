@@ -1,6 +1,6 @@
 # V5 decision benchmark
 
-This public report summarizes a retrospective experiment on 15 reference-labeled questions from one agricultural PDF. It compares three DeepInfra models and three decision methods. Individual questions, reference files, model responses and API credentials are kept in ignored local directories. The charts and `summary.json` contain aggregate metrics; the question-level audit chart shows IDs and correctness states only.
+This public report summarizes a retrospective experiment on 15 owner-reviewed reference questions from one agricultural PDF. It compares three DeepInfra models and three decision methods. Individual questions, reference files, model responses and API credentials are kept in ignored local directories. The charts and `summary.json` contain aggregate metrics; the question-level audit chart shows IDs and correctness states only.
 
 ## Results
 
@@ -49,7 +49,7 @@ The S5 methods have a narrower evidence base than the direct method: the supplie
 | Qwen3.5-27B | 1 truncated response (G12) | 2 non-verbatim fact provenance spans (G01, G04) | The same 2 S5Query failures; reasoner calls were skipped |
 | DeepSeek-V4.1-Flash-1017 | 0 | 1 non-verbatim fact provenance span (G02) | The G02 S5Query failure and one reasoner citation to an unknown S5 rule (G06) |
 
-The local benchmark contains reference labels and a 12-rule S5 file, but these files do not include a reviewer identity or an adjudication record. The separate local review workspace for this PDF currently records 21 items as `UNREVIEWED`, with no reviewed pages. Consequently, this report does not certify human adjudication of the S5 file or independent verification of the reference labels. Its metrics describe agreement with the supplied reference labels; they do not establish a validated agronomic gold standard. A documented human review is needed before making that stronger claim.
+The project owner attests to personally reviewing the final 12-rule S5 recommendation file and the final 15-question V5 annotation file. [Reference provenance](../../docs/reference_review.md) binds this attestation to the exact local file hashes. The older R16 editing workspace is a different artifact and its unfinished status does not describe the final benchmark inputs. The files do not contain an independent second-review or per-item adjudication log. These metrics describe agreement with the supplied, owner-reviewed reference labels; they do not independently establish the correctness of every agronomic answer.
 
 ## Observed API cost
 

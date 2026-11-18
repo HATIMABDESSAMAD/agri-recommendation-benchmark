@@ -86,7 +86,7 @@ Additional figures: [recall by class](reports/v5/class_recall.png), [question ou
 
 DeepSeek direct has the highest observed accuracy (11/15); the 27B S5Reasoner has the highest macro-F1 (0.690). All three direct runs made four class-level `ANSWER` predictions where the reference class was `ASK` or `ABSTAIN`. S5Matcher produced no such false answers among valid outputs, but its valid decisions were all `ABSTAIN`, which limits coverage of answerable and clarification questions. The structured methods see only the supplied fertilization rules, while the direct method sees the full PDF; some questions concern content outside that S5 subset.
 
-These results involve **one PDF and 15 previously inspected questions**. They cannot establish statistical superiority, factual correctness of response text, or a causal effect of parameter count. A correct decision class does not verify a dose, timing, citation, or clarification. The supplied reference and 12-rule S5 files do not carry reviewer identity or an adjudication record; the report therefore does not claim a validated human gold standard. The [full report](reports/v5/README.md#output-validity-and-reference-provenance) explains this provenance limitation and every `INVALID` cause.
+These results involve **one PDF and 15 previously inspected questions**. They cannot establish statistical superiority, factual correctness of response text, or a causal effect of parameter count. A correct decision class does not verify a dose, timing, citation, or clarification. The project owner attests to personally reviewing the final 12-rule S5 file and final V5 question annotations; their exact hashes and the scope of that attestation are recorded in [reference provenance](docs/reference_review.md). An independent second review and per-item adjudication log are not documented. The [full report](reports/v5/README.md#output-validity-and-reference-provenance) explains these limits and every `INVALID` cause.
 
 ## Installation and local use
 
@@ -134,4 +134,12 @@ This command is offline. A fresh public clone does **not** contain the original 
 
 ## License and citation
 
-The repository code and original documentation are released under the [MIT License](LICENSE). This license does not grant rights to excluded source PDFs, third-party model weights, or external services. For a reference to this software, use the repository URL and the version or commit hash used in your study; the repository also includes [citation metadata](CITATION.cff).
+The repository code and original documentation are released under the [MIT License](LICENSE). The **three source PDFs have a separate license**: each manual states on its second physical PDF page that the work is licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
+
+| Source manual | Source attribution shown in the PDF | PDF license |
+| --- | --- | --- |
+| *Best Fit Practice Manual for Potato Production and Utilization in Tigray Region, Ethiopia* | Mekelle University CASCAPE project (2018) | CC BY 4.0, PDF p. 2 |
+| *Best Fit Practice Manual for Garlic Production in Tigray, Ethiopia* | Yemane G/Meskel, Harnet Abrha, Alem G/Tsadik, and Girmay G/Samuel (2017) | CC BY 4.0, PDF p. 2 |
+| *Best Fit Manual for Improved Sesame Production in Tigray Region, Ethiopia* | Woldemariam Gebrehiwot, Zenawi Gebregergs, Girmay Gebresamuel, and Dawit Legese (2020) | CC BY 4.0, PDF p. 2 |
+
+The PDFs are used locally but are not redistributed in this repository. Anyone sharing or adapting them should credit their source authors, link the CC BY 4.0 license, and indicate modifications. The MIT code license does not replace their CC BY 4.0 license or govern third-party model weights and services. For a reference to this software, use the repository URL and the version or commit hash used in your study; the repository also includes [citation metadata](CITATION.cff).

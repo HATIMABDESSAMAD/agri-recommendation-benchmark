@@ -273,7 +273,7 @@ def main() -> None:
                  for model, data in report["models"].items()},
               "limitations": ["15 previously inspected questions", "class labels do not validate answer content",
                               "invalid outputs count as incorrect", "method costs share S5Query calls",
-                              "reviewer identity and adjudication are not documented in the supplied reference and S5 files"]}
+                              "owner manual review of the final S5 and V5 reference files is attested; independent adjudication and per-item review logs are not documented"]}
     (args.out / "summary.json").write_text(json.dumps(public, indent=2) + "\n", encoding="utf-8")
     print(f"Created 8 chart families and summary in {args.out}")
 

@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this software in research, cite the repository and the commit used."
+type: software
+title: "Agricultural Recommendation Extraction and Decision Benchmark"
+authors:
+  - family-names: Abdessamad
+    given-names: Hatim
+repository-code: "https://github.com/HATIMABDESSAMAD/agri-recommendation-benchmark"
+version: 0.1.0
+license: MIT

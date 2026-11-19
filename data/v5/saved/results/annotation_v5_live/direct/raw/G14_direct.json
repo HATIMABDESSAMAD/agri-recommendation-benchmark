@@ -1,0 +1,43 @@
+{
+  "raw": {
+    "service_tier": "default",
+    "id": "chatcmpl-RH2m0e3TVo0AgwP4o3FbYM8B",
+    "object": "chat.completion",
+    "created": 1794977241,
+    "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"label\":\"ABSTAIN\",\"response\":\"The document does not provide nutrient analyses for NPS, urea, triple superphosphate, or ammonium sulfate, so it cannot support calculating equivalent product masses or nutrient-matched substitutions. It only states the local recommendation of 200 kg/ha NPS and 150 kg/ha urea for garlic, with all phosphorus applied at planting and urea split between planting and 30–45 days after planting. No conversion or substitution can be derived from the PDF.\",\"justification\":\"The PDF gives the NPS and urea application rates for garlic but does not give the nutrient concentrations of those fertilizers or of triple superphosphate and ammonium sulfate, and it provides no substitution or conversion guidance. Therefore a precise, safe replacement rate cannot be calculated from the document.\",\"cited_pages\":[12]}",
+          "reasoning_content": null,
+          "name": null,
+          "tool_calls": null
+        },
+        "finish_reason": "stop",
+        "logprobs": null
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 18010,
+      "total_tokens": 18172,
+      "completion_tokens": 162,
+      "estimated_cost": 0.00010913279999999999,
+      "prompt_tokens_details": {
+        "cached_tokens": 17920,
+        "cache_write_tokens": null
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    }
+  },
+  "latency_s": 3.1565390000032494,
+  "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+  "question_id": "G14",
+  "method": "direct",
+  "request_sha256": "78c6c85f01141ec233461460b890b637121d7c0566ea6e298fb9496b3a606a7e",
+  "cost_usd": 0.00010913279999999999,
+  "reserved_usd": 0.0040136880000000005
+}

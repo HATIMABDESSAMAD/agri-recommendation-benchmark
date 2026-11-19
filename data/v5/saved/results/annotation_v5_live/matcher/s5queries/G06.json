@@ -1,0 +1,61 @@
+{
+  "schema_version": "S5Query-1",
+  "original_question": "I'm growing garlic in southern Tigray with 150 kg of urea planned per hectare. Instead of the usual two applications, I'd like to split it into three this season. Is the three-application split right for my farm this season?",
+  "requests": [
+    {
+      "subject": "three-application split of urea",
+      "crop": "garlic",
+      "product": "urea",
+      "nutrient": null,
+      "action": "split application",
+      "fields": [
+        "action",
+        "timing",
+        "method"
+      ],
+      "source_text": "Instead of the usual two applications, I'd like to split it into three this season. Is the three-application split right for my farm this season?"
+    }
+  ],
+  "facts": {
+    "crop": {
+      "status": "EXPLICIT",
+      "value": "garlic",
+      "source_text": "I'm growing garlic"
+    },
+    "region": {
+      "status": "EXPLICIT",
+      "value": "southern Tigray",
+      "source_text": "in southern Tigray"
+    },
+    "area_ha": {
+      "status": "EXPLICIT",
+      "value": 1,
+      "source_text": "per hectare"
+    },
+    "growth_stage": {
+      "status": "UNKNOWN",
+      "value": null,
+      "source_text": null
+    },
+    "soil": {
+      "status": "UNKNOWN",
+      "value": null,
+      "source_text": null
+    },
+    "soil_type": {
+      "status": "UNKNOWN",
+      "value": null,
+      "source_text": null
+    },
+    "rainfall": {
+      "status": "UNKNOWN",
+      "value": null,
+      "source_text": null
+    },
+    "stage": {
+      "status": "UNKNOWN",
+      "value": null,
+      "source_text": null
+    }
+  }
+}

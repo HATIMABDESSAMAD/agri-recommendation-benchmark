@@ -1,0 +1,54 @@
+{
+  "schema_version": "S5Query-1",
+  "original_question": "I'm growing Qoricho garlic on a well-drained Regosol field at 3,200 metres, with about 750 mm of rain this season. I've been told Qoricho can grow at this altitude. What exact NPS and urea amounts have been tested for farms up here, rather than just used in lower areas?",
+  "requests": [
+    {
+      "subject": "NPS (blended)",
+      "crop": "garlic",
+      "product": null,
+      "nutrient": null,
+      "action": null,
+      "fields": [
+        "quantity",
+        "unit",
+        "evidence"
+      ],
+      "source_text": "What exact NPS and urea amounts have been tested for farms up here"
+    },
+    {
+      "subject": "Urea",
+      "crop": "garlic",
+      "product": null,
+      "nutrient": null,
+      "action": null,
+      "fields": [
+        "quantity",
+        "unit",
+        "evidence"
+      ],
+      "source_text": "What exact NPS and urea amounts have been tested for farms up here"
+    }
+  ],
+  "facts": {
+    "crop": {
+      "status": "EXPLICIT",
+      "value": "garlic",
+      "source_text": "I'm growing Qoricho garlic"
+    },
+    "soil_type": {
+      "status": "EXPLICIT",
+      "value": "Regosol",
+      "source_text": "on a well-drained Regosol field"
+    },
+    "altitude": {
+      "status": "EXPLICIT",
+      "value": "3,200 metres",
+      "source_text": "at 3,200 metres"
+    },
+    "rainfall": {
+      "status": "EXPLICIT",
+      "value": "750 mm",
+      "source_text": "with about 750 mm of rain this season"
+    }
+  }
+}

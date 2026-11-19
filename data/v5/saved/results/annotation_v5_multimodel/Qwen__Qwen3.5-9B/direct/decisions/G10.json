@@ -1,0 +1,11 @@
+{
+  "question_id": "G10",
+  "decision": {
+    "label": "ANSWER",
+    "response": "If your soil is well-drained, plant on flat beds. If your soil is heavy and poorly drained during the rains, plant on raised ridges.",
+    "justification": "The document states that on well-drained soils, rain-fed crops may be planted on flat beds, but on heavy soils which are poorly drained during the rains, it is advisable to plant on ridges.",
+    "cited_pages": [
+      10
+    ]
+  }
+}

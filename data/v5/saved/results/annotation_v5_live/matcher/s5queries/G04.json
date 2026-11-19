@@ -1,0 +1,69 @@
+{
+  "schema_version": "S5Query-1",
+  "original_question": "I have 0.10 hectares and want to plant sprouted Bora garlic cloves. The extension worker showed me the hot-water treatment description in the CASCAPE demonstration, which lists DAP rather than NPS. If I follow the seed rate and fertilizer amounts written in that hot-water treatment description, how many kilograms of cloves, DAP and urea will I need, and when should I add the fertilizers?",
+  "requests": [
+    {
+      "subject": "sprouted Bora garlic cloves",
+      "crop": "garlic",
+      "product": "sprouted Bora garlic cloves",
+      "nutrient": null,
+      "action": null,
+      "fields": [
+        "quantity",
+        "unit",
+        "basis"
+      ],
+      "source_text": "how many kilograms of cloves"
+    },
+    {
+      "subject": "DAP",
+      "crop": null,
+      "product": "DAP",
+      "nutrient": null,
+      "action": null,
+      "fields": [
+        "quantity",
+        "unit",
+        "basis"
+      ],
+      "source_text": "how many kilograms of cloves, DAP and urea will I need"
+    },
+    {
+      "subject": "urea",
+      "crop": null,
+      "product": "urea",
+      "nutrient": null,
+      "action": null,
+      "fields": [
+        "quantity",
+        "unit",
+        "basis"
+      ],
+      "source_text": "how many kilograms of cloves, DAP and urea will I need"
+    },
+    {
+      "subject": "fertilizers",
+      "crop": null,
+      "product": null,
+      "nutrient": null,
+      "action": "add",
+      "fields": [
+        "timing",
+        "method"
+      ],
+      "source_text": "when should I add the fertilizers?"
+    }
+  ],
+  "facts": {
+    "area_ha": {
+      "status": "EXPLICIT",
+      "value": 0.1,
+      "source_text": "0.10 hectares"
+    },
+    "crop": {
+      "status": "EXPLICIT",
+      "value": "garlic",
+      "source_text": "Bora garlic cloves"
+    }
+  }
+}

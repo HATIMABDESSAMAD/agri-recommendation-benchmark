@@ -1,0 +1,10 @@
+{
+  "question_id": "G11",
+  "decision": {
+    "label": "ABSTAIN",
+    "response": "The supplied document does not provide a lime rate, target pH, or any soil-pH threshold for garlic, so it cannot support calculating kilograms of lime per hectare to raise pH from 4.8 to 6.5. The manual's fertilizer section discusses nitrogen, phosphorus, potassium, and sulphur rates and soil fertility generally, but gives no liming recommendation or conversion.",
+    "cited_pages": [
+      12
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "question_id": "G01",
+  "error": {
+    "type": "ValueError",
+    "message": "Invalid S5Query; reasoner call not made"
+  }
+}

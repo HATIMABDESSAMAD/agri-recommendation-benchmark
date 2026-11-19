@@ -1,0 +1,124 @@
+{
+  "study": "retrospective/exploratory",
+  "paired_n": 14,
+  "direct_15": {
+    "valid": 15,
+    "invalid": 0,
+    "accuracy": 0.6,
+    "macro_f1": 0.5081585081585082,
+    "recall": {
+      "ANSWER": 0.8,
+      "ASK": 0.0,
+      "ABSTAIN": 1.0
+    },
+    "confusion_matrix": {
+      "ANSWER": {
+        "ANSWER": 4,
+        "ASK": 1,
+        "ABSTAIN": 0
+      },
+      "ASK": {
+        "ANSWER": 4,
+        "ASK": 0,
+        "ABSTAIN": 1
+      },
+      "ABSTAIN": {
+        "ANSWER": 0,
+        "ASK": 0,
+        "ABSTAIN": 5
+      }
+    },
+    "false_answer_on_ask_or_abstain": 4
+  },
+  "direct_14": {
+    "valid": 14,
+    "invalid": 0,
+    "accuracy": 0.6428571428571429,
+    "macro_f1": 0.5252525252525252,
+    "recall": {
+      "ANSWER": 1.0,
+      "ASK": 0.0,
+      "ABSTAIN": 1.0
+    },
+    "confusion_matrix": {
+      "ANSWER": {
+        "ANSWER": 4,
+        "ASK": 0,
+        "ABSTAIN": 0
+      },
+      "ASK": {
+        "ANSWER": 4,
+        "ASK": 0,
+        "ABSTAIN": 1
+      },
+      "ABSTAIN": {
+        "ANSWER": 0,
+        "ASK": 0,
+        "ABSTAIN": 5
+      }
+    },
+    "false_answer_on_ask_or_abstain": 4
+  },
+  "s5_matcher_14": {
+    "valid": 14,
+    "invalid": 0,
+    "accuracy": 0.35714285714285715,
+    "macro_f1": 0.17543859649122806,
+    "recall": {
+      "ANSWER": 0.0,
+      "ASK": 0.0,
+      "ABSTAIN": 1.0
+    },
+    "confusion_matrix": {
+      "ANSWER": {
+        "ANSWER": 0,
+        "ASK": 0,
+        "ABSTAIN": 4
+      },
+      "ASK": {
+        "ANSWER": 0,
+        "ASK": 0,
+        "ABSTAIN": 5
+      },
+      "ABSTAIN": {
+        "ANSWER": 0,
+        "ASK": 0,
+        "ABSTAIN": 5
+      }
+    },
+    "false_answer_on_ask_or_abstain": 0
+  },
+  "s5_reasoner_14": {
+    "valid": 14,
+    "invalid": 0,
+    "accuracy": 0.7142857142857143,
+    "macro_f1": 0.696886446886447,
+    "recall": {
+      "ANSWER": 0.75,
+      "ASK": 0.4,
+      "ABSTAIN": 1.0
+    },
+    "confusion_matrix": {
+      "ANSWER": {
+        "ANSWER": 3,
+        "ASK": 0,
+        "ABSTAIN": 1
+      },
+      "ASK": {
+        "ANSWER": 1,
+        "ASK": 2,
+        "ABSTAIN": 2
+      },
+      "ABSTAIN": {
+        "ANSWER": 0,
+        "ASK": 0,
+        "ABSTAIN": 5
+      }
+    },
+    "false_answer_on_ask_or_abstain": 1
+  },
+  "direct_14_api_cost_usd": 0.0017205311200000001,
+  "s5query_14_api_cost_usd": 0.002940784,
+  "s5_reasoner_14_api_cost_usd": 0.018532682,
+  "s5_reasoner_total_14_api_cost_usd": 0.021473466000000004
+}

@@ -1,0 +1,21 @@
+{
+  "question_id": "G08",
+  "decision": {
+    "label": "ASK",
+    "response": "The suggested plan matches, exactly, the S5 four-part regimen of 92 kg N + 40 kg P + 30 kg S per hectare combined with 140 kg KCl per hectare. However, S5 states that this combination is 'optimum for Andosols and Vertisols' only. Whether it is suitable for your land therefore depends on your soil type, which is not known. Please tell me your soil type (is it Andosols or Vertisols, or something else?).",
+    "justification": "The proposed rates correspond precisely to the four linked components r_c12_n (92 kg N/ha), r_c12_p (40 kg P/ha), r_c12_s (30 kg S/ha) and r_c12_kcl (140 kg KCl product/ha), which S5 marks as a single combined regimen that must not be recommended component-by-component. Each of these rules carries the condition soil_type IN [Andosols, Vertisols]. The farmer's soil type is UNKNOWN, so the applicability of the regimen cannot be determined. Because a single specific farmer fact (soil type) would change whether the rule applies, the correct outcome is ASK rather than ANSWER or ABSTAIN. Other S5 rules do not resolve the question: r_c7_fertility_or_manure gives no dose; r_c10_nps and r_c10_urea_2split/3split concern NPS and urea products, not the N/P/S/KCl plan; r_c11_n_rate gives a general 70-125 kg N/ha range without a field-specific mapping; r_c11_no_n_bulbing depends on an unknown growth stage; r_c15_k is qualitative with no dose; r_new_balanced_nutrients specifies no nutrient, product, amount or timing.",
+    "rule_ids": [
+      "r_c12_n",
+      "r_c12_p",
+      "r_c12_s",
+      "r_c12_kcl"
+    ],
+    "cited_pages": [
+      12
+    ],
+    "missing_facts": [
+      "soil_type"
+    ]
+  },
+  "s5query_sha256": "a791cc12f252e26933d6e1c0836ee263861e041fe34f0d2f407256a27ade6c07"
+}

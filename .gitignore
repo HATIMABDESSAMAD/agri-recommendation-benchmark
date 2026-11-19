@@ -40,3 +40,8 @@ docs/*.pdf
 *.key
 *.pem
 data/private/
+
+# Publish only the reviewed V5 snapshot from otherwise local result paths.
+!data/v5/inputs/original_questions_blind.jsonl
+!data/v5/saved/results/
+!data/v5/saved/results/**

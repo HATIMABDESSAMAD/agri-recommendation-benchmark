@@ -1,0 +1,60 @@
+{
+  "schema_version": "S5Query-1",
+  "original_question": "The rains have started, and I'm preparing my garlic field. Should I plant on flat beds or make raised ridges?",
+  "requests": [
+    {
+      "subject": "garlic",
+      "crop": "garlic",
+      "product": null,
+      "nutrient": null,
+      "action": "plant",
+      "fields": [
+        "action",
+        "method"
+      ],
+      "source_text": "I'm preparing my garlic field. Should I plant on flat beds or make raised ridges?"
+    }
+  ],
+  "facts": {
+    "crop": {
+      "status": "EXPLICIT",
+      "value": "garlic",
+      "source_text": "my garlic field"
+    },
+    "rainfall": {
+      "status": "EXPLICIT",
+      "value": "rains have started",
+      "source_text": "The rains have started"
+    },
+    "region": {
+      "status": "UNKNOWN",
+      "value": null,
+      "source_text": null
+    },
+    "soil": {
+      "status": "UNKNOWN",
+      "value": null,
+      "source_text": null
+    },
+    "soil_type": {
+      "status": "UNKNOWN",
+      "value": null,
+      "source_text": null
+    },
+    "growth_stage": {
+      "status": "UNKNOWN",
+      "value": null,
+      "source_text": null
+    },
+    "stage": {
+      "status": "UNKNOWN",
+      "value": null,
+      "source_text": null
+    },
+    "area_ha": {
+      "status": "UNKNOWN",
+      "value": null,
+      "source_text": null
+    }
+  }
+}

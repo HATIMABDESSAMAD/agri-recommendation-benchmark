@@ -1,0 +1,66 @@
+{
+  "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+  "study": "retrospective/exploratory",
+  "n_questions": 15,
+  "direct": {
+    "valid": 15,
+    "invalid": 0,
+    "accuracy": 0.6,
+    "macro_f1": 0.5081585081585082,
+    "recall": {
+      "ANSWER": 0.8,
+      "ASK": 0.0,
+      "ABSTAIN": 1.0
+    },
+    "confusion_matrix": {
+      "ANSWER": {
+        "ANSWER": 4,
+        "ASK": 1,
+        "ABSTAIN": 0
+      },
+      "ASK": {
+        "ANSWER": 4,
+        "ASK": 0,
+        "ABSTAIN": 1
+      },
+      "ABSTAIN": {
+        "ANSWER": 0,
+        "ASK": 0,
+        "ABSTAIN": 5
+      }
+    },
+    "false_answer_on_ask_or_abstain": 4
+  },
+  "s5_matcher": {
+    "valid": 14,
+    "invalid": 1,
+    "accuracy": 0.35714285714285715,
+    "macro_f1": 0.17543859649122806,
+    "recall": {
+      "ANSWER": 0.0,
+      "ASK": 0.0,
+      "ABSTAIN": 1.0
+    },
+    "confusion_matrix": {
+      "ANSWER": {
+        "ANSWER": 0,
+        "ASK": 0,
+        "ABSTAIN": 4
+      },
+      "ASK": {
+        "ANSWER": 0,
+        "ASK": 0,
+        "ABSTAIN": 5
+      },
+      "ABSTAIN": {
+        "ANSWER": 0,
+        "ASK": 0,
+        "ABSTAIN": 5
+      }
+    },
+    "false_answer_on_ask_or_abstain": 0
+  },
+  "direct_original_api_cost_usd": 0.0018614943200000002,
+  "s5_matcher_new_api_cost_usd": 0.0031790220000000005,
+  "note": "S5 coverage differs from full PDF; class-level false ANSWER is not a human harm judgment."
+}

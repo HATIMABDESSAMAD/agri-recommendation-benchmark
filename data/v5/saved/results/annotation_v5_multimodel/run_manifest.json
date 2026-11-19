@@ -1,0 +1,93 @@
+{
+  "models": [
+    "Qwen/Qwen3.5-9B",
+    "Qwen/Qwen3.5-27B",
+    "Qwen/Qwen3-235B-A22B-Instruct-2507"
+  ],
+  "blind_sha256": "27cc67e7697dacd249ed95ae1cb8f816b82bdb078ab09ca87d14b4b7e595c6a2",
+  "rules_sha256": "62fda994ddefae8dc6a5528fca2e9d327502811c1cb14a9a84487366a1e404db",
+  "pdf_artifact_sha256": "8fecc350481b265246e4630ecb6b869bef9805c1969d6f60518a8cfd23045eb0",
+  "document_text_sha256": "6d27704c3a08a0ef816aa66f1d34b54a673c61ad269bbbf6816265bc73f2d282",
+  "direct_system_prompt_sha256": "4c73331afce2e14a971949fc4a266b5c3a8ec03e71d08bf11efef08f578ee747",
+  "direct_user_format": "JSON object with pdf_text and question",
+  "s5query_prompt_sha256": "75af43864b3641170e6c33240ab2ebb1c9e2edcb4a078a1a5b07c1f90ce4d333",
+  "s5reasoner_system_prompt_sha256": "f03591c30c6a194201070d501eb445cdc266b88d375478afc1acd516716de3fd",
+  "api_parameters": {
+    "temperature": 0,
+    "reasoning_effort": "none"
+  },
+  "output_caps": {
+    "direct": 768,
+    "s5query": 4096,
+    "s5_reasoner": 2048
+  },
+  "s5_encoding_audit": [
+    {
+      "rule_id": "r_c7_fertility_or_manure",
+      "path": "context.other.logical_alternative",
+      "original_type": "dict"
+    },
+    {
+      "rule_id": "r_c10_urea_2split",
+      "path": "context.other.calculated_split_product_kg_ha",
+      "original_type": "list"
+    },
+    {
+      "rule_id": "r_c10_urea_3split",
+      "path": "context.other.calculated_split_product_kg_ha",
+      "original_type": "list"
+    },
+    {
+      "rule_id": "r_c11_n_rate",
+      "path": "context.other.factors",
+      "original_type": "list"
+    },
+    {
+      "rule_id": "r_c12_n",
+      "path": "context.other.regimen_required_components",
+      "original_type": "list"
+    },
+    {
+      "rule_id": "r_c12_n",
+      "path": "context.other.component_is_not_standalone",
+      "original_type": "bool"
+    },
+    {
+      "rule_id": "r_c12_p",
+      "path": "context.other.regimen_required_components",
+      "original_type": "list"
+    },
+    {
+      "rule_id": "r_c12_p",
+      "path": "context.other.component_is_not_standalone",
+      "original_type": "bool"
+    },
+    {
+      "rule_id": "r_c12_s",
+      "path": "context.other.regimen_required_components",
+      "original_type": "list"
+    },
+    {
+      "rule_id": "r_c12_s",
+      "path": "context.other.component_is_not_standalone",
+      "original_type": "bool"
+    },
+    {
+      "rule_id": "r_c12_kcl",
+      "path": "context.other.regimen_required_components",
+      "original_type": "list"
+    },
+    {
+      "rule_id": "r_c12_kcl",
+      "path": "context.other.component_is_not_standalone",
+      "original_type": "bool"
+    },
+    {
+      "rule_id": "r_c15_k",
+      "path": "context.other.observed_K_balance_kg_ha",
+      "original_type": "float"
+    }
+  ],
+  "gold_opened_by_runner": false,
+  "budget_cap_usd": 3.0
+}

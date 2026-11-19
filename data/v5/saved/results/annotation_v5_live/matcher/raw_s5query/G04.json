@@ -1,0 +1,43 @@
+{
+  "raw": {
+    "service_tier": "default",
+    "id": "chatcmpl-RJhr9ouBUmPelTzp4bqHXGFk",
+    "object": "chat.completion",
+    "created": 1794977257,
+    "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"schema_version\": \"S5Query-1\", \"original_question\": \"I have 0.10 hectares and want to plant sprouted Bora garlic cloves. The extension worker showed me the hot-water treatment description in the CASCAPE demonstration, which lists DAP rather than NPS. If I follow the seed rate and fertilizer amounts written in that hot-water treatment description, how many kilograms of cloves, DAP and urea will I need, and when should I add the fertilizers?\", \"requests\": [{\"subject\": \"sprouted Bora garlic cloves\", \"crop\": \"garlic\", \"product\": \"sprouted Bora garlic cloves\", \"fields\": [\"quantity\", \"unit\", \"basis\"], \"source_text\": \"how many kilograms of cloves\"}, {\"subject\": \"DAP\", \"product\": \"DAP\", \"fields\": [\"quantity\", \"unit\", \"basis\"], \"source_text\": \"how many kilograms of cloves, DAP and urea will I need\"}, {\"subject\": \"urea\", \"product\": \"urea\", \"fields\": [\"quantity\", \"unit\", \"basis\"], \"source_text\": \"how many kilograms of cloves, DAP and urea will I need\"}, {\"subject\": \"fertilizers\", \"action\": \"add\", \"fields\": [\"timing\", \"method\"], \"source_text\": \"when should I add the fertilizers?\"}], \"facts\": {\"area_ha\": {\"status\": \"EXPLICIT\", \"value\": 0.1, \"source_text\": \"0.10 hectares\"}, \"crop\": {\"status\": \"EXPLICIT\", \"value\": \"garlic\", \"source_text\": \"Bora garlic cloves\"}}}",
+          "reasoning_content": null,
+          "name": null,
+          "tool_calls": null
+        },
+        "finish_reason": "stop",
+        "logprobs": null
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1148,
+      "total_tokens": 1500,
+      "completion_tokens": 352,
+      "estimated_cost": 0.000215992,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": null
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    }
+  },
+  "latency_s": 2.9890567999973428,
+  "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+  "question_id": "G04",
+  "method": "s5query",
+  "request_sha256": "3e2fc977c5b2988246e226bd76654ad58930457a4885764f70e38270e6d65053",
+  "cost_usd": 0.000215992,
+  "reserved_usd": 0.007686336
+}

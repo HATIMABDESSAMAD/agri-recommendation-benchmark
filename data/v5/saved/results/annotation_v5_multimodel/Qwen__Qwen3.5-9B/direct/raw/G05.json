@@ -1,0 +1,37 @@
+{
+  "raw": {
+    "service_tier": "default",
+    "id": "chatcmpl-RVn3ffDg3L2NHktZgKKZbxnC",
+    "object": "chat.completion",
+    "created": 1794977840,
+    "model": "Qwen/Qwen3.5-9B",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"label\": \"ANSWER\",\n  \"response\": \"No, you should not apply the urea today. The document advises not to apply nitrogen when the bulbs are beginning to enlarge, as it will encourage excessive leaf growth and reduce bulb size.\",\n  \"justification\": \"Section 3.8 (Fertilizers and lime application) on page 12 explicitly states: 'It is advised not to apply N when the bulbs are beginning to enlarge since it will encourage excessive leaf growth and reduce bulb size.' Since the farmer reports the bulbs have already started getting bigger, applying the remaining urea would be detrimental to the final yield quality.\",\n  \"cited_pages\": [12]\n}",
+          "reasoning_content": null,
+          "name": null,
+          "tool_calls": null
+        },
+        "finish_reason": "stop",
+        "logprobs": null
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 19816,
+      "total_tokens": 19965,
+      "completion_tokens": 149,
+      "estimated_cost": 0.00200395,
+      "prompt_tokens_details": null
+    }
+  },
+  "latency_s": 4.08691550000367,
+  "model": "Qwen/Qwen3.5-9B",
+  "question_id": "G05",
+  "method": "direct",
+  "request_sha256": "56b44d1e8313b9d9699c37d86c2d06240d626ba26fb220f0ed3bb9fde1ff70ba",
+  "reserved_usd": 0.0039228,
+  "cost_usd": 0.00200395
+}

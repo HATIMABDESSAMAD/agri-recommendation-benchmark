@@ -1,0 +1,37 @@
+{
+  "raw": {
+    "service_tier": "default",
+    "id": "chatcmpl-RFIxd2f3DpMJTXlp67oXPiis",
+    "object": "chat.completion",
+    "created": 1794977859,
+    "model": "Qwen/Qwen3.5-9B",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n\"label\": \"ANSWER\",\n\"response\": \"If your soil is well-drained, plant on flat beds. If your soil is heavy and poorly drained during the rains, plant on raised ridges.\",\n\"justification\": \"The document states that on well-drained soils, rain-fed crops may be planted on flat beds, but on heavy soils which are poorly drained during the rains, it is advisable to plant on ridges.\",\n\"cited_pages\": [10]\n}",
+          "reasoning_content": null,
+          "name": null,
+          "tool_calls": null
+        },
+        "finish_reason": "stop",
+        "logprobs": null
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 19795,
+      "total_tokens": 19899,
+      "completion_tokens": 104,
+      "estimated_cost": 0.0019951,
+      "prompt_tokens_details": null
+    }
+  },
+  "latency_s": 3.1000800999972853,
+  "model": "Qwen/Qwen3.5-9B",
+  "question_id": "G10",
+  "method": "direct",
+  "request_sha256": "3d97c4d5eeeb0c624be6ba56fcabb8b2a0463280986a96a6e625804cf235a08c",
+  "reserved_usd": 0.0039228,
+  "cost_usd": 0.0019951
+}

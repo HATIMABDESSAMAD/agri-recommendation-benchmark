@@ -1,0 +1,43 @@
+{
+  "raw": {
+    "service_tier": "default",
+    "id": "chatcmpl-R8PDWpLRKu542YM90fFg8Xf6",
+    "object": "chat.completion",
+    "created": 1794977235,
+    "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"label\":\"ABSTAIN\",\"response\":\"The document does not report a tested potassium chloride rate for garlic on Regosol. It states that 140 kg/ha of KCl combined with 92 kg N + 40 kg P + 30 kg S per hectare was optimum for Andosols and Vertisols, not Regosols, and it separately notes a negative potassium balance and advises use of K-fertilizer without giving a Regosol-specific rate. It also does not provide a soil-test threshold for interpreting your low potassium result. I therefore cannot give an exact amount shown to work for garlic on soil like yours.\",\"justification\":\"The only KCl rate in the PDF is tied to Andosols and Vertisols in a combined N-P-S-K treatment, while the farmer's soil is Regosol; the document gives no Regosol-specific KCl rate or soil-test threshold, so a precise answer would require inventing a substitution.\",\"cited_pages\":[8,12,19,20]}",
+          "reasoning_content": null,
+          "name": null,
+          "tool_calls": null
+        },
+        "finish_reason": "stop",
+        "logprobs": null
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 18002,
+      "total_tokens": 18202,
+      "completion_tokens": 200,
+      "estimated_cost": 0.00011952080000000002,
+      "prompt_tokens_details": {
+        "cached_tokens": 17920,
+        "cache_write_tokens": null
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    }
+  },
+  "latency_s": 3.38297180000518,
+  "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+  "question_id": "G12",
+  "method": "direct",
+  "request_sha256": "32ce58c296977ebb447a444ddb96d98ea40d71ee01bb77188bb930f5ac673cf3",
+  "cost_usd": 0.00011952080000000002,
+  "reserved_usd": 0.0040136880000000005
+}

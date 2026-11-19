@@ -1,0 +1,352 @@
+{
+  "study": "retrospective_exploratory_v5_three_model_comparison",
+  "gold_sha256": "aedf762f4d32e61f1332c4ecf9effc88d6ad169a97f99d4c52cec0245b2e9729",
+  "blind_sha256": "27cc67e7697dacd249ed95ae1cb8f816b82bdb078ab09ca87d14b4b7e595c6a2",
+  "n_questions_per_model": 15,
+  "models": {
+    "Qwen/Qwen3.5-9B": {
+      "total_parameters_b": 9,
+      "active_parameters_decode_b": 9,
+      "active_parameters_prefill_b": null,
+      "active_parameter_basis": "inferred from dense architecture",
+      "parameter_source": "local DeepInfra catalog snapshot, 2026-11-18; Qwen dense architecture confirmed by Hugging Face documentation",
+      "metrics": {
+        "direct": {
+          "n": 15,
+          "valid": 15,
+          "invalid": 0,
+          "accuracy_all": 0.4666666666666667,
+          "macro_f1": 0.46227106227106235,
+          "recall": {
+            "ANSWER": 0.8,
+            "ASK": 0.2,
+            "ABSTAIN": 0.4
+          },
+          "confusion_matrix": {
+            "ANSWER": {
+              "ANSWER": 4,
+              "ASK": 1,
+              "ABSTAIN": 0,
+              "INVALID": 0
+            },
+            "ASK": {
+              "ANSWER": 4,
+              "ASK": 1,
+              "ABSTAIN": 0,
+              "INVALID": 0
+            },
+            "ABSTAIN": {
+              "ANSWER": 0,
+              "ASK": 3,
+              "ABSTAIN": 2,
+              "INVALID": 0
+            }
+          },
+          "false_answer_on_ask_or_abstain": 4
+        },
+        "s5_matcher": {
+          "n": 15,
+          "valid": 8,
+          "invalid": 7,
+          "accuracy_all": 0.26666666666666666,
+          "macro_f1": 0.20512820512820515,
+          "recall": {
+            "ANSWER": 0.0,
+            "ASK": 0.0,
+            "ABSTAIN": 0.8
+          },
+          "confusion_matrix": {
+            "ANSWER": {
+              "ANSWER": 0,
+              "ASK": 0,
+              "ABSTAIN": 2,
+              "INVALID": 3
+            },
+            "ASK": {
+              "ANSWER": 0,
+              "ASK": 0,
+              "ABSTAIN": 2,
+              "INVALID": 3
+            },
+            "ABSTAIN": {
+              "ANSWER": 0,
+              "ASK": 0,
+              "ABSTAIN": 4,
+              "INVALID": 1
+            }
+          },
+          "false_answer_on_ask_or_abstain": 0
+        },
+        "s5_reasoner": {
+          "n": 15,
+          "valid": 8,
+          "invalid": 7,
+          "accuracy_all": 0.13333333333333333,
+          "macro_f1": 0.15584415584415587,
+          "recall": {
+            "ANSWER": 0.0,
+            "ASK": 0.2,
+            "ABSTAIN": 0.2
+          },
+          "confusion_matrix": {
+            "ANSWER": {
+              "ANSWER": 0,
+              "ASK": 2,
+              "ABSTAIN": 0,
+              "INVALID": 3
+            },
+            "ASK": {
+              "ANSWER": 0,
+              "ASK": 1,
+              "ABSTAIN": 1,
+              "INVALID": 3
+            },
+            "ABSTAIN": {
+              "ANSWER": 0,
+              "ASK": 3,
+              "ABSTAIN": 1,
+              "INVALID": 1
+            }
+          },
+          "false_answer_on_ask_or_abstain": 0
+        }
+      },
+      "method_cost_usd": {
+        "direct": 0.030229750000000007,
+        "s5_matcher": 0.0028427500000000002,
+        "s5_reasoner": 0.013931299999999999
+      },
+      "source_evaluation": "results/annotation_v5_multimodel/evaluation/evaluation.json"
+    },
+    "Qwen/Qwen3.5-27B": {
+      "total_parameters_b": 27,
+      "active_parameters_decode_b": 27,
+      "active_parameters_prefill_b": null,
+      "active_parameter_basis": "inferred from dense architecture",
+      "parameter_source": "local DeepInfra catalog snapshot, 2026-11-18; Qwen dense architecture confirmed by Hugging Face documentation",
+      "metrics": {
+        "direct": {
+          "n": 15,
+          "valid": 14,
+          "invalid": 1,
+          "accuracy_all": 0.6666666666666666,
+          "macro_f1": 0.6785714285714285,
+          "recall": {
+            "ANSWER": 1.0,
+            "ASK": 0.4,
+            "ABSTAIN": 0.6
+          },
+          "confusion_matrix": {
+            "ANSWER": {
+              "ANSWER": 5,
+              "ASK": 0,
+              "ABSTAIN": 0,
+              "INVALID": 0
+            },
+            "ASK": {
+              "ANSWER": 3,
+              "ASK": 2,
+              "ABSTAIN": 0,
+              "INVALID": 0
+            },
+            "ABSTAIN": {
+              "ANSWER": 1,
+              "ASK": 0,
+              "ABSTAIN": 3,
+              "INVALID": 1
+            }
+          },
+          "false_answer_on_ask_or_abstain": 4
+        },
+        "s5_matcher": {
+          "n": 15,
+          "valid": 13,
+          "invalid": 2,
+          "accuracy_all": 0.3333333333333333,
+          "macro_f1": 0.1851851851851852,
+          "recall": {
+            "ANSWER": 0.0,
+            "ASK": 0.0,
+            "ABSTAIN": 1.0
+          },
+          "confusion_matrix": {
+            "ANSWER": {
+              "ANSWER": 0,
+              "ASK": 0,
+              "ABSTAIN": 3,
+              "INVALID": 2
+            },
+            "ASK": {
+              "ANSWER": 0,
+              "ASK": 0,
+              "ABSTAIN": 5,
+              "INVALID": 0
+            },
+            "ABSTAIN": {
+              "ANSWER": 0,
+              "ASK": 0,
+              "ABSTAIN": 5,
+              "INVALID": 0
+            }
+          },
+          "false_answer_on_ask_or_abstain": 0
+        },
+        "s5_reasoner": {
+          "n": 15,
+          "valid": 13,
+          "invalid": 2,
+          "accuracy_all": 0.6666666666666666,
+          "macro_f1": 0.6904761904761904,
+          "recall": {
+            "ANSWER": 0.6,
+            "ASK": 0.4,
+            "ABSTAIN": 1.0
+          },
+          "confusion_matrix": {
+            "ANSWER": {
+              "ANSWER": 3,
+              "ASK": 0,
+              "ABSTAIN": 0,
+              "INVALID": 2
+            },
+            "ASK": {
+              "ANSWER": 1,
+              "ASK": 2,
+              "ABSTAIN": 2,
+              "INVALID": 0
+            },
+            "ABSTAIN": {
+              "ANSWER": 0,
+              "ASK": 0,
+              "ABSTAIN": 5,
+              "INVALID": 0
+            }
+          },
+          "false_answer_on_ask_or_abstain": 1
+        }
+      },
+      "method_cost_usd": {
+        "direct": 0.08903127999999999,
+        "s5_matcher": 0.024791779999999992,
+        "s5_reasoner": 0.08282898
+      },
+      "source_evaluation": "results/annotation_v5_multimodel/evaluation/evaluation.json"
+    },
+    "deepseek-ai/DeepSeek-V4.1-Flash-1017": {
+      "total_parameters_b": 552,
+      "active_parameters_decode_b": 16,
+      "active_parameters_prefill_b": 8,
+      "active_parameter_basis": "published MoE active parameter count",
+      "parameter_source": "local DeepInfra catalog snapshot, 2026-11-18; Qwen dense architecture confirmed by Hugging Face documentation",
+      "metrics": {
+        "direct": {
+          "n": 15,
+          "valid": 15,
+          "invalid": 0,
+          "accuracy_all": 0.7333333333333333,
+          "macro_f1": 0.6825396825396824,
+          "recall": {
+            "ANSWER": 1.0,
+            "ASK": 0.2,
+            "ABSTAIN": 1.0
+          },
+          "confusion_matrix": {
+            "ANSWER": {
+              "ANSWER": 5,
+              "ASK": 0,
+              "ABSTAIN": 0,
+              "INVALID": 0
+            },
+            "ASK": {
+              "ANSWER": 4,
+              "ASK": 1,
+              "ABSTAIN": 0,
+              "INVALID": 0
+            },
+            "ABSTAIN": {
+              "ANSWER": 0,
+              "ASK": 0,
+              "ABSTAIN": 5,
+              "INVALID": 0
+            }
+          },
+          "false_answer_on_ask_or_abstain": 4
+        },
+        "s5_matcher": {
+          "n": 15,
+          "valid": 14,
+          "invalid": 1,
+          "accuracy_all": 0.3333333333333333,
+          "macro_f1": 0.17543859649122806,
+          "recall": {
+            "ANSWER": 0.0,
+            "ASK": 0.0,
+            "ABSTAIN": 1.0
+          },
+          "confusion_matrix": {
+            "ANSWER": {
+              "ANSWER": 0,
+              "ASK": 0,
+              "ABSTAIN": 4,
+              "INVALID": 1
+            },
+            "ASK": {
+              "ANSWER": 0,
+              "ASK": 0,
+              "ABSTAIN": 5,
+              "INVALID": 0
+            },
+            "ABSTAIN": {
+              "ANSWER": 0,
+              "ASK": 0,
+              "ABSTAIN": 5,
+              "INVALID": 0
+            }
+          },
+          "false_answer_on_ask_or_abstain": 0
+        },
+        "s5_reasoner": {
+          "n": 15,
+          "valid": 13,
+          "invalid": 2,
+          "accuracy_all": 0.6,
+          "macro_f1": 0.5897435897435898,
+          "recall": {
+            "ANSWER": 0.6,
+            "ASK": 0.2,
+            "ABSTAIN": 1.0
+          },
+          "confusion_matrix": {
+            "ANSWER": {
+              "ANSWER": 3,
+              "ASK": 0,
+              "ABSTAIN": 1,
+              "INVALID": 1
+            },
+            "ASK": {
+              "ANSWER": 1,
+              "ASK": 1,
+              "ABSTAIN": 2,
+              "INVALID": 1
+            },
+            "ABSTAIN": {
+              "ANSWER": 0,
+              "ASK": 0,
+              "ABSTAIN": 5,
+              "INVALID": 0
+            }
+          },
+          "false_answer_on_ask_or_abstain": 1
+        }
+      },
+      "method_cost_usd": {
+        "direct": 0.0034255312,
+        "s5_matcher": 0.0031512566400000003,
+        "s5_reasoner": 0.021624033199999997
+      },
+      "source_evaluation": "results/annotation_v5_live/evaluation/evaluation.json"
+    }
+  },
+  "api_calls_for_combination": 0,
+  "note": "DeepSeek costs include its earlier reused S5Query and reasoner calls. Each method's cost is separate; do not sum them because S5Query is shared by matcher and reasoner."
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "G04",
+  "decision": {
+    "label": "ABSTAIN",
+    "response": "I cannot compute the clove, DAP, or urea amounts from the supplied S5 rules. The S5 ruleset contains no rule for the older hot-water demonstration that used DAP at 200 kg/ha, and no rule giving a garlic clove planting rate (kg cloves per hectare). The only fertilizer rates present are for NPS (200 kg/ha) plus urea (150 kg/ha) in southern Tigray, which is a different product from DAP and cannot be substituted. Therefore the requested DAP quantity, clove quantity, and the demonstration's fertilizer timing are not supported by S5.",
+    "justification": "The question asks for quantities based on a specific older DAP demonstration. S5 has no rule for that demonstration or for DAP at 200 kg/ha; r_c10_nps explicitly notes DAP at 200 kg/ha on p5 is a separate product in a trial description and must not be merged with NPS. No S5 rule provides a garlic clove planting rate in kg/ha, so the clove quantity cannot be derived. The urea rules (r_c10_urea_2split, r_c10_urea_3split) apply to the southern Tigray NPS+urea regimen, not the DAP demonstration, and the three-split option depends on unknown rainfall. Because the requested product (DAP) and clove rate are absent from S5, the answer is not fully supported and no specific farmer fact would make the DAP demonstration rule applicable.",
+    "rule_ids": [
+      "r_c10_nps",
+      "r_c10_urea_2split",
+      "r_c10_urea_3split"
+    ],
+    "cited_pages": [
+      12
+    ],
+    "missing_facts": [
+      "DAP application rate for the older hot-water demonstration",
+      "garlic clove planting rate (kg/ha)",
+      "rainfall"
+    ]
+  },
+  "s5query_sha256": "92692a2f23022f509c9f9daf67c319c351ffa681e6eeeb91c968c42a8f7a0152"
+}

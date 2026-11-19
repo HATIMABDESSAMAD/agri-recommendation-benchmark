@@ -1,0 +1,18 @@
+{
+  "question_id": "G06",
+  "decision": {
+    "label": "ASK",
+    "response": "I cannot confirm if the three-application split is right for your farm this season because the S5 rules state that this schedule is an option only 'when there is good rain.' You have not provided information about the expected rainfall conditions for this season. Without knowing if rainfall will be 'good,' I cannot determine if the three-application rule applies or if the standard two-application schedule is more appropriate.",
+    "justification": "Rule r_c10_urea_3split (Page 12) specifies that splitting urea into three phases is an option ('MAY') conditional on the presence of 'good rain'. The rule explicitly states: 'In some cases, when there is good rain, application of urea can be done in three phases'. The farmer's query provides crop, region, total quantity, and desired modality, but lacks the critical condition variable 'rainfall'. Since the condition is unknown, the applicability of the three-application rule cannot be confirmed, and the standard two-application rule (r_c10_urea_2split) remains the default unless the condition is met. Therefore, the missing fact 'rainfall' prevents a definitive ANSWER.",
+    "rule_ids": [
+      "r_c10_urea_3split",
+      "r_c10_urea_2split"
+    ],
+    "cited_pages": [
+      12
+    ],
+    "missing_facts": [
+      "rainfall"
+    ]
+  }
+}

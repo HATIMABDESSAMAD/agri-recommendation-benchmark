@@ -1,0 +1,75 @@
+{
+  "schema_version": "S5Query-1",
+  "original_question": "I have 0.10 hectares and want to plant sprouted Bora garlic cloves. The extension worker showed me the hot-water treatment description in the CASCAPE demonstration, which lists DAP rather than NPS. If I follow the seed rate and fertilizer amounts written in that hot-water treatment description, how many kilograms of cloves, DAP and urea will I need, and when should I add the fertilizers?",
+  "requests": [
+    {
+      "subject": "K",
+      "crop": "garlic",
+      "product": "cloves",
+      "nutrient": null,
+      "action": null,
+      "fields": [
+        "quantity",
+        "unit",
+        "basis",
+        "timing"
+      ],
+      "source_text": "how many kilograms of cloves, DAP and urea will I need, and when should I add the fertilizers?"
+    },
+    {
+      "subject": "NPS (blended)",
+      "crop": "garlic",
+      "product": null,
+      "nutrient": null,
+      "action": null,
+      "fields": [
+        "quantity",
+        "unit",
+        "basis",
+        "timing"
+      ],
+      "source_text": "how many kilograms of cloves, DAP and urea will I need, and when should I add the fertilizers?"
+    },
+    {
+      "subject": "Urea",
+      "crop": "garlic",
+      "product": null,
+      "nutrient": null,
+      "action": null,
+      "fields": [
+        "quantity",
+        "unit",
+        "basis",
+        "timing"
+      ],
+      "source_text": "how many kilograms of cloves, DAP and urea will I need, and when should I add the fertilizers?"
+    }
+  ],
+  "facts": {
+    "area_ha": {
+      "status": "EXPLICIT",
+      "value": 0.1,
+      "source_text": "I have 0.10 hectares"
+    },
+    "crop": {
+      "status": "EXPLICIT",
+      "value": "Bora garlic",
+      "source_text": "want to plant sprouted Bora garlic cloves"
+    },
+    "product": {
+      "status": "EXPLICIT",
+      "value": "cloves",
+      "source_text": "sprouted Bora garlic cloves"
+    },
+    "nutrient": {
+      "status": "EXPLICIT",
+      "value": "DAP",
+      "source_text": "which lists DAP rather than NPS"
+    },
+    "action": {
+      "status": "EXPLICIT",
+      "value": "hot-water treatment",
+      "source_text": "hot-water treatment description"
+    }
+  }
+}

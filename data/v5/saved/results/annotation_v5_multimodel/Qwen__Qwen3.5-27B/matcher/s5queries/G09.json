@@ -1,0 +1,50 @@
+{
+  "schema_version": "S5Query-1",
+  "original_question": "I missed the June–July planting time for my garlic, and now it's August. Can I still plant this month on my farm?",
+  "requests": [
+    {
+      "subject": "garlic",
+      "crop": "garlic",
+      "product": null,
+      "nutrient": null,
+      "action": "plant",
+      "fields": [
+        "action",
+        "timing"
+      ],
+      "source_text": "Can I still plant this month on my farm?"
+    }
+  ],
+  "facts": {
+    "crop": {
+      "status": "EXPLICIT",
+      "value": "garlic",
+      "source_text": "my garlic"
+    },
+    "timing": {
+      "status": "EXPLICIT",
+      "value": "August",
+      "source_text": "now it's August"
+    },
+    "missed_timing": {
+      "status": "EXPLICIT",
+      "value": "June–July",
+      "source_text": "missed the June–July planting time"
+    },
+    "region": {
+      "status": "UNKNOWN",
+      "value": null,
+      "source_text": null
+    },
+    "soil": {
+      "status": "UNKNOWN",
+      "value": null,
+      "source_text": null
+    },
+    "growth_stage": {
+      "status": "UNKNOWN",
+      "value": null,
+      "source_text": null
+    }
+  }
+}

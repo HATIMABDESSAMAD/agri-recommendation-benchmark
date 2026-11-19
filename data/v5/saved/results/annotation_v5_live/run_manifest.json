@@ -1,0 +1,87 @@
+{
+  "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+  "blind_sha256": "27cc67e7697dacd249ed95ae1cb8f816b82bdb078ab09ca87d14b4b7e595c6a2",
+  "prior_blind_sha256": "1ba0b711cd130217eb0aa9386af7f7bd9e5bc263b6cf4011e75f14a4abaa31f6",
+  "rules_sha256": "62fda994ddefae8dc6a5528fca2e9d327502811c1cb14a9a84487366a1e404db",
+  "pdf_artifact_sha256": "8fecc350481b265246e4630ecb6b869bef9805c1969d6f60518a8cfd23045eb0",
+  "direct_system_prompt_sha256": "4c73331afce2e14a971949fc4a266b5c3a8ec03e71d08bf11efef08f578ee747",
+  "direct_user_format": "JSON object with pdf_text and question",
+  "direct_user_format_matches_old_run": false,
+  "s5_query_prompt_sha256": "75af43864b3641170e6c33240ab2ebb1c9e2edcb4a078a1a5b07c1f90ce4d333",
+  "reasoner_system_prompt_sha256": "f03591c30c6a194201070d501eb445cdc266b88d375478afc1acd516716de3fd",
+  "changed_question_ids": [
+    "G01",
+    "G04",
+    "G06",
+    "G08"
+  ],
+  "gold_opened_by_runner": false,
+  "s5_encoding_audit": [
+    {
+      "rule_id": "r_c7_fertility_or_manure",
+      "path": "context.other.logical_alternative",
+      "original_type": "dict"
+    },
+    {
+      "rule_id": "r_c10_urea_2split",
+      "path": "context.other.calculated_split_product_kg_ha",
+      "original_type": "list"
+    },
+    {
+      "rule_id": "r_c10_urea_3split",
+      "path": "context.other.calculated_split_product_kg_ha",
+      "original_type": "list"
+    },
+    {
+      "rule_id": "r_c11_n_rate",
+      "path": "context.other.factors",
+      "original_type": "list"
+    },
+    {
+      "rule_id": "r_c12_n",
+      "path": "context.other.regimen_required_components",
+      "original_type": "list"
+    },
+    {
+      "rule_id": "r_c12_n",
+      "path": "context.other.component_is_not_standalone",
+      "original_type": "bool"
+    },
+    {
+      "rule_id": "r_c12_p",
+      "path": "context.other.regimen_required_components",
+      "original_type": "list"
+    },
+    {
+      "rule_id": "r_c12_p",
+      "path": "context.other.component_is_not_standalone",
+      "original_type": "bool"
+    },
+    {
+      "rule_id": "r_c12_s",
+      "path": "context.other.regimen_required_components",
+      "original_type": "list"
+    },
+    {
+      "rule_id": "r_c12_s",
+      "path": "context.other.component_is_not_standalone",
+      "original_type": "bool"
+    },
+    {
+      "rule_id": "r_c12_kcl",
+      "path": "context.other.regimen_required_components",
+      "original_type": "list"
+    },
+    {
+      "rule_id": "r_c12_kcl",
+      "path": "context.other.component_is_not_standalone",
+      "original_type": "bool"
+    },
+    {
+      "rule_id": "r_c15_k",
+      "path": "context.other.observed_K_balance_kg_ha",
+      "original_type": "float"
+    }
+  ],
+  "cap_usd": 0.25
+}

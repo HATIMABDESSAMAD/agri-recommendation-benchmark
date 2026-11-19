@@ -1,0 +1,8 @@
+{
+  "question_id": "G02",
+  "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+  "error": {
+    "type": "ValidationError",
+    "message": "1 validation error for S5Query\n  Value error, Fact source_text must be a verbatim substring of the question [type=value_error, input_value={'schema_version': 'S5Que..., 'source_text': None}}}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/value_error"
+  }
+}

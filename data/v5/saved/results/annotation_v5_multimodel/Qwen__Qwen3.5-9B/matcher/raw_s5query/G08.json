@@ -1,0 +1,37 @@
+{
+  "raw": {
+    "service_tier": "default",
+    "id": "chatcmpl-R71oNrpXzyNVwJsBYoYwRSPz",
+    "object": "chat.completion",
+    "created": 1794978003,
+    "model": "Qwen/Qwen3.5-9B",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"schema_version\": \"S5Query-1\",\n  \"original_question\": \"A fertilizer seller suggested using 92 kg of nitrogen, 40 kg of phosphorus and 30 kg of sulfur per hectare, together with 140 kg of potassium chloride per hectare, on my garlic. I haven't brought my soil report with me. Is that fertilizer plan suitable for my land?\",\n  \"requests\": [\n    {\n      \"subject\": \"garlic\",\n      \"crop\": \"garlic\",\n      \"fields\": [\"crop\"],\n      \"source_text\": \"on my garlic\"\n    },\n    {\n      \"subject\": \"nitrogen\",\n      \"nutrient\": \"nitrogen\",\n      \"fields\": [\"nutrient\", \"quantity\", \"unit\", \"basis\"],\n      \"source_text\": \"92 kg of nitrogen... per hectare\"\n    },\n    {\n      \"subject\": \"phosphorus\",\n      \"nutrient\": \"phosphorus\",\n      \"fields\": [\"nutrient\", \"quantity\", \"unit\", \"basis\"],\n      \"source_text\": \"40 kg of phosphorus... per hectare\"\n    },\n    {\n      \"subject\": \"sulphur\",\n      \"nutrient\": \"sulphur\",\n      \"fields\": [\"nutrient\", \"quantity\", \"unit\", \"basis\"],\n      \"source_text\": \"30 kg of sulfur... per hectare\"\n    },\n    {\n      \"subject\": \"KCl (potassium chloride)\",\n      \"product\": \"KCl (potassium chloride)\",\n      \"fields\": [\"product\", \"quantity\", \"unit\", \"basis\"],\n      \"source_text\": \"140 kg of potassium chloride per hectare\"\n    },\n    {\n      \"subject\": \"soil\",\n      \"fields\": [\"evidence\"],\n      \"source_text\": \"I haven't brought my soil report with me\"\n    }\n  ],\n  \"facts\": {\n    \"crop\": {\n      \"status\": \"EXPLICIT\",\n      \"value\": \"garlic\",\n      \"source_text\": \"on my garlic\"\n    },\n    \"nitrogen\": {\n      \"status\": \"EXPLICIT\",\n      \"value\": \"92 kg\",\n      \"source_text\": \"92 kg of nitrogen\"\n    },\n    \"phosphorus\": {\n      \"status\": \"EXPLICIT\",\n      \"value\": \"40 kg\",\n      \"source_text\": \"40 kg of phosphorus\"\n    },\n    \"sulphur\": {\n      \"status\": \"EXPLICIT\",\n      \"value\": \"30 kg\",\n      \"source_text\": \"30 kg of sulfur\"\n    },\n    \"KCl (potassium chloride)\": {\n      \"status\": \"EXPLICIT\",\n      \"value\": \"140 kg\",\n      \"source_text\": \"140 kg of potassium chloride\"\n    },\n    \"soil\": {\n      \"status\": \"UNKNOWN\",\n      \"value\": null,\n      \"source_text\": \"I haven't brought my soil report with me\"\n    }\n  }\n}",
+          "reasoning_content": null,
+          "name": null,
+          "tool_calls": null
+        },
+        "finish_reason": "stop",
+        "logprobs": null
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1130,
+      "total_tokens": 1833,
+      "completion_tokens": 703,
+      "estimated_cost": 0.00021845000000000002,
+      "prompt_tokens_details": null
+    }
+  },
+  "latency_s": 17.0075563000064,
+  "model": "Qwen/Qwen3.5-9B",
+  "question_id": "G08",
+  "method": "s5query",
+  "request_sha256": "74b9ee18621d5472aef3a5dc15db67fc46f382d45daec6bed17050566e5143ae",
+  "reserved_usd": 0.006921599999999999,
+  "cost_usd": 0.00021845000000000002
+}

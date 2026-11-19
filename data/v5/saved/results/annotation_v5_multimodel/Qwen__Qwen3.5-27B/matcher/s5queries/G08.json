@@ -1,0 +1,55 @@
+{
+  "schema_version": "S5Query-1",
+  "original_question": "A fertilizer seller suggested using 92 kg of nitrogen, 40 kg of phosphorus and 30 kg of sulfur per hectare, together with 140 kg of potassium chloride per hectare, on my garlic. I haven't brought my soil report with me. Is that fertilizer plan suitable for my land?",
+  "requests": [
+    {
+      "subject": "fertilizer plan",
+      "crop": "garlic",
+      "product": null,
+      "nutrient": null,
+      "action": "suitable",
+      "fields": [
+        "action",
+        "evidence"
+      ],
+      "source_text": "Is that fertilizer plan suitable for my land?"
+    }
+  ],
+  "facts": {
+    "crop": {
+      "status": "EXPLICIT",
+      "value": "garlic",
+      "source_text": "on my garlic"
+    },
+    "nitrogen": {
+      "status": "EXPLICIT",
+      "value": "92 kg",
+      "source_text": "92 kg of nitrogen"
+    },
+    "phosphorus": {
+      "status": "EXPLICIT",
+      "value": "40 kg",
+      "source_text": "40 kg of phosphorus"
+    },
+    "sulfur": {
+      "status": "EXPLICIT",
+      "value": "30 kg",
+      "source_text": "30 kg of sulfur"
+    },
+    "potassium_chloride": {
+      "status": "EXPLICIT",
+      "value": "140 kg",
+      "source_text": "140 kg of potassium chloride"
+    },
+    "area_ha": {
+      "status": "EXPLICIT",
+      "value": "per hectare",
+      "source_text": "per hectare"
+    },
+    "soil": {
+      "status": "UNKNOWN",
+      "value": null,
+      "source_text": "I haven't brought my soil report with me"
+    }
+  }
+}

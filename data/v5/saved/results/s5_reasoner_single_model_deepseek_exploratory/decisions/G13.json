@@ -1,0 +1,20 @@
+{
+  "question_id": "G13",
+  "decision": {
+    "label": "ABSTAIN",
+    "response": "The S5 ruleset does not contain any rule that predicts garlic yield (tonnes per hectare) from manure, nitrogen, or phosphorus application rates. The rules describe fertility/manure advisories and specific N, P, S, K and urea/NPS application rates, but none state a yield outcome or a yield-response function. Therefore the expected harvest per hectare for the stated inputs cannot be determined from S5.",
+    "justification": "No S5 rule links the specified manure/N/P amounts to a garlic yield quantity. r_c7_fertility_or_manure only says considerable manure/fertilizers MAY be applied (dose unspecified, no yield figure). r_c11_n_rate gives a general N range (70-125 kg N/ha) and r_c12_* give a combined Andosols/Vertisols regimen, but none provide a yield prediction. The requested output (tonnes of garlic per hectare) is not supported by any rule, so the answer is not derivable and no specific farmer fact would enable it under S5.",
+    "rule_ids": [
+      "r_c7_fertility_or_manure",
+      "r_c11_n_rate",
+      "r_c12_n",
+      "r_c12_p"
+    ],
+    "cited_pages": [
+      10,
+      12
+    ],
+    "missing_facts": []
+  },
+  "s5query_sha256": "c570403e1cdf6e506c339ad681fd8ed93cf4f37c6deaf41b05e885e969425219"
+}

@@ -1,0 +1,11 @@
+{
+  "question_id": "G08",
+  "decision": {
+    "label": "ASK",
+    "response": "The document mentions that a fertilizer plan of 92 kg N + 40 kg P + 30 kg S plus 140 kg KCl per hectare is optimum specifically for Andosols and Vertisols. However, it does not state that this rate is suitable for all soil types. To determine if this plan is suitable for your land, I need to know: What is the soil type of your land (e.g., Andosol, Vertisol, Cambisol, Regosol, or Leptosol)?",
+    "justification": "The document (Page 12) explicitly links the recommended fertilizer rates (92 kg N, 40 kg P, 30 kg S, and 140 kg KCl) to specific soil types: 'Andosols and Vertisols'. It also notes that fertilizer requirements vary with the fertility status and soil type. Since the user has not provided their soil type, it is impossible to confirm if the recommendation applies to their specific land without risking incorrect advice for other soil types mentioned in the document (such as Cambisols or Regosols).",
+    "cited_pages": [
+      12
+    ]
+  }
+}

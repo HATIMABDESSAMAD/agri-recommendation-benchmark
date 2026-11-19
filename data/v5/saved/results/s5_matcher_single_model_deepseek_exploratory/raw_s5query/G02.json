@@ -1,0 +1,43 @@
+{
+  "raw": {
+    "service_tier": "default",
+    "id": "chatcmpl-RtY8vKDFKziaqnKxSFP9WLQ3",
+    "object": "chat.completion",
+    "created": 1794971183,
+    "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"schema_version\": \"S5Query-1\", \"original_question\": \"We've had good rain this season, and I'm planting garlic on 0.18 hectares. I want to spread the usual 150 kg/ha of urea over three applications instead of two, and use 200 kg/ha of NPS as well. How much of each should I apply, and on which days?\", \"requests\": [{\"subject\": \"Urea\", \"crop\": \"garlic\", \"product\": \"urea\", \"nutrient\": \"N\", \"action\": \"spread\", \"fields\": [\"quantity\", \"unit\", \"basis\", \"timing\", \"total_quantity\"], \"source_text\": \"spread the usual 150 kg/ha of urea over three applications instead of two\"}, {\"subject\": \"NPS fertilizer\", \"crop\": \"garlic\", \"product\": \"NPS\", \"nutrient\": null, \"action\": \"use\", \"fields\": [\"quantity\", \"unit\", \"basis\", \"timing\"], \"source_text\": \"use 200 kg/ha of NPS as well\"}], \"facts\": {\"area_ha\": {\"status\": \"EXPLICIT\", \"value\": 0.18, \"source_text\": \"0.18 hectares\"}, \"crop\": {\"status\": \"EXPLICIT\", \"value\": \"garlic\", \"source_text\": \"planting garic\"}, \"rainfall\": {\"status\": \"EXPLICIT\", \"value\": \"good\", \"source_text\": \"good rain this season\"}, \"growth_stage\": {\"status\": \"UNKNOWN\", \"value\": null, \"source_text\": null}, \"region\": {\"status\": \"UNKNOWN\", \"value\": null, \"source_text\": null}, \"soil\": {\"status\": \"UNKNOWN\", \"value\": null, \"source_text\": null}, \"soil_type\": {\"status\": \"UNKNOWN\", \"value\": null, \"source_text\": null}, \"stage\": {\"status\": \"UNKNOWN\", \"value\": null, \"source_text\": null}}}",
+          "reasoning_content": null,
+          "name": null,
+          "tool_calls": null
+        },
+        "finish_reason": "stop",
+        "logprobs": null
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1129,
+      "total_tokens": 1563,
+      "completion_tokens": 434,
+      "estimated_cost": 0.00023823800000000002,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": null
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    }
+  },
+  "latency_s": 3.303465299999516,
+  "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+  "question_id": "G02",
+  "method": "s5query",
+  "request_sha256": "ac8a5956e3e03eca3e72b94b1581a2f6b0fa47ecca26f036543f23758d4c38d2",
+  "cost_usd": 0.00023823800000000002,
+  "reserved_usd": 0.007686336
+}

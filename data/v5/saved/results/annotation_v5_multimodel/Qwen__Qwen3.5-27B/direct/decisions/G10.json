@@ -1,0 +1,11 @@
+{
+  "question_id": "G10",
+  "decision": {
+    "label": "ASK",
+    "response": "To determine whether you should plant on flat beds or raised ridges, I need to know the type of soil in your field. Is your soil well-drained, or is it heavy and poorly drained during the rains?",
+    "justification": "The document states on Page 10 that the choice between flat beds and ridges depends on soil drainage: 'On well-drained soils, rain fed crops may be planted on flat beds; but on heavy soils, which are poorly drained during the rains; it is advisable to plant on ridges'. Since the user has not specified their soil type or drainage characteristics, a precise recommendation cannot be made without this missing fact.",
+    "cited_pages": [
+      10
+    ]
+  }
+}

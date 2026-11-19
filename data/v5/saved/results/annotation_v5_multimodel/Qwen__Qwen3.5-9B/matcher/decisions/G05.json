@@ -1,0 +1,7 @@
+{
+  "question_id": "G05",
+  "error": {
+    "type": "ValidationError",
+    "message": "2 validation errors for S5Query\nrequests.0.fields.3\n  Input should be 'action', 'modality', 'product', 'nutrient', 'quantity', 'unit', 'basis', 'timing', 'method', 'evidence', 'total_quantity' or 'conversion' [type=literal_error, input_value='crop', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/literal_error\nrequests.1.fields.0\n  Input should be 'action', 'modality', 'product', 'nutrient', 'quantity', 'unit', 'basis', 'timing', 'method', 'evidence', 'total_"
+  }
+}

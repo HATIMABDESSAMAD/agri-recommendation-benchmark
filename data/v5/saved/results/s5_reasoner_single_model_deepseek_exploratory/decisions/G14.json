@@ -1,0 +1,26 @@
+{
+  "question_id": "G14",
+  "decision": {
+    "label": "ABSTAIN",
+    "response": "The S5 ruleset does not support computing kilogram-for-kilogram replacements of NPS and urea with triple superphosphate and ammonium sulfate. It states the common practice of 200 kg/ha NPS plus 150 kg/ha urea for garlic in southern Tigray, but it gives no nutrient composition for NPS, urea, triple superphosphate, or ammonium sulfate, and no product-to-product equivalence or conversion. Without those, the exact kilograms of triple superphosphate and ammonium sulfate needed to keep the same nutrients cannot be derived from S5.",
+    "justification": "Rules r_c10_nps and r_c10_urea_2split establish the 200 kg/ha NPS and 150 kg/ha urea product rates (page 12), and r_c11_n_rate gives a general N requirement of 70-125 kg N/ha (page 12). However, no S5 rule provides the nutrient concentration of NPS, urea, triple superphosphate, or ammonium sulfate, nor any conversion or equivalence between these products. The fertilizer rule r_c7_fertility_or_manure only says 'considerable quantities' with no dose. The Andosols/Vertisols combination (r_c12_n, r_c12_p, r_c12_s, r_c12_kcl) is a separate four-part regimen with no product sources and is not a substitution basis. Because the requested exact replacement quantities require nutrient-composition and conversion data that S5 does not contain, the answer cannot be fully supported.",
+    "rule_ids": [
+      "r_c10_nps",
+      "r_c10_urea_2split",
+      "r_c11_n_rate",
+      "r_c7_fertility_or_manure"
+    ],
+    "cited_pages": [
+      12,
+      10
+    ],
+    "missing_facts": [
+      "nps_nutrient_composition",
+      "urea_nutrient_composition",
+      "triple_superphosphate_nutrient_composition",
+      "ammonium_sulfate_nutrient_composition",
+      "product_equivalence_or_conversion"
+    ]
+  },
+  "s5query_sha256": "7d741cba11d680cf365efd9447bf1c198fba0fafe5600a9cb99b1004329127c6"
+}

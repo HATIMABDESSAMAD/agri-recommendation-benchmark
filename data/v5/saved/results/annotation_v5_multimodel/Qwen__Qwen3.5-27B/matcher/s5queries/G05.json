@@ -1,0 +1,45 @@
+{
+  "schema_version": "S5Query-1",
+  "original_question": "It's been 40 days since I planted my garlic, so I'm due to put on the second half of the urea. But the bulbs have already started getting bigger. Should I still add the urea today?",
+  "requests": [
+    {
+      "subject": "urea",
+      "crop": "garlic",
+      "product": "urea",
+      "nutrient": null,
+      "action": "add",
+      "fields": [
+        "action",
+        "timing"
+      ],
+      "source_text": "Should I still add the urea today?"
+    }
+  ],
+  "facts": {
+    "crop": {
+      "status": "EXPLICIT",
+      "value": "garlic",
+      "source_text": "planted my garlic"
+    },
+    "days_since_planting": {
+      "status": "EXPLICIT",
+      "value": "40",
+      "source_text": "It's been 40 days since I planted"
+    },
+    "growth_stage": {
+      "status": "EXPLICIT",
+      "value": "bulbs have already started getting bigger",
+      "source_text": "the bulbs have already started getting bigger"
+    },
+    "application_timing": {
+      "status": "EXPLICIT",
+      "value": "today",
+      "source_text": "add the urea today"
+    },
+    "application_sequence": {
+      "status": "EXPLICIT",
+      "value": "second half",
+      "source_text": "put on the second half of the urea"
+    }
+  }
+}

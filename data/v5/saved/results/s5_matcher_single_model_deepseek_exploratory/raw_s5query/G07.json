@@ -1,0 +1,43 @@
+{
+  "raw": {
+    "service_tier": "default",
+    "id": "chatcmpl-RNcr79zuBm1HhKqFBsIA0mvE",
+    "object": "chat.completion",
+    "created": 1794971203,
+    "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"schema_version\": \"S5Query-1\", \"original_question\": \"I planted my garlic 38 days ago and still have half of the urea left to put on. Is it the right time to spread it now?\", \"requests\": [{\"subject\": \"urea fertilizer\", \"crop\": \"garlic\", \"product\": \"urea\", \"nutrient\": null, \"action\": \"spread\", \"fields\": [\"action\", \"timing\"], \"source_text\": \"still have half of the urea left to put on. Is it the right time to spread it now?\"}], \"facts\": {\"crop\": {\"status\": \"EXPLICIT\", \"value\": \"garlic\", \"source_text\": \"my garlic\"}, \"stage\": {\"status\": \"UNKNOWN\", \"value\": null, \"source_text\": null}, \"growth_stage\": {\"status\": \"UNKNOWN\", \"value\": null, \"source_text\": null}}}",
+          "reasoning_content": null,
+          "name": null,
+          "tool_calls": null
+        },
+        "finish_reason": "stop",
+        "logprobs": null
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1095,
+      "total_tokens": 1294,
+      "completion_tokens": 199,
+      "estimated_cost": 0.00016581600000000003,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": null
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    }
+  },
+  "latency_s": 6.182985100000224,
+  "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+  "question_id": "G07",
+  "method": "s5query",
+  "request_sha256": "f4d1c7ab21413e8f85efe896595bac1b272dd40d0b4babb2afb2a6defc439a9b",
+  "cost_usd": 0.00016581600000000003,
+  "reserved_usd": 0.007686336
+}

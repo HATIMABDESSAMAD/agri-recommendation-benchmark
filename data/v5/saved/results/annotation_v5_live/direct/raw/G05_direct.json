@@ -1,0 +1,43 @@
+{
+  "raw": {
+    "service_tier": "default",
+    "id": "chatcmpl-RQHEsaMtLmCY0aLQRRKTh4x0",
+    "object": "chat.completion",
+    "created": 1794977214,
+    "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"label\":\"ANSWER\",\"response\":\"No. The manual advises not to apply nitrogen once the bulbs are beginning to enlarge, because it encourages excessive leaf growth and reduces bulb size. Since your bulbs have already started getting bigger, skip the remaining urea application.\",\"justification\":\"The PDF states that garlic generally requires 70-125 kg N per hectare, with half applied as growth begins and the remainder split into two to three applications at three-week intervals, and explicitly advises not to apply N when bulbs are beginning to enlarge since it encourages excessive leaf growth and reduces bulb size. The farmer reports bulbs are already enlarging, so the manual's guidance supports withholding the urea.\",\"cited_pages\":[12]}",
+          "reasoning_content": null,
+          "name": null,
+          "tool_calls": null
+        },
+        "finish_reason": "stop",
+        "logprobs": null
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 17998,
+      "total_tokens": 18139,
+      "completion_tokens": 141,
+      "estimated_cost": 0.00010178280000000001,
+      "prompt_tokens_details": {
+        "cached_tokens": 17920,
+        "cache_write_tokens": null
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    }
+  },
+  "latency_s": 2.4882824000014807,
+  "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+  "question_id": "G05",
+  "method": "direct",
+  "request_sha256": "56b44d1e8313b9d9699c37d86c2d06240d626ba26fb220f0ed3bb9fde1ff70ba",
+  "cost_usd": 0.00010178280000000001,
+  "reserved_usd": 0.0040136880000000005
+}

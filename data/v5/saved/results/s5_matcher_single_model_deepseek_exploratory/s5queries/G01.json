@@ -1,0 +1,90 @@
+{
+  "schema_version": "S5Query-1",
+  "original_question": "I'm getting my 0.24-hectare garlic plot in southern Tigray ready for planting. The extension worker told me to use 200 kg of NPS and 150 kg of urea per hectare. How many kilograms of each fertilizer do I need for my plot, and how much urea should I put on at planting and later?",
+  "requests": [
+    {
+      "subject": "NPS fertilizer",
+      "crop": "garlic",
+      "product": "NPS",
+      "nutrient": null,
+      "action": null,
+      "fields": [
+        "quantity",
+        "unit",
+        "basis",
+        "total_quantity"
+      ],
+      "source_text": "How many kilograms of each fertilizer do I need for my plot"
+    },
+    {
+      "subject": "urea fertilizer",
+      "crop": "garlic",
+      "product": "urea",
+      "nutrient": null,
+      "action": null,
+      "fields": [
+        "quantity",
+        "unit",
+        "basis",
+        "total_quantity"
+      ],
+      "source_text": "How many kilograms of each fertilizer do I need for my plot"
+    },
+    {
+      "subject": "urea fertilizer",
+      "crop": "garlic",
+      "product": "urea",
+      "nutrient": null,
+      "action": "apply",
+      "fields": [
+        "quantity",
+        "unit",
+        "timing",
+        "method"
+      ],
+      "source_text": "how much urea should I put on at planting and later?"
+    }
+  ],
+  "facts": {
+    "area_ha": {
+      "status": "EXPLICIT",
+      "value": 0.24,
+      "source_text": "0.24-hectare garlic plot"
+    },
+    "crop": {
+      "status": "EXPLICIT",
+      "value": "garlic",
+      "source_text": "garlic plot"
+    },
+    "region": {
+      "status": "EXPLICIT",
+      "value": "southern Tigray",
+      "source_text": "southern Tigray"
+    },
+    "growth_stage": {
+      "status": "UNKNOWN",
+      "value": null,
+      "source_text": null
+    },
+    "soil": {
+      "status": "UNKNOWN",
+      "value": null,
+      "source_text": null
+    },
+    "soil_type": {
+      "status": "UNKNOWN",
+      "value": null,
+      "source_text": null
+    },
+    "rainfall": {
+      "status": "UNKNOWN",
+      "value": null,
+      "source_text": null
+    },
+    "stage": {
+      "status": "UNKNOWN",
+      "value": null,
+      "source_text": null
+    }
+  }
+}

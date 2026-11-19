@@ -1,0 +1,124 @@
+{
+  "study": "retrospective_exploratory_revised_questions",
+  "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+  "gold_sha256": "aedf762f4d32e61f1332c4ecf9effc88d6ad169a97f99d4c52cec0245b2e9729",
+  "blind_sha256": "27cc67e7697dacd249ed95ae1cb8f816b82bdb078ab09ca87d14b4b7e595c6a2",
+  "n_questions": 15,
+  "changed_question_ids": [
+    "G01",
+    "G04",
+    "G06",
+    "G08"
+  ],
+  "methods": {
+    "direct": {
+      "n": 15,
+      "valid": 15,
+      "invalid": 0,
+      "accuracy_all": 0.7333333333333333,
+      "macro_f1": 0.6825396825396824,
+      "recall": {
+        "ANSWER": 1.0,
+        "ASK": 0.2,
+        "ABSTAIN": 1.0
+      },
+      "confusion_matrix": {
+        "ANSWER": {
+          "ANSWER": 5,
+          "ASK": 0,
+          "ABSTAIN": 0,
+          "INVALID": 0
+        },
+        "ASK": {
+          "ANSWER": 4,
+          "ASK": 1,
+          "ABSTAIN": 0,
+          "INVALID": 0
+        },
+        "ABSTAIN": {
+          "ANSWER": 0,
+          "ASK": 0,
+          "ABSTAIN": 5,
+          "INVALID": 0
+        }
+      },
+      "false_answer_on_ask_or_abstain": 4
+    },
+    "s5_matcher": {
+      "n": 15,
+      "valid": 14,
+      "invalid": 1,
+      "accuracy_all": 0.3333333333333333,
+      "macro_f1": 0.17543859649122806,
+      "recall": {
+        "ANSWER": 0.0,
+        "ASK": 0.0,
+        "ABSTAIN": 1.0
+      },
+      "confusion_matrix": {
+        "ANSWER": {
+          "ANSWER": 0,
+          "ASK": 0,
+          "ABSTAIN": 4,
+          "INVALID": 1
+        },
+        "ASK": {
+          "ANSWER": 0,
+          "ASK": 0,
+          "ABSTAIN": 5,
+          "INVALID": 0
+        },
+        "ABSTAIN": {
+          "ANSWER": 0,
+          "ASK": 0,
+          "ABSTAIN": 5,
+          "INVALID": 0
+        }
+      },
+      "false_answer_on_ask_or_abstain": 0
+    },
+    "s5_reasoner": {
+      "n": 15,
+      "valid": 13,
+      "invalid": 2,
+      "accuracy_all": 0.6,
+      "macro_f1": 0.5897435897435898,
+      "recall": {
+        "ANSWER": 0.6,
+        "ASK": 0.2,
+        "ABSTAIN": 1.0
+      },
+      "confusion_matrix": {
+        "ANSWER": {
+          "ANSWER": 3,
+          "ASK": 0,
+          "ABSTAIN": 1,
+          "INVALID": 1
+        },
+        "ASK": {
+          "ANSWER": 1,
+          "ASK": 1,
+          "ABSTAIN": 2,
+          "INVALID": 1
+        },
+        "ABSTAIN": {
+          "ANSWER": 0,
+          "ASK": 0,
+          "ABSTAIN": 5,
+          "INVALID": 0
+        }
+      },
+      "false_answer_on_ask_or_abstain": 1
+    }
+  },
+  "new_api_cost_usd": {
+    "direct": 0.0034255312,
+    "s5query": 0.00098310464,
+    "s5_reasoner": 0.00534528456
+  },
+  "new_api_cost_total_usd": 0.009753920399999998,
+  "budget_cap_usd": 0.25,
+  "direct_user_format_matches_previous_run": false,
+  "gold_sent_to_model": false,
+  "note": "Class metrics do not establish agronomic content correctness; saved unchanged S5Query and reasoner predictions are reused."
+}

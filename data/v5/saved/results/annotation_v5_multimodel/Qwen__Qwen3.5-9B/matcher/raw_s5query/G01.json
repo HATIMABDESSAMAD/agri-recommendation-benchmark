@@ -1,0 +1,37 @@
+{
+  "raw": {
+    "service_tier": "default",
+    "id": "chatcmpl-RI2gNDv1QATAftNp4THVUWiA",
+    "object": "chat.completion",
+    "created": 1794977884,
+    "model": "Qwen/Qwen3.5-9B",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"schema_version\": \"S5Query-1\",\n  \"original_question\": \"I'm getting my 0.24-hectare garlic plot in southern Tigray ready for planting. The extension worker told me to use 200 kg of NPS and 150 kg of urea per hectare, with the urea in the usual two applications. How many kilograms of each fertilizer do I need for my plot, and how much urea should I put on at planting and later?\",\n  \"requests\": [\n    {\n      \"subject\": \"area_ha\",\n      \"fields\": [\n        \"quantity\",\n        \"unit\"\n      ],\n      \"source_text\": \"0.24-hectare\"\n    },\n    {\n      \"subject\": \"crop\",\n      \"fields\": [\n        \"crop\"\n      ],\n      \"source_text\": \"garlic\"\n    },\n    {\n      \"subject\": \"region\",\n      \"fields\": [\n        \"region\"\n      ],\n      \"source_text\": \"southern Tigray\"\n    },\n    {\n      \"subject\": \"NPS (blended)\",\n      \"fields\": [\n        \"quantity\",\n        \"unit\",\n        \"basis\"\n      ],\n      \"source_text\": \"200 kg of NPS ... per hectare\"\n    },\n    {\n      \"subject\": \"Urea\",\n      \"fields\": [\n        \"quantity\",\n        \"unit\",\n        \"basis\"\n      ],\n      \"source_text\": \"150 kg of urea per hectare\"\n    },\n    {\n      \"subject\": \"Urea\",\n      \"fields\": [\n        \"timing\"\n      ],\n      \"source_text\": \"usual two applications\"\n    }\n  ],\n  \"facts\": {}\n}",
+          "reasoning_content": null,
+          "name": null,
+          "tool_calls": null
+        },
+        "finish_reason": "stop",
+        "logprobs": null
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1151,
+      "total_tokens": 1565,
+      "completion_tokens": 414,
+      "estimated_cost": 0.0001772,
+      "prompt_tokens_details": null
+    }
+  },
+  "latency_s": 8.353091400000267,
+  "model": "Qwen/Qwen3.5-9B",
+  "question_id": "G01",
+  "method": "s5query",
+  "request_sha256": "79f7acecf8ab8ed5a3d41d6f7aab3b811487ed8446a07a495201c6f80c1a38d1",
+  "reserved_usd": 0.006921599999999999,
+  "cost_usd": 0.0001772
+}

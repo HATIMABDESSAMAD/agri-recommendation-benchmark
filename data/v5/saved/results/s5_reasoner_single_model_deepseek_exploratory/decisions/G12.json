@@ -1,0 +1,21 @@
+{
+  "question_id": "G12",
+  "decision": {
+    "label": "ABSTAIN",
+    "response": "S5 does not provide a KCl rate for garlic on Regosol. The only explicit 140 kg/ha KCl figure (r_c12_kcl) is a single component of a four-part regimen (92 kg N + 40 kg P + 30 kg S + 140 kg KCl per ha) stated as optimum specifically for Andosols and Vertisols, and the rule explicitly says not to recommend that component independently. Your soil is Regosol, which is not in that rule's soil condition, so that rate cannot be transferred to your field. The general potassium rule (r_c15_k) advises K fertilizer qualitatively but gives no amount, schedule, or threshold. No S5 rule supplies an exact KCl quantity shown to work for garlic on Regosol with low soil potassium.",
+    "justification": "The requested exact KCl amount for garlic on Regosol is not supported. r_c12_kcl's 140 kg/ha is conditioned on soil_type IN [Andosols, Vertisols] and is a non-standalone component of a four-input regimen; the farmer's Regosol does not satisfy that condition, and the rule forbids independent use. r_c15_k advises potassium fertilizer but specifies no quantity (NOT_SPECIFIED) and no soil-specific dose. r_c7_fertility_or_manure mentions 'considerable quantities of manure or fertilizers' with no dose. No rule provides a Regosol-specific KCl rate, so the answer cannot be fully supported and no single missing farmer fact would resolve it.",
+    "rule_ids": [
+      "r_c12_kcl",
+      "r_c15_k",
+      "r_c7_fertility_or_manure"
+    ],
+    "cited_pages": [
+      12,
+      20,
+      19,
+      10
+    ],
+    "missing_facts": []
+  },
+  "s5query_sha256": "7ec8394a831e360091c5a9a76466a91d0f56977f70660ceba1a71f3ef41c40b5"
+}

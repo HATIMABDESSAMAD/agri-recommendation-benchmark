@@ -1,0 +1,11 @@
+{
+  "question_id": "G04",
+  "decision": {
+    "label": "ANSWER",
+    "response": "For your 0.10 hectares of land, following the specific hot-water treatment description in the CASCAPE demonstration (Page 5), you will need: \n\n1. **Garlic Cloves**: 60 kg (Calculated from the rate of 600 kg/ha). \n2. **DAP (Diammonium Phosphate)**: 20 kg (Calculated from the rate of 200 kg/ha). \n3. **Urea**: 15 kg total (Calculated from the rate of 150 kg/ha). \n\n**Application Timing**:\n- **DAP**: Apply the full 20 kg at planting.\n- **Urea**: Apply half (7.5 kg) at planting and the remaining half (7.5 kg) 30-45 days after planting.",
+    "justification": "The document explicitly details the 'Hot water treatment' protocol on Page 5 (Section 2). It specifies a seed rate of 600 kg/ha, DAP at 200 kg/ha, and Urea at 150 kg/ha. It further states that 'DAP was applied at planting, whereas half of the urea was applied during planting and the remaining half was applied 30-45 days after planting.' The user's land size is 0.10 ha, so the rates are scaled down by a factor of 10 (600*0.1=60, 200*0.1=20, 150*0.1=15). The document confirms the use of DAP in this specific treatment description, distinguishing it from the general farmer practice mentioned elsewhere which uses NPS.",
+    "cited_pages": [
+      5
+    ]
+  }
+}

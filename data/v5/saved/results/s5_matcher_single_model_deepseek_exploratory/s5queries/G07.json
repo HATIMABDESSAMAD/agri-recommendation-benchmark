@@ -1,0 +1,35 @@
+{
+  "schema_version": "S5Query-1",
+  "original_question": "I planted my garlic 38 days ago and still have half of the urea left to put on. Is it the right time to spread it now?",
+  "requests": [
+    {
+      "subject": "urea fertilizer",
+      "crop": "garlic",
+      "product": "urea",
+      "nutrient": null,
+      "action": "spread",
+      "fields": [
+        "action",
+        "timing"
+      ],
+      "source_text": "still have half of the urea left to put on. Is it the right time to spread it now?"
+    }
+  ],
+  "facts": {
+    "crop": {
+      "status": "EXPLICIT",
+      "value": "garlic",
+      "source_text": "my garlic"
+    },
+    "stage": {
+      "status": "UNKNOWN",
+      "value": null,
+      "source_text": null
+    },
+    "growth_stage": {
+      "status": "UNKNOWN",
+      "value": null,
+      "source_text": null
+    }
+  }
+}

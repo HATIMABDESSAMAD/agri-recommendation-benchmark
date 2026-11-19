@@ -1,0 +1,16 @@
+{
+  "question_id": "G07",
+  "decision": {
+    "label": "ANSWER",
+    "response": "Yes. Under the documented southern Tigray urea schedule, the remaining half of the urea is applied 30–45 days after planting. At 38 days after planting, you are within that window, so this is the right time to apply the remaining half.",
+    "justification": "Rule r_c10_urea_2split specifies that half the urea is applied at planting and the remaining half 30–45 days after planting. The farmer planted 38 days ago, which falls within the 30–45 day window, and states half the urea remains. The optional three-split schedule (r_c10_urea_3split) is conditional on 'good rain', which is not stated, so the default two-split schedule applies. The bulbing-stage avoidance rule (r_c11_no_n_bulbing) is not triggered because growth stage is unknown and not stated to be bulb enlargement.",
+    "rule_ids": [
+      "r_c10_urea_2split"
+    ],
+    "cited_pages": [
+      12
+    ],
+    "missing_facts": []
+  },
+  "s5query_sha256": "c185a0cdf443028b31d069e80a980967a92fd95f10e8b3493c241287a2460227"
+}

@@ -1,0 +1,43 @@
+{
+  "raw": {
+    "service_tier": "default",
+    "id": "chatcmpl-R4KGj3YT8vrGFwR0E1ACh6ky",
+    "object": "chat.completion",
+    "created": 1794977206,
+    "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"label\":\"ANSWER\",\"response\":\"For your 0.18 ha, the manual's standard garlic rates are 200 kg/ha NPS and 150 kg/ha urea. That means total product amounts of 36 kg NPS and 27 kg urea. Apply all 36 kg NPS at planting. For the urea, the manual allows three applications when there is good rain: one-third at planting (9 kg), one-third 30 days after planting (9 kg), and the remaining third three weeks after the second application (9 kg). The manual does not give exact calendar dates, so base the timing on your planting date.\",\"justification\":\"The PDF states garlic is fertilized at 200 kg/ha NPS and 150 kg/ha Urea, with all phosphorus applied at planting and urea split; in good rain urea can be applied in three phases: 1/3 at planting, 1/3 after 30 days, and the remaining three weeks after the second application. Multiplying by 0.18 ha gives 36 kg NPS and 27 kg urea, split as 9 kg urea per application. The document does not specify calendar dates, only timings relative to planting.\",\"cited_pages\":[12]}",
+          "reasoning_content": null,
+          "name": null,
+          "tool_calls": null
+        },
+        "finish_reason": "stop",
+        "logprobs": null
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 18019,
+      "total_tokens": 18271,
+      "completion_tokens": 252,
+      "estimated_cost": 0.0001364748,
+      "prompt_tokens_details": {
+        "cached_tokens": 17920,
+        "cache_write_tokens": null
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    }
+  },
+  "latency_s": 3.810211399999389,
+  "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+  "question_id": "G02",
+  "method": "direct",
+  "request_sha256": "0cdcc0ca5a3ce09a2e0403c78a2f1b6be5e05c2fea6e4169c02d2db8928af8c5",
+  "cost_usd": 0.0001364748,
+  "reserved_usd": 0.0040136880000000005
+}

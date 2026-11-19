@@ -1,0 +1,72 @@
+{
+  "study": "retrospective/exploratory",
+  "n_original_questions": 15,
+  "n_paired_valid": 14,
+  "s5_matcher_paired": {
+    "valid": 14,
+    "invalid": 0,
+    "accuracy": 0.35714285714285715,
+    "macro_f1": 0.17543859649122806,
+    "recall": {
+      "ANSWER": 0.0,
+      "ASK": 0.0,
+      "ABSTAIN": 1.0
+    },
+    "confusion_matrix": {
+      "ANSWER": {
+        "ANSWER": 0,
+        "ASK": 0,
+        "ABSTAIN": 4
+      },
+      "ASK": {
+        "ANSWER": 0,
+        "ASK": 0,
+        "ABSTAIN": 5
+      },
+      "ABSTAIN": {
+        "ANSWER": 0,
+        "ASK": 0,
+        "ABSTAIN": 5
+      }
+    },
+    "false_answer_on_ask_or_abstain": 0
+  },
+  "s5_reasoner_paired": {
+    "valid": 14,
+    "invalid": 0,
+    "accuracy": 0.7142857142857143,
+    "macro_f1": 0.696886446886447,
+    "recall": {
+      "ANSWER": 0.75,
+      "ASK": 0.4,
+      "ABSTAIN": 1.0
+    },
+    "confusion_matrix": {
+      "ANSWER": {
+        "ANSWER": 3,
+        "ASK": 0,
+        "ABSTAIN": 1
+      },
+      "ASK": {
+        "ANSWER": 1,
+        "ASK": 2,
+        "ABSTAIN": 2
+      },
+      "ABSTAIN": {
+        "ANSWER": 0,
+        "ASK": 0,
+        "ABSTAIN": 5
+      }
+    },
+    "false_answer_on_ask_or_abstain": 1
+  },
+  "s5_reasoner_api_cost_usd": 0.018532682,
+  "s5_reasoner_machine_verifiable_invalid_citations": 0,
+  "s5_reasoner_false_answer_class_proxy": 1,
+  "s5_reasoner_answer_content_support": "requires independent human review",
+  "disagreements": 6,
+  "s5_matcher_status_on_disagreements": {
+    "UNSUPPORTED_SEMANTICS": 1,
+    "NO_S5_RULE": 5
+  }
+}

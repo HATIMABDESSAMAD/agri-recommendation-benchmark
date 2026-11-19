@@ -1,0 +1,37 @@
+{
+  "raw": {
+    "service_tier": "default",
+    "id": "chatcmpl-ROuHKnMeKzm7aWGp4NQajG6Y",
+    "object": "chat.completion",
+    "created": 1794978354,
+    "model": "Qwen/Qwen3.5-27B",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"schema_version\": \"S5Query-1\",\n  \"original_question\": \"I can't find NPS or urea this season, but the shop has triple superphosphate and ammonium sulfate. How many kilograms of each should I use to replace exactly 200 kg of NPS and 150 kg of urea per hectare without changing the nutrients my garlic gets?\",\n  \"requests\": [\n    {\n      \"subject\": \"triple superphosphate\",\n      \"crop\": \"garlic\",\n      \"product\": \"triple superphosphate\",\n      \"nutrient\": null,\n      \"action\": \"replace\",\n      \"fields\": [\n        \"quantity\",\n        \"unit\",\n        \"basis\"\n      ],\n      \"source_text\": \"How many kilograms of each should I use to replace exactly 200 kg of NPS and 150 kg of urea per hectare without changing the nutrients my garlic gets?\"\n    },\n    {\n      \"subject\": \"ammonium sulfate\",\n      \"crop\": \"garlic\",\n      \"product\": \"ammonium sulfate\",\n      \"nutrient\": null,\n      \"action\": \"replace\",\n      \"fields\": [\n        \"quantity\",\n        \"unit\",\n        \"basis\"\n      ],\n      \"source_text\": \"How many kilograms of each should I use to replace exactly 200 kg of NPS and 150 kg of urea per hectare without changing the nutrients my garlic gets?\"\n    }\n  ],\n  \"facts\": {\n    \"crop\": {\n      \"status\": \"EXPLICIT\",\n      \"value\": \"garlic\",\n      \"source_text\": \"nutrients my garlic gets\"\n    },\n    \"area_ha\": {\n      \"status\": \"EXPLICIT\",\n      \"value\": \"1\",\n      \"source_text\": \"per hectare\"\n    },\n    \"NPS_fertilizer\": {\n      \"status\": \"EXPLICIT\",\n      \"value\": \"200 kg\",\n      \"source_text\": \"200 kg of NPS\"\n    },\n    \"Urea_fertilizer\": {\n      \"status\": \"EXPLICIT\",\n      \"value\": \"150 kg\",\n      \"source_text\": \"150 kg of urea\"\n    },\n    \"available_products\": {\n      \"status\": \"EXPLICIT\",\n      \"value\": \"triple superphosphate and ammonium sulfate\",\n      \"source_text\": \"the shop has triple superphosphate and ammonium sulfate\"\n    },\n    \"unavailable_products\": {\n      \"status\": \"EXPLICIT\",\n      \"value\": \"NPS or urea\",\n      \"source_text\": \"I can't find NPS or urea this season\"\n    }\n  }\n}",
+          "reasoning_content": null,
+          "name": null,
+          "tool_calls": []
+        },
+        "finish_reason": "stop",
+        "logprobs": null
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1127,
+      "total_tokens": 1761,
+      "completion_tokens": 634,
+      "estimated_cost": 0.00194142,
+      "prompt_tokens_details": null
+    }
+  },
+  "latency_s": 9.422767500000191,
+  "model": "Qwen/Qwen3.5-27B",
+  "question_id": "G14",
+  "method": "s5query",
+  "request_sha256": "ff499eec81bc363c48ec73c2882adc61525f3a55dea4f9f72b8acaad37a0fcb7",
+  "reserved_usd": 0.031574399999999996,
+  "cost_usd": 0.00194142
+}

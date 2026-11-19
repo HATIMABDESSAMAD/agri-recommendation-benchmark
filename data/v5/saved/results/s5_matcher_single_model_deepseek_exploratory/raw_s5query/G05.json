@@ -1,0 +1,43 @@
+{
+  "raw": {
+    "service_tier": "default",
+    "id": "chatcmpl-RxQaxf6RJsLybo7ivQywRU5d",
+    "object": "chat.completion",
+    "created": 1794971193,
+    "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"schema_version\": \"S5Query-1\", \"original_question\": \"It's been 40 days since I planted my garlic, so I'm due to put on the second half of the urea. But the bulbs have already started getting bigger. Should I still add the urea today?\", \"requests\": [{\"subject\": \"Urea\", \"crop\": \"garlic\", \"product\": \"urea\", \"nutrient\": null, \"action\": \"add\", \"fields\": [\"action\", \"product\", \"nutrient\", \"timing\", \"evidence\"], \"source_text\": \"Should I still add the urea today?\"}], \"facts\": {\"crop\": {\"status\": \"EXPLICIT\", \"value\": \"garlic\", \"source_text\": \"my garlic\"}, \"growth_stage\": {\"status\": \"EXPLICIT\", \"value\": \"bulbs beginning to enlarge\", \"source_text\": \"the bulbs have already started getting bigger\"}, \"stage\": {\"status\": \"EXPLICIT\", \"value\": \"beginning of bulb enlargement\", \"source_text\": \"the bulbs have already started getting bigger\"}}}",
+          "reasoning_content": null,
+          "name": null,
+          "tool_calls": null
+        },
+        "finish_reason": "stop",
+        "logprobs": null
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1108,
+      "total_tokens": 1345,
+      "completion_tokens": 237,
+      "estimated_cost": 0.000178262,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": null
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    }
+  },
+  "latency_s": 2.3929131999975652,
+  "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+  "question_id": "G05",
+  "method": "s5query",
+  "request_sha256": "671f4f401eae4af64a8558154e70af0ea01509247d471a2b2c47c3f366f5563b",
+  "cost_usd": 0.000178262,
+  "reserved_usd": 0.007686336
+}

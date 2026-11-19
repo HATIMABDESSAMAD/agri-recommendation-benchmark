@@ -1,0 +1,19 @@
+{
+  "question_id": "G11",
+  "decision": {
+    "label": "ASK",
+    "response": "The S5 ruleset does not provide a specific lime application rate to raise soil pH from 4.8 to 6.5. Rule r_c7_fertility_or_manure mentions applying 'considerable quantities' of manure or fertilizers for high fertility but does not quantify lime or specify a pH threshold. Other rules (r_c10_nps, r_c11_n, r_c12_*) provide rates for NPS, Urea, N, P, S, and KCl but do not address lime or soil pH correction. To answer, I need to know if the S5 ruleset contains a specific rule for lime dosage based on pH, or if I should ask for the specific lime recommendation rule.",
+    "justification": "The user asks for an exact lime quantity (kg/ha) to raise pH from 4.8 to 6.5. The only rule mentioning lime/fertilizer for fertility (r_c7_fertility_or_manure) explicitly states the quantity is 'NOT_SPECIFIED' and offers no numerical conversion for pH correction. No other rule addresses lime or pH. The request cannot be answered with the provided facts and rules.",
+    "rule_ids": [
+      "r_c7_fertility_or_manure"
+    ],
+    "cited_pages": [
+      10
+    ],
+    "missing_facts": [
+      "lime_application_rate_for_ph_correction",
+      "lime_product_type",
+      "lime_calcium_carbonate_equivalence"
+    ]
+  }
+}

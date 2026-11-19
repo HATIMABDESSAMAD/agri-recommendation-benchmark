@@ -1,0 +1,11 @@
+{
+  "question_id": "G14",
+  "decision": {
+    "label": "ASK",
+    "response": "What is the specific nitrogen content percentage (N%) of the ammonium sulfate you have available, and what is the phosphorus content percentage (P2O5%) of the triple superphosphate?",
+    "justification": "The document specifies applying 200 kg/ha of NPS and 150 kg/ha of Urea (Page 12, Section 3.8). However, NPS is a blended fertilizer containing Nitrogen, Phosphorus, and Potassium, and Urea is a pure Nitrogen source. To calculate the exact replacement amounts of Triple Superphosphate (P) and Ammonium Sulfate (N) without changing the total nutrient load, the specific nutrient percentages of the available products are required. The document does not provide these percentages or a conversion table for these specific fertilizer substitutions.",
+    "cited_pages": [
+      12
+    ]
+  }
+}

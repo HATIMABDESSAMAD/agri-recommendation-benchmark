@@ -1,0 +1,37 @@
+{
+  "raw": {
+    "service_tier": "default",
+    "id": "chatcmpl-RNtFwCdK97w8JJ1JsKTTA2zn",
+    "object": "chat.completion",
+    "created": 1794977864,
+    "model": "Qwen/Qwen3.5-9B",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n\"label\": \"ABSTAIN\",\n\"response\": \"I cannot provide a specific lime application rate because the document does not contain soil pH data, lime requirements, or dosage recommendations for raising soil pH in Endamehoni or any other location.\",\n\"justification\": \"The document mentions that Endamehoni Woreda has dominant soils of Leptosols, Cambisols, and Vertisols (Page 8) and that these soils are 'potentially fertile' with 'high to very high' CEC (Page 12). However, the text never mentions soil pH values, the need to raise pH, or any specific rates for applying lime to adjust soil acidity. The fertilizer section (Page 12) only discusses Nitrogen (Urea/NPS), Phosphorus, Potassium, and Sulphur, with no mention of lime or pH management.\",\n\"cited_pages\": [8, 12]\n}",
+          "reasoning_content": null,
+          "name": null,
+          "tool_calls": null
+        },
+        "finish_reason": "stop",
+        "logprobs": null
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 19817,
+      "total_tokens": 20016,
+      "completion_tokens": 199,
+      "estimated_cost": 0.00201155,
+      "prompt_tokens_details": null
+    }
+  },
+  "latency_s": 4.776259699996444,
+  "model": "Qwen/Qwen3.5-9B",
+  "question_id": "G11",
+  "method": "direct",
+  "request_sha256": "6eebac260ac6c5399123b25ac463b89553b5cd4b89f35f561e3d06d44ee19d1f",
+  "reserved_usd": 0.0039228,
+  "cost_usd": 0.00201155
+}

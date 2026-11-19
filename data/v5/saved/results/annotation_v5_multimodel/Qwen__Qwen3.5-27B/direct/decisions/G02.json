@@ -1,0 +1,11 @@
+{
+  "question_id": "G02",
+  "decision": {
+    "label": "ANSWER",
+    "response": "For your 0.18-hectare plot, you should apply a total of 27 kg of Urea (150 kg/ha * 0.18 ha) and 36 kg of NPS (200 kg/ha * 0.18 ha). \n\n**Application Schedule:**\n1.  **NPS:** Apply the entire 36 kg at planting.\n2.  **Urea:** Since you have good rain, split the 27 kg into three equal applications of 9 kg each:\n    *   **1st Application:** 9 kg at planting.\n    *   **2nd Application:** 9 kg, 30 days after planting.\n    *   **3rd Application:** 9 kg, 3 weeks (21 days) after the second application (approximately 51 days after planting).",
+    "justification": "The document states on Page 12 that the common rates are 200 kg/ha NPS and 150 kg/ha Urea. It specifies that the whole amount of phosphorus (NPS) is applied once during planting. For Urea, it states that 'In some cases, when there is good rain, application of urea can be done in three phases (1/3 during planting, 1/3 after 30 days planting and the remaining three weeks after the second application).' The farmer's plot size is 0.18 hectares, requiring a calculation of the total mass based on the per-hectare rates provided in the text.",
+    "cited_pages": [
+      12
+    ]
+  }
+}

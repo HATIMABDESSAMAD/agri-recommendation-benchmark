@@ -1,0 +1,13 @@
+{
+  "question_id": "G04",
+  "decision": {
+    "label": "ASK",
+    "response": "Do you intend to plant using the row planting method (furrows) or the broadcasting method, as the recommended seed rate varies between 400-1000 kg/ha depending on the method?",
+    "justification": "The document states in section 3.7 that the recommended seed rate is 400 to 1000 kg per hectare 'depending on the clove size and planting method.' It distinguishes between row planting and broadcasting. The hot-water treatment description in section 2 uses a specific rate of 600 kg/ha, but the document does not explicitly state that this specific rate applies to both methods or if the farmer's specific method changes the required amount. Without knowing the planting method, a precise calculation of the clove quantity cannot be provided. Additionally, while the hot-water treatment section lists DAP, section 3.8 clarifies that the common practice in the region uses NPS and Urea, and the fertilizer application timing (planting vs. 30-45 days after) is detailed in section 3.8, which the user is asking about in the context of the specific hot-water treatment description.",
+    "cited_pages": [
+      11,
+      12,
+      5
+    ]
+  }
+}

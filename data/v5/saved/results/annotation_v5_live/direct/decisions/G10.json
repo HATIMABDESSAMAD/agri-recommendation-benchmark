@@ -1,0 +1,11 @@
+{
+  "question_id": "G10",
+  "decision": {
+    "label": "ANSWER",
+    "response": "On well-drained soils, rain-fed garlic may be planted on flat beds; on heavy, poorly drained soils during the rains, it is advisable to plant on ridges (as for irrigated crops). Since your rains have started, choose based on your soil drainage: flat beds if the soil is well drained, ridges if it is heavy and poorly drained.",
+    "justification": "The manual states that on well-drained soils rain-fed crops may be planted on flat beds, but on heavy soils that are poorly drained during the rains it is advisable to plant on ridges as for irrigated crops. This directly addresses the flat-bed versus ridge question for the rainy season.",
+    "cited_pages": [
+      10
+    ]
+  }
+}

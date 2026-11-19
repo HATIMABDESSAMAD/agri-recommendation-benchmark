@@ -1,0 +1,11 @@
+{
+  "question_id": "G01",
+  "decision": {
+    "label": "ANSWER",
+    "response": "For your 0.24-hectare plot, you need 48 kg of NPS and 36 kg of urea. Apply 18 kg of urea at planting and the remaining 18 kg 30-45 days after planting.",
+    "justification": "The document states the recommended rate is 200 kg/ha of NPS and 150 kg/ha of urea (Page 12). For 0.24 ha, the NPS required is 200 * 0.24 = 48 kg. The urea required is 150 * 0.24 = 36 kg. The document specifies that half the urea is applied during planting and the remaining half 30-45 days after planting (Page 12). Therefore, 18 kg is applied at planting and 18 kg later.",
+    "cited_pages": [
+      12
+    ]
+  }
+}

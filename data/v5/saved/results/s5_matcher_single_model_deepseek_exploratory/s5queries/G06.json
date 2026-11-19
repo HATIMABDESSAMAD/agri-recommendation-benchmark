@@ -1,0 +1,66 @@
+{
+  "schema_version": "S5Query-1",
+  "original_question": "I'm growing garlic in southern Tigray and have 150 kg of urea planned for each hectare. Some farmers split it into two applications and others into three. Which way should I split it on my farm this season?",
+  "requests": [
+    {
+      "subject": "Urea",
+      "crop": "garlic",
+      "product": "urea",
+      "nutrient": "N",
+      "action": "split application",
+      "fields": [
+        "action",
+        "product",
+        "nutrient",
+        "quantity",
+        "unit",
+        "basis",
+        "timing",
+        "method"
+      ],
+      "source_text": "have 150 kg of urea planned for each hectare. Some farmers split it into two applications and others into three. Which way should I split it on my farm this season?"
+    }
+  ],
+  "facts": {
+    "crop": {
+      "status": "EXPLICIT",
+      "value": "garlic",
+      "source_text": "growing garlic"
+    },
+    "region": {
+      "status": "EXPLICIT",
+      "value": "southern Tigray",
+      "source_text": "in southern Tigray"
+    },
+    "area_ha": {
+      "status": "EXPLICIT",
+      "value": 1,
+      "source_text": "for each hectare"
+    },
+    "growth_stage": {
+      "status": "UNKNOWN",
+      "value": null,
+      "source_text": null
+    },
+    "rainfall": {
+      "status": "UNKNOWN",
+      "value": null,
+      "source_text": null
+    },
+    "soil": {
+      "status": "UNKNOWN",
+      "value": null,
+      "source_text": null
+    },
+    "soil_type": {
+      "status": "UNKNOWN",
+      "value": null,
+      "source_text": null
+    },
+    "stage": {
+      "status": "UNKNOWN",
+      "value": null,
+      "source_text": null
+    }
+  }
+}

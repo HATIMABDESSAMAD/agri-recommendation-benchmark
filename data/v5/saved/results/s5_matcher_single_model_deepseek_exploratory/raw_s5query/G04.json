@@ -1,0 +1,43 @@
+{
+  "raw": {
+    "service_tier": "default",
+    "id": "chatcmpl-RXWMJ8P8BOdUQV9bXL8hlJkz",
+    "object": "chat.completion",
+    "created": 1794971191,
+    "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"schema_version\": \"S5Query-1\", \"original_question\": \"I have 0.10 hectares and want to plant sprouted Bora garlic cloves. The extension worker showed me the older hot-water demonstration that used DAP, not NPS. If I follow that demonstration's planting and fertilizer amounts, how many kilograms of cloves, DAP and urea will I need, and when should I add the fertilizers?\", \"requests\": [{\"subject\": \"sprouted Bora garlic cloves\", \"crop\": \"garlic\", \"product\": \"sprouted Bora garlic cloves\", \"action\": \"plant\", \"fields\": [\"quantity\", \"unit\", \"basis\"], \"source_text\": \"how many kilograms of cloves\"}, {\"subject\": \"DAP\", \"crop\": \"garlic\", \"product\": \"DAP\", \"action\": \"add\", \"fields\": [\"quantity\", \"unit\", \"basis\", \"timing\"], \"source_text\": \"how many kilograms of cloves, DAP and urea will I need, and when should I add the fertilizers?\"}, {\"subject\": \"urea\", \"crop\": \"garlic\", \"product\": \"urea\", \"action\": \"add\", \"fields\": [\"quantity\", \"unit\", \"basis\", \"timing\"], \"source_text\": \"how many kilograms of cloves, DAP and urea will I need, and when should I add the fertilizers?\"}], \"facts\": {\"area_ha\": {\"status\": \"EXPLICIT\", \"value\": 0.1, \"source_text\": \"0.10 hectares\"}, \"crop\": {\"status\": \"EXPLICIT\", \"value\": \"garlic\", \"source_text\": \"Bora garlic cloves\"}, \"growth_stage\": {\"status\": \"UNKNOWN\", \"value\": null, \"source_text\": null}, \"rainfall\": {\"status\": \"UNKNOWN\", \"value\": null, \"source_text\": null}, \"region\": {\"status\": \"UNKNOWN\", \"value\": null, \"source_text\": null}, \"soil\": {\"status\": \"UNKNOWN\", \"value\": null, \"source_text\": null}, \"soil_type\": {\"status\": \"UNKNOWN\", \"value\": null, \"source_text\": null}, \"stage\": {\"status\": \"UNKNOWN\", \"value\": null, \"source_text\": null}}}",
+          "reasoning_content": null,
+          "name": null,
+          "tool_calls": null
+        },
+        "finish_reason": "stop",
+        "logprobs": null
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1135,
+      "total_tokens": 1626,
+      "completion_tokens": 491,
+      "estimated_cost": 0.000255584,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": null
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    }
+  },
+  "latency_s": 3.897559800003364,
+  "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+  "question_id": "G04",
+  "method": "s5query",
+  "request_sha256": "194355aaddeb3be1f855f1c36ce2237ab06608c271946db6396db5d5f6a1e59a",
+  "cost_usd": 0.000255584,
+  "reserved_usd": 0.007686336
+}

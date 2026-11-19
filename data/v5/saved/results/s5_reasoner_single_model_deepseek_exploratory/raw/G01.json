@@ -1,0 +1,43 @@
+{
+  "raw": {
+    "service_tier": "default",
+    "id": "chatcmpl-RQ776FohWi7siXyOmKnrTIRM",
+    "object": "chat.completion",
+    "created": 1794975061,
+    "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"label\": \"ANSWER\", \"response\": \"For your 0.24 ha garlic plot in southern Tigray, using the reported common regional rates of 200 kg/ha NPS and 150 kg/ha urea: NPS total = 200 × 0.24 = 48 kg NPS for the plot. Urea total = 150 × 0.24 = 36 kg urea for the plot. Under the two-split urea schedule, apply half at planting = 18 kg urea, and the remaining half = 18 kg urea at 30–45 days after planting. (If rainfall is good, a three-way split of 12 kg at planting, 12 kg at 30 days, and 12 kg three weeks after the second application is an option, but the good-rain condition is not established for your plot.)\", \"justification\": \"The S5 rules state the southern Tigray common practice for garlic as 200 kg/ha NPS plus 150 kg/ha urea (r_c10_nps, r_c10_urea_2split, page 12). The plot area is explicitly 0.24 ha, so product totals are computed by multiplying the per-hectare product rates by 0.24: NPS 48 kg and urea 36 kg. The two-split urea schedule divides the total equally: 18 kg at planting and 18 kg at 30–45 days after planting. The three-split option (r_c10_urea_3split) is conditional on good rain, which is unknown, so it is presented only as an option, not the selected schedule. The NPS timing note indicates phosphorus fertilizer is applied at planting, but the rule flags that applying the entire NPS blend at planting is an inference rather than explicit, so no NPS timing is asserted.\", \"rule_ids\": [\"r_c10_nps\", \"r_c10_urea_2split\", \"r_c10_urea_3split\"], \"cited_pages\": [12], \"missing_facts\": [\"rainfall\"]}",
+          "reasoning_content": null,
+          "name": null,
+          "tool_calls": null
+        },
+        "finish_reason": "stop",
+        "logprobs": null
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 12662,
+      "total_tokens": 13088,
+      "completion_tokens": 426,
+      "estimated_cost": 0.0013661200000000002,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": null
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    }
+  },
+  "latency_s": 4.4754072000068845,
+  "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+  "question_id": "G01",
+  "method": "D4",
+  "request_sha256": "219f8bb07c6b1230584e63aec68873ca5a802977a09bea4623742dd31fc66d0d",
+  "cost_usd": 0.0013661200000000002,
+  "reserved_usd": 0.015603167999999997
+}

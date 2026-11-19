@@ -1,0 +1,7 @@
+{
+  "question_id": "G12",
+  "error": {
+    "type": "ValueError",
+    "message": "Truncated output"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "question_id": "G06",
+  "error": {
+    "type": "ValueError",
+    "message": "Decision cites an unknown S5 rule"
+  }
+}

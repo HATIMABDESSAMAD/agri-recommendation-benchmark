@@ -1,0 +1,24 @@
+{
+  "question_id": "G13",
+  "decision": {
+    "label": "ABSTAIN",
+    "response": "The S5 ruleset does not provide a method to calculate the expected harvest tonnage of garlic based on specific fertilizer inputs (2 tonnes manure, 61 kg N, 31 kg P). The rules only specify that high fertility or considerable manure/fertilizers are required for 'good yields' (r_c7_fertility_or_manure) and list various recommended nutrient rates for specific soil types or general practices, but none of them link input quantities to output yield quantities.",
+    "justification": "Rule r_c7_fertility_or_manure (page 10) states that considerable manure/fertilizers are needed for 'good yields' but does not quantify what 'good' means in terms of tonnes per hectare. Rules r_c10_nps, r_c11_n_rate, r_c12_n, etc., provide recommended application rates (e.g., 70-125 kg N/ha) but do not contain yield prediction models or conversion factors to determine the resulting harvest weight. The user's specific input mix (2t manure + 61kg N + 31kg P) cannot be mapped to a specific yield outcome using the provided text.",
+    "rule_ids": [
+      "r_c7_fertility_or_manure",
+      "r_c10_nps",
+      "r_c11_n_rate",
+      "r_c12_n",
+      "r_c12_p"
+    ],
+    "cited_pages": [
+      10,
+      12
+    ],
+    "missing_facts": [
+      "soil_type",
+      "expected_yield_tonnes_per_hectare",
+      "yield_prediction_model"
+    ]
+  }
+}

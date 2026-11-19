@@ -1,0 +1,11 @@
+{
+  "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+  "question_sha256": "1ba0b711cd130217eb0aa9386af7f7bd9e5bc263b6cf4011e75f14a4abaa31f6",
+  "s5_sha256": "62fda994ddefae8dc6a5528fca2e9d327502811c1cb14a9a84487366a1e404db",
+  "d3_freeze_sha256": "9454c613157e1ec67d9199354e8006c89815c5eba991f4d394da709c3ebf3fe0",
+  "d1_manifest_sha256": "fab1cbc3fa75eb2c5c9197edc83d5bb673cf709781cd2cfe77121a076d35c374",
+  "s5_query_prompt_sha256": "75af43864b3641170e6c33240ab2ebb1c9e2edcb4a078a1a5b07c1f90ce4d333",
+  "baseline": "reused D1 direct raw files",
+  "max_spend_usd": 0.25,
+  "gold_opened_by_runner": false
+}

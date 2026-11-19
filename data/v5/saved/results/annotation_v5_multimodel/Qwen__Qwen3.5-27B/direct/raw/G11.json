@@ -1,0 +1,37 @@
+{
+  "raw": {
+    "service_tier": "default",
+    "id": "chatcmpl-RwBbqyhsZPF8R2Mz6H33bDxV",
+    "object": "chat.completion",
+    "created": 1794978164,
+    "model": "Qwen/Qwen3.5-27B",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"label\": \"ABSTAIN\",\n  \"response\": \"The provided document does not contain information on lime application rates, soil pH thresholds, or calculations for raising soil pH from 4.8 to 6.5. While the document mentions 'Fertilizers and lime application' in the table of contents and discusses fertilizer rates (NPS and Urea), it does not specify the quantity of lime required for soil amendment.\",\n  \"justification\": \"The document discusses fertilizer application rates (200 kg/ha NPS and 150 kg/ha Urea) and mentions lime in the section title '3.8 Fertilizers and lime application' (Page 12), but the text within that section only details nitrogen and phosphorus application and general soil fertility. It does not provide any specific rates for lime application, nor does it provide guidelines for adjusting soil pH. Therefore, a precise answer regarding the kilograms of lime needed cannot be derived from the text.\",\n  \"cited_pages\": [3, 12]\n}",
+          "reasoning_content": null,
+          "name": null,
+          "tool_calls": []
+        },
+        "finish_reason": "stop",
+        "logprobs": null
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 19817,
+      "total_tokens": 20039,
+      "completion_tokens": 222,
+      "estimated_cost": 0.0057296199999999995,
+      "prompt_tokens_details": null
+    }
+  },
+  "latency_s": 3.4835544000015943,
+  "model": "Qwen/Qwen3.5-27B",
+  "question_id": "G11",
+  "method": "direct",
+  "request_sha256": "6eebac260ac6c5399123b25ac463b89553b5cd4b89f35f561e3d06d44ee19d1f",
+  "reserved_usd": 0.012745199999999998,
+  "cost_usd": 0.0057296199999999995
+}

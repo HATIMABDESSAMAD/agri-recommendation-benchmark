@@ -1,0 +1,37 @@
+{
+  "raw": {
+    "service_tier": "default",
+    "id": "chatcmpl-R4QnjfTwidulJlC19a9vgUtE",
+    "object": "chat.completion",
+    "created": 1794977965,
+    "model": "Qwen/Qwen3.5-9B",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"schema_version\": \"S5Query-1\",\n  \"original_question\": \"I'm growing garlic in southern Tigray with 150 kg of urea planned per hectare. Instead of the usual two applications, I'd like to split it into three this season. Is the three-application split right for my farm this season?\",\n  \"requests\": [\n    {\n      \"subject\": \"Urea\",\n      \"crop\": \"garlic\",\n      \"nutrient\": \"nitrogen\",\n      \"quantity\": 150,\n      \"unit\": \"kg\",\n      \"basis\": \"ha\",\n      \"fields\": [\n        \"action\",\n        \"modality\",\n        \"product\",\n        \"nutrient\",\n        \"quantity\",\n        \"unit\",\n        \"basis\",\n        \"timing\",\n        \"method\",\n        \"evidence\",\n        \"total_quantity\",\n        \"conversion\"\n      ],\n      \"source_text\": \"I'm growing garlic in southern Tigray with 150 kg of urea planned per hectare. Instead of the usual two applications, I'd like to split it into three this season. Is the three-application split right for my farm this season?\"\n    }\n  ],\n  \"facts\": {\n    \"crop\": {\n      \"status\": \"EXPLICIT\",\n      \"value\": \"garlic\",\n      \"source_text\": \"I'm growing garlic\"\n    },\n    \"region\": {\n      \"status\": \"EXPLICIT\",\n      \"value\": \"southern Tigray\",\n      \"source_text\": \"in southern Tigray\"\n    },\n    \"product\": {\n      \"status\": \"EXPLICIT\",\n      \"value\": \"urea\",\n      \"source_text\": \"150 kg of urea\"\n    },\n    \"quantity\": {\n      \"status\": \"EXPLICIT\",\n      \"value\": 150,\n      \"source_text\": \"150 kg\"\n    },\n    \"unit\": {\n      \"status\": \"EXPLICIT\",\n      \"value\": \"kg\",\n      \"source_text\": \"150 kg\"\n    },\n    \"basis\": {\n      \"status\": \"EXPLICIT\",\n      \"value\": \"ha\",\n      \"source_text\": \"per hectare\"\n    },\n    \"modality\": {\n      \"status\": \"EXPLICIT\",\n      \"value\": \"three-application split\",\n      \"source_text\": \"split it into three this season\"\n    }\n  }\n}",
+          "reasoning_content": null,
+          "name": null,
+          "tool_calls": null
+        },
+        "finish_reason": "stop",
+        "logprobs": null
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1116,
+      "total_tokens": 1686,
+      "completion_tokens": 570,
+      "estimated_cost": 0.00019710000000000002,
+      "prompt_tokens_details": null
+    }
+  },
+  "latency_s": 14.929446099995403,
+  "model": "Qwen/Qwen3.5-9B",
+  "question_id": "G06",
+  "method": "s5query",
+  "request_sha256": "dae7cd08afdfb96ba895e0289ace8d6cbc2e37130512468eac86d55f0a2178b1",
+  "reserved_usd": 0.006921599999999999,
+  "cost_usd": 0.00019710000000000002
+}

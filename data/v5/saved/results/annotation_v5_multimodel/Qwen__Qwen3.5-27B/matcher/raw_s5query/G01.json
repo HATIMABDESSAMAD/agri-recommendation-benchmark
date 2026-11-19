@@ -1,0 +1,37 @@
+{
+  "raw": {
+    "service_tier": "default",
+    "id": "chatcmpl-RnU2HnHL1RhVGrq3UpghERLr",
+    "object": "chat.completion",
+    "created": 1794978197,
+    "model": "Qwen/Qwen3.5-27B",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"schema_version\": \"S5Query-1\",\n  \"original_question\": \"I'm getting my 0.24-hectare garlic plot in southern Tigray ready for planting. The extension worker told me to use 200 kg of NPS and 150 kg of urea per hectare, with the urea in the usual two applications. How many kilograms of each fertilizer do I need for my plot, and how much urea should I put on at planting and later?\",\n  \"requests\": [\n    {\n      \"subject\": \"NPS\",\n      \"crop\": \"garlic\",\n      \"product\": \"NPS\",\n      \"nutrient\": null,\n      \"action\": \"apply\",\n      \"fields\": [\n        \"quantity\",\n        \"unit\",\n        \"basis\"\n      ],\n      \"source_text\": \"How many kilograms of each fertilizer do I need for my plot\"\n    },\n    {\n      \"subject\": \"urea\",\n      \"crop\": \"garlic\",\n      \"product\": \"urea\",\n      \"nutrient\": null,\n      \"action\": \"apply\",\n      \"fields\": [\n        \"quantity\",\n        \"unit\",\n        \"basis\"\n      ],\n      \"source_text\": \"How many kilograms of each fertilizer do I need for my plot\"\n    },\n    {\n      \"subject\": \"urea\",\n      \"crop\": \"garlic\",\n      \"product\": \"urea\",\n      \"nutrient\": null,\n      \"action\": \"apply\",\n      \"fields\": [\n        \"quantity\",\n        \"unit\",\n        \"timing\"\n      ],\n      \"source_text\": \"how much urea should I put on at planting and later\"\n    }\n  ],\n  \"facts\": {\n    \"area_ha\": {\n      \"status\": \"EXPLICIT\",\n      \"value\": 0.24,\n      \"source_text\": \"0.24-hectare garlic plot\"\n    },\n    \"crop\": {\n      \"status\": \"EXPLICIT\",\n      \"value\": \"garlic\",\n      \"source_text\": \"garlic plot\"\n    },\n    \"region\": {\n      \"status\": \"EXPLICIT\",\n      \"value\": \"southern Tigray\",\n      \"source_text\": \"southern Tigray\"\n    },\n    \"growth_stage\": {\n      \"status\": \"EXPLICIT\",\n      \"value\": \"ready for planting\",\n      \"source_text\": \"ready for planting\"\n    },\n    \"NPS_rate_per_ha\": {\n      \"status\": \"EXPLICIT\",\n      \"value\": 200,\n      \"source_text\": \"200 kg of NPS ... per hectare\"\n    },\n    \"urea_rate_per_ha\": {\n      \"status\": \"EXPLICIT\",\n      \"value\": 150,\n      \"source_text\": \"150 kg of urea per hectare\"\n    },\n    \"urea_application_count\": {\n      \"status\": \"EXPLICIT\",\n      \"value\": 2,\n      \"source_text\": \"urea in the usual two applications\"\n    }\n  }\n}",
+          "reasoning_content": null,
+          "name": null,
+          "tool_calls": []
+        },
+        "finish_reason": "stop",
+        "logprobs": null
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1151,
+      "total_tokens": 1876,
+      "completion_tokens": 725,
+      "estimated_cost": 0.00218426,
+      "prompt_tokens_details": null
+    }
+  },
+  "latency_s": 8.37585389999731,
+  "model": "Qwen/Qwen3.5-27B",
+  "question_id": "G01",
+  "method": "s5query",
+  "request_sha256": "79f7acecf8ab8ed5a3d41d6f7aab3b811487ed8446a07a495201c6f80c1a38d1",
+  "reserved_usd": 0.031574399999999996,
+  "cost_usd": 0.00218426
+}

@@ -1,0 +1,18 @@
+{
+  "question_id": "G03",
+  "decision": {
+    "label": "ANSWER",
+    "response": "For your 0.22-hectare field, you need: 20.24 kg of Nitrogen, 8.8 kg of Phosphorus, 6.6 kg of Sulfur, and 30.8 kg of Potassium Chloride. The first three amounts (Nitrogen, Phosphorus, Sulfur) refer to the elemental nutrients, not bags of fertilizer. The Potassium Chloride amount refers to the fertilizer product itself. These rates (92 kg N, 40 kg P, 30 kg S, and 140 kg KCl per hectare) are the optimum combination specifically for garlic grown on Vertisol soil.",
+    "justification": "The farmer's field has Vertisol soil (fact: soil_type = 'Vertisol'). Rule r_c12_n, r_c12_p, r_c12_s, and r_c12_kcl specify that for garlic on Andosols and Vertisols, the optimum application is 92 kg N/ha, 40 kg P/ha, 30 kg S/ha, and 140 kg KCl/ha. The rules explicitly state the basis for N, P, and S is the nutrient (elemental), while KCl is the product. The quantities for the 0.22 ha field are calculated by multiplying the per-hectare rates by 0.22 (92*0.22=20.24; 40*0.22=8.8; 30*0.22=6.6; 140*0.22=30.8).",
+    "rule_ids": [
+      "r_c12_n",
+      "r_c12_p",
+      "r_c12_s",
+      "r_c12_kcl"
+    ],
+    "cited_pages": [
+      12
+    ],
+    "missing_facts": []
+  }
+}

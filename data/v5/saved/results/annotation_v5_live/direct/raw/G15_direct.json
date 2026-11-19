@@ -1,0 +1,43 @@
+{
+  "raw": {
+    "service_tier": "default",
+    "id": "chatcmpl-RGwhkV0wRYacFSSMASUm23yS",
+    "object": "chat.completion",
+    "created": 1794977245,
+    "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"label\":\"ABSTAIN\",\"response\":\"The PDF does not report NPS and urea rates tested specifically for Qoricho garlic at 3,200 m on a Regosol. It gives general southern Tigray rates of 200 kg/ha NPS and 150 kg/ha Urea, and separately states garlic generally requires 70–125 kg N per hectare, but it does not provide location- or variety-specific fertilizer amounts for your altitude and soil. It also notes that Qoricho's listed altitude range is 1900–3350 m, but that does not supply tested fertilizer rates for your field.\",\"justification\":\"The document's fertilizer section gives common NPS and urea rates for garlic in the southern zone of Tigray and a general garlic N requirement, but no tested NPS/urea amounts specific to Qoricho at 3,200 m on a Regosol. The Qoricho variety table lists an altitude range but no fertilizer trial results for this setting.\",\"cited_pages\":[10,12]}",
+          "reasoning_content": null,
+          "name": null,
+          "tool_calls": null
+        },
+        "finish_reason": "stop",
+        "logprobs": null
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 18023,
+      "total_tokens": 18232,
+      "completion_tokens": 209,
+      "estimated_cost": 0.0001242248,
+      "prompt_tokens_details": {
+        "cached_tokens": 17920,
+        "cache_write_tokens": null
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    }
+  },
+  "latency_s": 3.6349300000001676,
+  "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+  "question_id": "G15",
+  "method": "direct",
+  "request_sha256": "a01e264f6f8481cfbfa5cdace840ef5663f9314c85490d959aea8fa28ce9586e",
+  "cost_usd": 0.0001242248,
+  "reserved_usd": 0.0040136880000000005
+}

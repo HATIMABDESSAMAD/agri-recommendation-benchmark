@@ -1,0 +1,43 @@
+{
+  "raw": {
+    "service_tier": "default",
+    "id": "chatcmpl-RXshgAgrIiFgvOdr7bXsP0f3",
+    "object": "chat.completion",
+    "created": 1794975118,
+    "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"label\": \"ABSTAIN\", \"response\": \"The S5 ruleset does not contain any tested NPS or urea amounts specific to farms at 3,200 m altitude. The only quantified NPS/urea figures in S5 are reported common practice for the southern zone of Tigray (200 kg/ha NPS and 150 kg/ha urea), with no altitude stated, so they cannot be confirmed as tested at your altitude. S5 is silent on altitude-specific fertilizer trial results, so no exact tested amounts for high-altitude farms can be given.\", \"justification\": \"The request asks for NPS and urea amounts tested specifically at this altitude (3,200 m) rather than lower areas. Rule r_c10_nps gives 200 kg/ha NPS and r_c10_urea_2split gives 150 kg/ha urea, but both are scoped to 'southern Tigray' as reported common regional practice with no altitude condition or altitude-specific trial evidence. No S5 rule provides altitude-differentiated or high-altitude-tested NPS/urea doses. The urea three-split option (r_c10_urea_3split) depends on a qualitative 'good rain' condition with no numeric threshold, so the stated 750 mm cannot be evaluated against it. Because S5 lacks the altitude-specific tested amounts requested, the answer cannot be supported.\", \"rule_ids\": [\"r_c10_nps\", \"r_c10_urea_2split\", \"r_c10_urea_3split\"], \"cited_pages\": [12], \"missing_facts\": [\"altitude_specific_trial_data\", \"rainfall_good_threshold\"]}",
+          "reasoning_content": null,
+          "name": null,
+          "tool_calls": null
+        },
+        "finish_reason": "stop",
+        "logprobs": null
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 12441,
+      "total_tokens": 12783,
+      "completion_tokens": 342,
+      "estimated_cost": 0.001319766,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": null
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    }
+  },
+  "latency_s": 4.64877470000647,
+  "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+  "question_id": "G15",
+  "method": "D4",
+  "request_sha256": "36c964e66291ae6e5fb8adf9e8d99b6df4e4918b1f8ddba78eabe3d22ff11d4d",
+  "cost_usd": 0.001319766,
+  "reserved_usd": 0.015603167999999997
+}

@@ -1,0 +1,43 @@
+{
+  "raw": {
+    "service_tier": "default",
+    "id": "chatcmpl-RasFyaZhFX8m88DEW21RnYSc",
+    "object": "chat.completion",
+    "created": 1794977209,
+    "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"label\": \"ANSWER\", \"response\": \"For 0.22 ha, multiply each per-hectare figure by 0.22: 92 kg N/ha → 20.24 kg N; 40 kg P/ha → 8.8 kg P; 30 kg S/ha → 6.6 kg S; 140 kg KCl/ha → 30.8 kg KCl. The first three (92 kg N, 40 kg P, 30 kg S) are nutrient amounts, not fertilizer product or bag masses; the 140 kg is the mass of KCl fertilizer product. The PDF states this combination (92 kg N + 40 kg P + 30 kg S per hectare with 140 kg/ha KCl) is optimum for Andosols and Vertisols, but it does not give conversions from nutrient amounts to bags or product masses for N, P, or S fertilizers.\", \"cited_pages\": [12]}",
+          "reasoning_content": null,
+          "name": null,
+          "tool_calls": null
+        },
+        "finish_reason": "stop",
+        "logprobs": null
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 18025,
+      "total_tokens": 18218,
+      "completion_tokens": 193,
+      "estimated_cost": 0.0001197168,
+      "prompt_tokens_details": {
+        "cached_tokens": 17920,
+        "cache_write_tokens": null
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    }
+  },
+  "latency_s": 2.9493547000020044,
+  "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+  "question_id": "G03",
+  "method": "direct",
+  "request_sha256": "d960e923e0930cbc04a2d0be2aa348688e091b5608b3d446e4ce7a9531abea04",
+  "cost_usd": 0.0001197168,
+  "reserved_usd": 0.0040136880000000005
+}

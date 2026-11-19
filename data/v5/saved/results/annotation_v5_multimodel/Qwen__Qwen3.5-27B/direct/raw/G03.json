@@ -1,0 +1,37 @@
+{
+  "raw": {
+    "service_tier": "default",
+    "id": "chatcmpl-R1p03eBadCIGUpBXSkXB2Jok",
+    "object": "chat.completion",
+    "created": 1794978134,
+    "model": "Qwen/Qwen3.5-27B",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"label\": \"ANSWER\",\n  \"response\": \"For your 0.22-hectare field, you need the following amounts based on the recommended rates per hectare: 20.24 kg of Nitrogen, 8.8 kg of Phosphorus, 6.6 kg of Sulfur, and 30.8 kg of Potassium Chloride (KCl). The first three amounts (92 kg N, 40 kg P, 30 kg S) refer to the mass of the specific nutrients (Nitrogen, Phosphorus, and Sulfur), not the mass of fertilizer bags. The document explicitly states these are nutrient requirements ('92 kg N + 40 kg P + 30 kg S') and distinguishes them from the fertilizer product mass, which is given as '140 kg per hectare of KCl fertilizer'.\",\n  \"justification\": \"The document on Page 12 (Section 3.8) states: 'Application of 92 kg N + 40 kg P + 30 kg S per hectare in combination with 140 kg per hectare of KCl fertilizer are optimum for Andosols and Vertisols'. This confirms the rates and the soil type (Vertisol). The text distinguishes between nutrient mass (kg N, kg P, kg S) and fertilizer product mass (kg of KCl fertilizer). The calculation for a 0.22 ha field is a direct multiplication of the per-hectare rates by 0.22 (e.g., 92 * 0.22 = 20.24).\",\n  \"cited_pages\": [12]\n}",
+          "reasoning_content": null,
+          "name": null,
+          "tool_calls": []
+        },
+        "finish_reason": "stop",
+        "logprobs": null
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 19848,
+      "total_tokens": 20217,
+      "completion_tokens": 369,
+      "estimated_cost": 0.006119879999999999,
+      "prompt_tokens_details": null
+    }
+  },
+  "latency_s": 5.17679820000194,
+  "model": "Qwen/Qwen3.5-27B",
+  "question_id": "G03",
+  "method": "direct",
+  "request_sha256": "d960e923e0930cbc04a2d0be2aa348688e091b5608b3d446e4ce7a9531abea04",
+  "reserved_usd": 0.012745199999999998,
+  "cost_usd": 0.006119879999999999
+}

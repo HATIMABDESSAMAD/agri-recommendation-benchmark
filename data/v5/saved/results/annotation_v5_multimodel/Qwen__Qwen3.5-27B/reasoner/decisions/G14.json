@@ -1,0 +1,21 @@
+{
+  "question_id": "G14",
+  "decision": {
+    "label": "ABSTAIN",
+    "response": "The S5 ruleset does not contain the nutrient composition (N, P, S percentages) for NPS, Urea, Triple Superphosphate, or Ammonium Sulfate. Without these specific values, it is impossible to calculate the exact kilograms of the substitute products required to match the nutrient content of 200 kg NPS and 150 kg Urea. The rules only state the application rates of the original products (r_c10_nps, r_c10_urea_2split) but do not provide the conversion factors or chemical analysis needed to perform the substitution calculation requested.",
+    "justification": "The user requests a specific quantitative substitution calculation based on nutrient equivalence. The provided S5 rules (r_c10_nps, r_c10_urea_2split) confirm the application rates of 200 kg/ha NPS and 150 kg/ha Urea for garlic in southern Tigray. However, no rule in the provided set defines the nutrient content (e.g., %N, %P2O5, %S) of NPS, Urea, Triple Superphosphate, or Ammonium Sulfate. The rules also do not provide a method or formula for converting between different fertilizer products based on nutrient content. Therefore, the calculation cannot be performed using only the supplied S5 rules and facts.",
+    "rule_ids": [
+      "r_c10_nps",
+      "r_c10_urea_2split"
+    ],
+    "cited_pages": [
+      12
+    ],
+    "missing_facts": [
+      "NPS_nutrient_composition",
+      "Urea_nutrient_composition",
+      "Triple_superphosphate_nutrient_composition",
+      "Ammonium_sulfate_nutrient_composition"
+    ]
+  }
+}

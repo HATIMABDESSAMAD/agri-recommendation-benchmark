@@ -1,0 +1,20 @@
+{
+  "question_id": "G08",
+  "decision": {
+    "label": "ASK",
+    "response": "I cannot determine if the fertilizer plan is suitable because the specific soil type of your land is unknown. The recommended rates (92 kg N, 40 kg P, 30 kg S, and 140 kg KCl) are explicitly stated in the guidelines only for 'Andosols and Vertisols'. Without knowing if your soil matches these types, I cannot confirm the plan's suitability.",
+    "justification": "The S5 rules r_c12_n, r_c12_p, r_c12_s, and r_c12_kcl specify that the exact combination of 92 kg N, 40 kg P, 30 kg S, and 140 kg KCl is optimum specifically for 'Andosols and Vertisols' (rule condition: soil_type IN ['Andosols', 'Vertisols']). The user explicitly stated they do not have their soil report, making the 'soil_type' fact UNKNOWN. Since the rules do not provide a default recommendation for other soil types or a general recommendation for these specific doses without the soil condition, the suitability cannot be confirmed. Other rules (r_c11_n) provide a general N range (70-125 kg) but do not specify P, S, or K rates, nor do they validate the specific 92/40/30/140 combination for unknown soils.",
+    "rule_ids": [
+      "r_c12_n",
+      "r_c12_p",
+      "r_c12_s",
+      "r_c12_kcl"
+    ],
+    "cited_pages": [
+      12
+    ],
+    "missing_facts": [
+      "soil_type"
+    ]
+  }
+}

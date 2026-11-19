@@ -1,0 +1,23 @@
+{
+  "question_id": "G13",
+  "decision": {
+    "label": "ABSTAIN",
+    "response": "The provided S5 rules do not contain any information linking specific fertilizer or manure application rates (such as 2 tonnes of manure, 61 kg N, or 31 kg P) to a predicted garlic yield in tonnes per hectare. While the rules discuss fertilizer requirements and practices (e.g., r_c11_n_rate, r_c12_n, r_c10_nps), none of them provide a yield prediction model or a specific harvest quantity outcome based on input levels. The neighbor's anecdotal claim is not supported by the S5 document.",
+    "justification": "The S5 ruleset contains guidelines on fertilizer application rates (e.g., 70-125 kg N/ha in r_c11_n_rate, 92 kg N/ha in r_c12_n) and general statements about obtaining 'good yields' (r_c7_fertility_or_manure) or 'high yield' (r_new_balanced_nutrients). However, no rule establishes a quantitative relationship between input amounts (manure, N, P) and the resulting harvest quantity (tonnes/ha). The document does not state that applying 61 kg N and 31 kg P results in a specific tonnage of garlic. Therefore, the requested answer cannot be derived from the supplied rules.",
+    "rule_ids": [
+      "r_c7_fertility_or_manure",
+      "r_c11_n_rate",
+      "r_c12_n",
+      "r_c12_p",
+      "r_new_balanced_nutrients"
+    ],
+    "cited_pages": [
+      10,
+      12
+    ],
+    "missing_facts": [
+      "yield_prediction_model",
+      "garlic_yield_per_input_rate"
+    ]
+  }
+}

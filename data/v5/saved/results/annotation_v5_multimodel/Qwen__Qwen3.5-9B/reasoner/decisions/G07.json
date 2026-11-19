@@ -1,0 +1,20 @@
+{
+  "question_id": "G07",
+  "decision": {
+    "label": "ASK",
+    "response": "ASK",
+    "justification": "The user has planted garlic 38 days ago and has half the urea remaining. Rule r_c10_urea_2split states the remaining half should be applied 30-45 days after planting. While 38 days falls within this window, the rule includes a specific exception: 'In some cases, when there is good rain, application of urea can be done in three phases.' The user's current situation (whether they are on a 2-split or 3-split schedule) depends entirely on the rainfall conditions at the time of the first application, which is not provided. Without knowing if there was 'good rain' initially, we cannot determine if the 38-day mark is the correct time for the second application (2-split) or if a third application is expected (3-split). Additionally, the current growth stage is unknown, and rule r_c11_no_n_bulbing advises against nitrogen application if bulbs are beginning to enlarge, which could override the timing recommendation.",
+    "rule_ids": [
+      "r_c10_urea_2split",
+      "r_c10_urea_3split",
+      "r_c11_no_n_bulbing"
+    ],
+    "cited_pages": [
+      12
+    ],
+    "missing_facts": [
+      "rainfall_conditions_at_planting",
+      "current_growth_stage"
+    ]
+  }
+}

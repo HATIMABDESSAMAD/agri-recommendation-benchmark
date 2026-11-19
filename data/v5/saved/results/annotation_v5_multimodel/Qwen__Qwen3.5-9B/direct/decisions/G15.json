@@ -1,0 +1,13 @@
+{
+  "question_id": "G15",
+  "decision": {
+    "label": "ASK",
+    "response": "What specific NPS and urea application rates were tested and recorded for the Qoricho variety at 3,200 metres altitude in your specific location?",
+    "justification": "The document provides general fertilizer recommendations for the southern Tigray region (200 kg/ha NPS and 150 kg/ha Urea) and notes that Qoricho is adapted to altitudes up to 3,350 m (Page 10). However, the text does not contain specific tested fertilizer rates for the Qoricho variety at the exact altitude of 3,200 metres. The fertilizer data provided in the text (Page 5 and Page 12) refers to general practices or trials involving the 'Bora local' variety, not specifically Qoricho at that specific elevation.",
+    "cited_pages": [
+      5,
+      10,
+      12
+    ]
+  }
+}

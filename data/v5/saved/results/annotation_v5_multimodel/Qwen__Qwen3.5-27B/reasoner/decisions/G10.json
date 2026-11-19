@@ -1,0 +1,15 @@
+{
+  "question_id": "G10",
+  "decision": {
+    "label": "ABSTAIN",
+    "response": "The provided S5 ruleset contains no information regarding garlic planting methods such as flat beds or raised ridges. The available rules focus exclusively on fertilizer types, nutrient rates, application timing, and soil fertility requirements. Therefore, I cannot determine the recommended planting method based on the supplied rules.",
+    "justification": "The user's question asks for a decision between 'flat beds' and 'raised ridges' for planting garlic. A thorough review of all provided S5 rules (r_c7_fertility_or_manure, r_c10_nps, r_c10_urea_2split, r_c10_urea_3split, r_c11_n_rate, r_c11_no_n_bulbing, r_c12_n, r_c12_p, r_c12_s, r_c12_kcl, r_c15_k, r_new_balanced_nutrients) reveals that none of them address land preparation methods, bed types, or ridge formation. The rules only discuss nutrient management (N, P, K, S), fertilizer products (NPS, Urea, KCl), and soil fertility conditions. Since the S5 ruleset is silent on the specific action requested (planting method), no answer can be derived from the provided context.",
+    "rule_ids": [],
+    "cited_pages": [],
+    "missing_facts": [
+      "planting_method_recommendation",
+      "soil_drainage_conditions",
+      "rainfall_intensity_threshold_for_ridges"
+    ]
+  }
+}

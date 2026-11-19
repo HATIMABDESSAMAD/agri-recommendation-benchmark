@@ -1,0 +1,11 @@
+{
+  "question_id": "G08",
+  "decision": {
+    "label": "ASK",
+    "response": "What is the soil type and fertility status of your land (for example, is it an Andosol or Vertisol, and what does your soil report say about nitrogen, phosphorus, potassium, and sulfur levels)? The manual gives that 92 kg N + 40 kg P + 30 kg S per hectare with 140 kg KCl per hectare as an optimum for Andosols and Vertisols, and it also notes that garlic fertilizer requirements vary with soil fertility status, so I cannot confirm suitability without your soil information.",
+    "justification": "The PDF states the 92 kg N + 40 kg P + 30 kg S plus 140 kg KCl per hectare combination is optimum for Andosols and Vertisols, and that fertilizer requirements of garlic vary with the fertility status of the soil. The farmer has not provided soil type or soil report, which is necessary to judge suitability.",
+    "cited_pages": [
+      12
+    ]
+  }
+}

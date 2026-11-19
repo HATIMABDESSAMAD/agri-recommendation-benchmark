@@ -1,0 +1,37 @@
+{
+  "raw": {
+    "service_tier": "default",
+    "id": "chatcmpl-RtZ0qxlfRbxHsVO1jygBBtO2",
+    "object": "chat.completion",
+    "created": 1794978242,
+    "model": "Qwen/Qwen3.5-27B",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"schema_version\": \"S5Query-1\",\n  \"original_question\": \"I have 0.10 hectares and want to plant sprouted Bora garlic cloves. The extension worker showed me the hot-water treatment description in the CASCAPE demonstration, which lists DAP rather than NPS. If I follow the seed rate and fertilizer amounts written in that hot-water treatment description, how many kilograms of cloves, DAP and urea will I need, and when should I add the fertilizers?\",\n  \"requests\": [\n    {\n      \"subject\": \"cloves\",\n      \"crop\": \"garlic\",\n      \"product\": null,\n      \"nutrient\": null,\n      \"action\": \"plant\",\n      \"fields\": [\n        \"quantity\",\n        \"unit\"\n      ],\n      \"source_text\": \"how many kilograms of cloves\"\n    },\n    {\n      \"subject\": \"DAP\",\n      \"crop\": \"garlic\",\n      \"product\": \"DAP\",\n      \"nutrient\": null,\n      \"action\": \"add\",\n      \"fields\": [\n        \"quantity\",\n        \"unit\",\n        \"timing\"\n      ],\n      \"source_text\": \"how many kilograms of ... DAP ... and when should I add the fertilizers\"\n    },\n    {\n      \"subject\": \"urea\",\n      \"crop\": \"garlic\",\n      \"product\": \"urea\",\n      \"nutrient\": null,\n      \"action\": \"add\",\n      \"fields\": [\n        \"quantity\",\n        \"unit\",\n        \"timing\"\n      ],\n      \"source_text\": \"how many kilograms of ... urea will I need, and when should I add the fertilizers\"\n    }\n  ],\n  \"facts\": {\n    \"area_ha\": {\n      \"status\": \"EXPLICIT\",\n      \"value\": 0.10,\n      \"source_text\": \"I have 0.10 hectares\"\n    },\n    \"crop\": {\n      \"status\": \"EXPLICIT\",\n      \"value\": \"garlic\",\n      \"source_text\": \"plant sprouted Bora garlic cloves\"\n    },\n    \"growth_stage\": {\n      \"status\": \"UNKNOWN\",\n      \"value\": null,\n      \"source_text\": null\n    },\n    \"rainfall\": {\n      \"status\": \"UNKNOWN\",\n      \"value\": null,\n      \"source_text\": null\n    },\n    \"region\": {\n      \"status\": \"UNKNOWN\",\n      \"value\": null,\n      \"source_text\": null\n    },\n    \"soil\": {\n      \"status\": \"UNKNOWN\",\n      \"value\": null,\n      \"source_text\": null\n    },\n    \"soil_type\": {\n      \"status\": \"UNKNOWN\",\n      \"value\": null,\n      \"source_text\": null\n    },\n    \"stage\": {\n      \"status\": \"UNKNOWN\",\n      \"value\": null,\n      \"source_text\": null\n    }\n  }\n}",
+          "reasoning_content": null,
+          "name": null,
+          "tool_calls": []
+        },
+        "finish_reason": "stop",
+        "logprobs": null
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1148,
+      "total_tokens": 1831,
+      "completion_tokens": 683,
+      "estimated_cost": 0.00207428,
+      "prompt_tokens_details": null
+    }
+  },
+  "latency_s": 8.255192600001465,
+  "model": "Qwen/Qwen3.5-27B",
+  "question_id": "G04",
+  "method": "s5query",
+  "request_sha256": "3e2fc977c5b2988246e226bd76654ad58930457a4885764f70e38270e6d65053",
+  "reserved_usd": 0.031574399999999996,
+  "cost_usd": 0.00207428
+}

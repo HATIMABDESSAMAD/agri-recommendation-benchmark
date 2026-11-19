@@ -1,0 +1,11 @@
+{
+  "question_id": "G14",
+  "decision": {
+    "label": "ABSTAIN",
+    "response": "The document does not provide nutrient analyses for NPS, urea, triple superphosphate, or ammonium sulfate, so it cannot support calculating equivalent product masses or nutrient-matched substitutions. It only states the local recommendation of 200 kg/ha NPS and 150 kg/ha urea for garlic, with all phosphorus applied at planting and urea split between planting and 30–45 days after planting. No conversion or substitution can be derived from the PDF.",
+    "justification": "The PDF gives the NPS and urea application rates for garlic but does not give the nutrient concentrations of those fertilizers or of triple superphosphate and ammonium sulfate, and it provides no substitution or conversion guidance. Therefore a precise, safe replacement rate cannot be calculated from the document.",
+    "cited_pages": [
+      12
+    ]
+  }
+}

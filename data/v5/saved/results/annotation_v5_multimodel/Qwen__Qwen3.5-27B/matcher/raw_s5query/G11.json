@@ -1,0 +1,37 @@
+{
+  "raw": {
+    "service_tier": "default",
+    "id": "chatcmpl-Rt6fevpfGDnMT9gypP3UFNSf",
+    "object": "chat.completion",
+    "created": 1794978316,
+    "model": "Qwen/Qwen3.5-27B",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"schema_version\": \"S5Query-1\",\n  \"original_question\": \"The soil test for my garlic field in Endamehoni shows a pH of 4.8. I want to raise it to 6.5 before planting. Exactly how many kilograms of lime should I spread per hectare?\",\n  \"requests\": [\n    {\n      \"subject\": \"lime\",\n      \"crop\": \"garlic\",\n      \"product\": null,\n      \"nutrient\": null,\n      \"action\": \"spread\",\n      \"fields\": [\n        \"quantity\",\n        \"unit\",\n        \"basis\"\n      ],\n      \"source_text\": \"Exactly how many kilograms of lime should I spread per hectare?\"\n    }\n  ],\n  \"facts\": {\n    \"crop\": {\n      \"status\": \"EXPLICIT\",\n      \"value\": \"garlic\",\n      \"source_text\": \"my garlic field\"\n    },\n    \"region\": {\n      \"status\": \"EXPLICIT\",\n      \"value\": \"Endamehoni\",\n      \"source_text\": \"in Endamehoni\"\n    },\n    \"soil_ph_current\": {\n      \"status\": \"EXPLICIT\",\n      \"value\": 4.8,\n      \"source_text\": \"shows a pH of 4.8\"\n    },\n    \"soil_ph_target\": {\n      \"status\": \"EXPLICIT\",\n      \"value\": 6.5,\n      \"source_text\": \"raise it to 6.5\"\n    },\n    \"timing\": {\n      \"status\": \"EXPLICIT\",\n      \"value\": \"before planting\",\n      \"source_text\": \"before planting\"\n    },\n    \"area_ha\": {\n      \"status\": \"UNKNOWN\",\n      \"value\": null,\n      \"source_text\": null\n    },\n    \"soil_type\": {\n      \"status\": \"UNKNOWN\",\n      \"value\": null,\n      \"source_text\": null\n    },\n    \"growth_stage\": {\n      \"status\": \"UNKNOWN\",\n      \"value\": null,\n      \"source_text\": null\n    }\n  }\n}",
+          "reasoning_content": null,
+          "name": null,
+          "tool_calls": []
+        },
+        "finish_reason": "stop",
+        "logprobs": null
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1110,
+      "total_tokens": 1597,
+      "completion_tokens": 487,
+      "estimated_cost": 0.0015547999999999998,
+      "prompt_tokens_details": null
+    }
+  },
+  "latency_s": 6.473670400002447,
+  "model": "Qwen/Qwen3.5-27B",
+  "question_id": "G11",
+  "method": "s5query",
+  "request_sha256": "9895f3749c93a9623472fd79ff52fc36cd5c285af53b48ffd3d764cffff6361d",
+  "reserved_usd": 0.031574399999999996,
+  "cost_usd": 0.0015547999999999998
+}

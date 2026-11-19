@@ -1,0 +1,37 @@
+{
+  "raw": {
+    "service_tier": "default",
+    "id": "chatcmpl-R2ZFYmYKUAHm6S8izkFLew3Q",
+    "object": "chat.completion",
+    "created": 1794978110,
+    "model": "Qwen/Qwen3.5-9B",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"schema_version\": \"S5Query-1\",\n  \"original_question\": \"I'm growing Qoricho garlic on a well-drained Regosol field at 3,200 metres, with about 750 mm of rain this season. I've been told Qoricho can grow at this altitude. What exact NPS and urea amounts have been tested for farms up here, rather than just used in lower areas?\",\n  \"requests\": [\n    {\n      \"subject\": \"NPS (blended)\",\n      \"crop\": \"garlic\",\n      \"fields\": [\n        \"quantity\",\n        \"unit\",\n        \"evidence\"\n      ],\n      \"source_text\": \"What exact NPS and urea amounts have been tested for farms up here\"\n    },\n    {\n      \"subject\": \"Urea\",\n      \"crop\": \"garlic\",\n      \"fields\": [\n        \"quantity\",\n        \"unit\",\n        \"evidence\"\n      ],\n      \"source_text\": \"What exact NPS and urea amounts have been tested for farms up here\"\n    }\n  ],\n  \"facts\": {\n    \"crop\": {\n      \"status\": \"EXPLICIT\",\n      \"value\": \"garlic\",\n      \"source_text\": \"I'm growing Qoricho garlic\"\n    },\n    \"soil_type\": {\n      \"status\": \"EXPLICIT\",\n      \"value\": \"Regosol\",\n      \"source_text\": \"on a well-drained Regosol field\"\n    },\n    \"altitude\": {\n      \"status\": \"EXPLICIT\",\n      \"value\": \"3,200 metres\",\n      \"source_text\": \"at 3,200 metres\"\n    },\n    \"rainfall\": {\n      \"status\": \"EXPLICIT\",\n      \"value\": \"750 mm\",\n      \"source_text\": \"with about 750 mm of rain this season\"\n    }\n  }\n}",
+          "reasoning_content": null,
+          "name": null,
+          "tool_calls": null
+        },
+        "finish_reason": "stop",
+        "logprobs": null
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1137,
+      "total_tokens": 1585,
+      "completion_tokens": 448,
+      "estimated_cost": 0.0001809,
+      "prompt_tokens_details": null
+    }
+  },
+  "latency_s": 8.658161000006658,
+  "model": "Qwen/Qwen3.5-9B",
+  "question_id": "G15",
+  "method": "s5query",
+  "request_sha256": "4f7d9ee38ee737717dbd73eb365e6e01ef34a7af55b6f0b7db7f7b9ad60a1859",
+  "reserved_usd": 0.006921599999999999,
+  "cost_usd": 0.0001809
+}

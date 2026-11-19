@@ -1,0 +1,37 @@
+{
+  "raw": {
+    "service_tier": "default",
+    "id": "chatcmpl-RriHd84EuGRShF5L763qNpny",
+    "object": "chat.completion",
+    "created": 1794978179,
+    "model": "Qwen/Qwen3.5-27B",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"label\": \"ABSTAIN\",\n  \"response\": \"The document mentions that applying 2 tons of FYM plus 61 kg N and 31 kg P per hectare produced the highest bulb yield for shallot, not garlic. While the document provides yield data for garlic under different treatments (e.g., hot water treatment yielding ~12.6 tonnes/ha), it does not provide a specific yield figure for garlic when using the exact fertilizer combination of 2 tonnes of manure, 61 kg N, and 31 kg P. Therefore, a precise harvest expectation for garlic with this specific input cannot be determined from the text.\",\n  \"justification\": \"The document explicitly states on page 12 that the fertilizer combination of '2 tons of FYM per hectare and inorganic fertilizers of 61 kg N per hectare and 31 kg P per hectare produced the highest bulb yield of shallot' (citing Teklu and Teklewold, 2009). It does not state that this specific combination was tested on garlic or what the resulting yield for garlic would be. The document provides yield data for garlic under other specific treatments (e.g., hot water treatment yielding 12,609 kg/ha on page 18), but does not link the specific manure/fertilizer rates mentioned in the question to a garlic yield. Answering with a specific number would require inventing data or incorrectly applying shallot data to garlic.\",\n  \"cited_pages\": [12]\n}",
+          "reasoning_content": null,
+          "name": null,
+          "tool_calls": []
+        },
+        "finish_reason": "stop",
+        "logprobs": null
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 19828,
+      "total_tokens": 20157,
+      "completion_tokens": 329,
+      "estimated_cost": 0.006010679999999999,
+      "prompt_tokens_details": null
+    }
+  },
+  "latency_s": 4.96559530000377,
+  "model": "Qwen/Qwen3.5-27B",
+  "question_id": "G13",
+  "method": "direct",
+  "request_sha256": "7b6f46673e1a82e9d0192877c4ce465ec3dea84b55dc91823f3e636fb502e7c4",
+  "reserved_usd": 0.012745199999999998,
+  "cost_usd": 0.006010679999999999
+}

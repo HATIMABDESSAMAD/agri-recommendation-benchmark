@@ -1,0 +1,64 @@
+{
+  "schema_version": "S5Query-1",
+  "original_question": "I can't find NPS or urea this season, but the shop has triple superphosphate and ammonium sulfate. How many kilograms of each should I use to replace exactly 200 kg of NPS and 150 kg of urea per hectare without changing the nutrients my garlic gets?",
+  "requests": [
+    {
+      "subject": "triple superphosphate",
+      "crop": "garlic",
+      "product": "triple superphosphate",
+      "nutrient": null,
+      "action": "replace",
+      "fields": [
+        "quantity",
+        "unit",
+        "basis"
+      ],
+      "source_text": "How many kilograms of each should I use to replace exactly 200 kg of NPS and 150 kg of urea per hectare without changing the nutrients my garlic gets?"
+    },
+    {
+      "subject": "ammonium sulfate",
+      "crop": "garlic",
+      "product": "ammonium sulfate",
+      "nutrient": null,
+      "action": "replace",
+      "fields": [
+        "quantity",
+        "unit",
+        "basis"
+      ],
+      "source_text": "How many kilograms of each should I use to replace exactly 200 kg of NPS and 150 kg of urea per hectare without changing the nutrients my garlic gets?"
+    }
+  ],
+  "facts": {
+    "crop": {
+      "status": "EXPLICIT",
+      "value": "garlic",
+      "source_text": "nutrients my garlic gets"
+    },
+    "area_ha": {
+      "status": "EXPLICIT",
+      "value": "1",
+      "source_text": "per hectare"
+    },
+    "NPS_fertilizer": {
+      "status": "EXPLICIT",
+      "value": "200 kg",
+      "source_text": "200 kg of NPS"
+    },
+    "Urea_fertilizer": {
+      "status": "EXPLICIT",
+      "value": "150 kg",
+      "source_text": "150 kg of urea"
+    },
+    "available_products": {
+      "status": "EXPLICIT",
+      "value": "triple superphosphate and ammonium sulfate",
+      "source_text": "the shop has triple superphosphate and ammonium sulfate"
+    },
+    "unavailable_products": {
+      "status": "EXPLICIT",
+      "value": "NPS or urea",
+      "source_text": "I can't find NPS or urea this season"
+    }
+  }
+}

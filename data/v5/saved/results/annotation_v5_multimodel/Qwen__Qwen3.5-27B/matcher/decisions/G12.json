@@ -1,0 +1,14 @@
+{
+  "question_id": "G12",
+  "decision": {
+    "engine": "S5Matcher-1.0.0",
+    "label": "ABSTAIN",
+    "status": "NO_S5_RULE",
+    "response": "No S5 rule matches a requested subject.",
+    "rule_ids": [],
+    "missing_decisive_facts": [],
+    "unsupported_semantics": [],
+    "evidence": [],
+    "trace": []
+  }
+}

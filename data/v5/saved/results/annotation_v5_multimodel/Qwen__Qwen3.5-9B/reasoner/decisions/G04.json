@@ -1,0 +1,20 @@
+{
+  "question_id": "G04",
+  "decision": {
+    "label": "ASK",
+    "response": "I cannot calculate the required kilograms of cloves, DAP, and urea, nor determine the specific timing for DAP and urea application based on the provided rules. The rules specify rates for NPS (not DAP) and Urea, but do not provide a rate or timing for DAP. Additionally, the rules do not specify a seed rate for cloves.",
+    "justification": "The user explicitly asks to follow the 'hot-water treatment description' which lists DAP. However, the provided S5 rules (specifically r_c10_nps and r_c10_urea_2split) only provide rates for NPS (200 kg/ha) and Urea (150 kg/ha). There is no rule providing a rate for DAP. Furthermore, while r_c10_nps states phosphorus is applied at planting, it refers to NPS, not DAP. Without a rule defining the DAP rate or a rule defining the clove seed rate, the quantities cannot be calculated. The timing for DAP is also unknown as no rule specifies when to apply DAP specifically.",
+    "rule_ids": [
+      "r_c10_nps",
+      "r_c10_urea_2split"
+    ],
+    "cited_pages": [
+      12
+    ],
+    "missing_facts": [
+      "clove_seed_rate_kg_ha",
+      "dap_rate_kg_ha",
+      "dap_application_timing"
+    ]
+  }
+}

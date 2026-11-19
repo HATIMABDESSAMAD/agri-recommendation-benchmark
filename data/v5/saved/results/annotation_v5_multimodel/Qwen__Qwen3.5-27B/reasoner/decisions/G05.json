@@ -1,0 +1,16 @@
+{
+  "question_id": "G05",
+  "decision": {
+    "label": "ANSWER",
+    "response": "No, you should not add the urea today. The guidelines explicitly advise against applying nitrogen when garlic bulbs begin to enlarge, as it encourages excessive leaf growth and reduces bulb size.",
+    "justification": "The farmer's fact 'bulbs have already started getting bigger' matches the condition in rule r_c11_no_n_bulbing ('bulbs beginning to enlarge'). This rule states it is advised not to apply nitrogen at this stage. Although rule r_c10_urea_2split suggests a timing of 30-45 days after planting (which aligns with the farmer's 40 days), the specific growth stage condition in r_c11_no_n_bulbing acts as a constraint that overrides the general timing schedule to prevent yield reduction.",
+    "rule_ids": [
+      "r_c11_no_n_bulbing",
+      "r_c10_urea_2split"
+    ],
+    "cited_pages": [
+      12
+    ],
+    "missing_facts": []
+  }
+}

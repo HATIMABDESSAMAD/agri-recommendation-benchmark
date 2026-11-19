@@ -1,0 +1,22 @@
+{
+  "question_id": "G15",
+  "decision": {
+    "label": "ASK",
+    "response": "ASK",
+    "justification": "The user asks for NPS and urea amounts 'tested for farms up here' (3,200m altitude). The S5 rules provide specific tested amounts (200 kg/ha NPS, 150 kg/ha Urea) but explicitly restrict them to the 'southern zone of Tigray' (r_c10_nps, r_c10_urea_2split). The user's location (3,200m altitude) is not confirmed to be in southern Tigray, nor is there a rule linking altitude to fertilizer rates. Without knowing if the farm is in southern Tigray, the specific tested rates cannot be applied. Additionally, the user's soil type (Regosol) differs from the specific soil types (Andosols/Vertisols) mentioned in other rules (r_c12_*), further preventing a direct answer.",
+    "rule_ids": [
+      "r_c10_nps",
+      "r_c10_urea_2split",
+      "r_c12_n",
+      "r_c12_p",
+      "r_c12_s",
+      "r_c12_kcl"
+    ],
+    "cited_pages": [
+      12
+    ],
+    "missing_facts": [
+      "region"
+    ]
+  }
+}

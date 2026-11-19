@@ -1,0 +1,62 @@
+{
+  "schema_version": "S5Query-1",
+  "original_question": "I planted my garlic 38 days ago and still have half of the urea left to put on. Is it the right time to spread it now?",
+  "requests": [
+    {
+      "subject": "Urea",
+      "crop": "garlic",
+      "product": null,
+      "nutrient": "nitrogen",
+      "action": "nitrogen application",
+      "fields": [
+        "timing",
+        "quantity",
+        "unit",
+        "basis"
+      ],
+      "source_text": "I planted my garlic 38 days ago and still have half of the urea left to put on. Is it the right time to spread it now?"
+    }
+  ],
+  "facts": {
+    "crop": {
+      "status": "EXPLICIT",
+      "value": "garlic",
+      "source_text": "I planted my garlic 38 days ago"
+    },
+    "growth_stage": {
+      "status": "UNKNOWN",
+      "value": null,
+      "source_text": null
+    },
+    "product": {
+      "status": "EXPLICIT",
+      "value": "urea",
+      "source_text": "still have half of the urea left"
+    },
+    "quantity": {
+      "status": "EXPLICIT",
+      "value": "half",
+      "source_text": "still have half of the urea left"
+    },
+    "unit": {
+      "status": "UNKNOWN",
+      "value": null,
+      "source_text": null
+    },
+    "basis": {
+      "status": "UNKNOWN",
+      "value": null,
+      "source_text": null
+    },
+    "timing": {
+      "status": "UNKNOWN",
+      "value": null,
+      "source_text": null
+    },
+    "action": {
+      "status": "EXPLICIT",
+      "value": "spread",
+      "source_text": "Is it the right time to spread it now?"
+    }
+  }
+}

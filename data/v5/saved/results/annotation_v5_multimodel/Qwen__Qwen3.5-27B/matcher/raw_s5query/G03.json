@@ -1,0 +1,37 @@
+{
+  "raw": {
+    "service_tier": "default",
+    "id": "chatcmpl-RZQRU3frNGQ6M9eajv10AOeR",
+    "object": "chat.completion",
+    "created": 1794978226,
+    "model": "Qwen/Qwen3.5-27B",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"schema_version\": \"S5Query-1\",\n  \"original_question\": \"My garlic field is 0.22 hectares and has Vertisol soil. An agricultural adviser gave me a plan of 92 kg nitrogen, 40 kg phosphorus, 30 kg sulfur and 140 kg potassium chloride per hectare. How much of each of those do I need for my field? Are the first three amounts nutrients or bags of fertilizer?\",\n  \"requests\": [\n    {\n      \"subject\": \"nitrogen\",\n      \"crop\": \"garlic\",\n      \"product\": null,\n      \"nutrient\": \"nitrogen\",\n      \"action\": null,\n      \"fields\": [\n        \"quantity\",\n        \"unit\",\n        \"basis\"\n      ],\n      \"source_text\": \"How much of each of those do I need for my field?\"\n    },\n    {\n      \"subject\": \"phosphorus\",\n      \"crop\": \"garlic\",\n      \"product\": null,\n      \"nutrient\": \"phosphorus\",\n      \"action\": null,\n      \"fields\": [\n        \"quantity\",\n        \"unit\",\n        \"basis\"\n      ],\n      \"source_text\": \"How much of each of those do I need for my field?\"\n    },\n    {\n      \"subject\": \"sulfur\",\n      \"crop\": \"garlic\",\n      \"product\": null,\n      \"nutrient\": \"sulfur\",\n      \"action\": null,\n      \"fields\": [\n        \"quantity\",\n        \"unit\",\n        \"basis\"\n      ],\n      \"source_text\": \"How much of each of those do I need for my field?\"\n    },\n    {\n      \"subject\": \"potassium chloride\",\n      \"crop\": \"garlic\",\n      \"product\": \"potassium chloride\",\n      \"nutrient\": null,\n      \"action\": null,\n      \"fields\": [\n        \"quantity\",\n        \"unit\",\n        \"basis\"\n      ],\n      \"source_text\": \"How much of each of those do I need for my field?\"\n    },\n    {\n      \"subject\": \"nitrogen\",\n      \"crop\": \"garlic\",\n      \"product\": null,\n      \"nutrient\": \"nitrogen\",\n      \"action\": null,\n      \"fields\": [\n        \"basis\"\n      ],\n      \"source_text\": \"Are the first three amounts nutrients or bags of fertilizer?\"\n    },\n    {\n      \"subject\": \"phosphorus\",\n      \"crop\": \"garlic\",\n      \"product\": null,\n      \"nutrient\": \"phosphorus\",\n      \"action\": null,\n      \"fields\": [\n        \"basis\"\n      ],\n      \"source_text\": \"Are the first three amounts nutrients or bags of fertilizer?\"\n    },\n    {\n      \"subject\": \"sulfur\",\n      \"crop\": \"garlic\",\n      \"product\": null,\n      \"nutrient\": \"sulfur\",\n      \"action\": null,\n      \"fields\": [\n        \"basis\"\n      ],\n      \"source_text\": \"Are the first three amounts nutrients or bags of fertilizer?\"\n    }\n  ],\n  \"facts\": {\n    \"crop\": {\n      \"status\": \"EXPLICIT\",\n      \"value\": \"garlic\",\n      \"source_text\": \"My garlic field\"\n    },\n    \"area_ha\": {\n      \"status\": \"EXPLICIT\",\n      \"value\": 0.22,\n      \"source_text\": \"0.22 hectares\"\n    },\n    \"soil_type\": {\n      \"status\": \"EXPLICIT\",\n      \"value\": \"Vertisol\",\n      \"source_text\": \"Vertisol soil\"\n    },\n    \"nitrogen_rate_per_ha\": {\n      \"status\": \"EXPLICIT\",\n      \"value\": 92,\n      \"source_text\": \"92 kg nitrogen\"\n    },\n    \"phosphorus_rate_per_ha\": {\n      \"status\": \"EXPLICIT\",\n      \"value\": 40,\n      \"source_text\": \"40 kg phosphorus\"\n    },\n    \"sulfur_rate_per_ha\": {\n      \"status\": \"EXPLICIT\",\n      \"value\": 30,\n      \"source_text\": \"30 kg sulfur\"\n    },\n    \"potassium_chloride_rate_per_ha\": {\n      \"status\": \"EXPLICIT\",\n      \"value\": 140,\n      \"source_text\": \"140 kg potassium chloride\"\n    },\n    \"rate_basis\": {\n      \"status\": \"EXPLICIT\",\n      \"value\": \"per hectare\",\n      \"source_text\": \"per hectare\"\n    }\n  }\n}",
+          "reasoning_content": null,
+          "name": null,
+          "tool_calls": []
+        },
+        "finish_reason": "stop",
+        "logprobs": null
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1141,
+      "total_tokens": 2226,
+      "completion_tokens": 1085,
+      "estimated_cost": 0.00311766,
+      "prompt_tokens_details": null
+    }
+  },
+  "latency_s": 15.584086000002571,
+  "model": "Qwen/Qwen3.5-27B",
+  "question_id": "G03",
+  "method": "s5query",
+  "request_sha256": "c214e75eb5f859202a57e6486288ad70a7f87baa333c5a1ab6dc8a4e9ad5e061",
+  "reserved_usd": 0.031574399999999996,
+  "cost_usd": 0.00311766
+}

@@ -1,0 +1,12 @@
+{
+  "question_id": "G15",
+  "decision": {
+    "label": "ABSTAIN",
+    "response": "The PDF does not report NPS and urea rates tested specifically for Qoricho garlic at 3,200 m on a Regosol. It gives general southern Tigray rates of 200 kg/ha NPS and 150 kg/ha Urea, and separately states garlic generally requires 70–125 kg N per hectare, but it does not provide location- or variety-specific fertilizer amounts for your altitude and soil. It also notes that Qoricho's listed altitude range is 1900–3350 m, but that does not supply tested fertilizer rates for your field.",
+    "justification": "The document's fertilizer section gives common NPS and urea rates for garlic in the southern zone of Tigray and a general garlic N requirement, but no tested NPS/urea amounts specific to Qoricho at 3,200 m on a Regosol. The Qoricho variety table lists an altitude range but no fertilizer trial results for this setting.",
+    "cited_pages": [
+      10,
+      12
+    ]
+  }
+}

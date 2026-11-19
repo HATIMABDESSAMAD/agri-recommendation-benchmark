@@ -1,0 +1,18 @@
+{
+  "question_id": "G05",
+  "decision": {
+    "label": "ANSWER",
+    "response": "No — you should not add the urea today. Because your garlic bulbs have already begun to enlarge, the S5 guidance advises against applying nitrogen (urea is a nitrogen fertilizer) at this stage, since it encourages excessive leaf growth and can reduce bulb size. The 30–45 day second urea split applies to the earlier schedule, but the bulb-enlargement advisory takes precedence once bulbing has started.",
+    "justification": "The farmer explicitly reports garlic at the stage 'bulbs beginning to enlarge'. Rule r_c11_no_n_bulbing (SHOULD, advisory) states it is advised not to apply N when bulbs are beginning to enlarge, because it encourages excessive leaf growth and reduces bulb size; its condition (growth_stage EQ 'bulbs beginning to enlarge') is satisfied by the stated fact. Urea is a nitrogen source, so this advisory applies to the requested urea application. The two-split urea schedule (r_c10_urea_2split) places the second half at 30–45 days after planting, which is consistent with the farmer's 40-day timing, but that rule does not override the explicit stage-based advisory against N at bulb enlargement. The three-split option (r_c10_urea_3split) is conditional on 'good rain', which is not stated, and is an alternative schedule, not a basis to apply N at bulbing. Therefore the supported answer is not to add the urea now.",
+    "rule_ids": [
+      "r_c11_no_n_bulbing",
+      "r_c10_urea_2split",
+      "r_c10_urea_3split"
+    ],
+    "cited_pages": [
+      12
+    ],
+    "missing_facts": []
+  },
+  "s5query_sha256": "ef3f7bfbc939a5a9990acf7f7de98cb62f70ea04467c0c58de85902c4d9387ae"
+}

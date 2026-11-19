@@ -1,0 +1,43 @@
+{
+  "raw": {
+    "service_tier": "default",
+    "id": "chatcmpl-RipKQI1FZ57mzaciFcn1DL9T",
+    "object": "chat.completion",
+    "created": 1794971226,
+    "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"schema_version\": \"S5Query-1\", \"original_question\": \"I'm growing Qoricho garlic on a well-drained Regosol field at 3,200 metres, with about 750 mm of rain this season. I've been told Qoricho can grow at this altitude. What exact NPS and urea amounts have been tested for farms up here, rather than just used in lower areas?\", \"requests\": [{\"subject\": \"NPS and urea amounts tested for farms at this altitude\", \"crop\": \"Qoricho garlic\", \"product\": \"NPS and urea\", \"nutrient\": null, \"action\": null, \"fields\": [\"product\", \"quantity\", \"unit\", \"evidence\"], \"source_text\": \"What exact NPS and urea amounts have been tested for farms up here, rather than just used in lower areas?\"}], \"facts\": {\"crop\": {\"status\": \"EXPLICIT\", \"value\": \"Qoricho garlic\", \"source_text\": \"Qoricho garlic\"}, \"soil_type\": {\"status\": \"EXPLICIT\", \"value\": \"Regosol\", \"source_text\": \"well-drained Regosol field\"}, \"rainfall\": {\"status\": \"EXPLICIT\", \"value\": \"750 mm\", \"source_text\": \"about 750 mm of rain this season\"}}}",
+          "reasoning_content": null,
+          "name": null,
+          "tool_calls": null
+        },
+        "finish_reason": "stop",
+        "logprobs": null
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1133,
+      "total_tokens": 1416,
+      "completion_tokens": 283,
+      "estimated_cost": 0.00019423600000000003,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": null
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    }
+  },
+  "latency_s": 2.389619399997173,
+  "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+  "question_id": "G15",
+  "method": "s5query",
+  "request_sha256": "4f7d9ee38ee737717dbd73eb365e6e01ef34a7af55b6f0b7db7f7b9ad60a1859",
+  "cost_usd": 0.00019423600000000003,
+  "reserved_usd": 0.007686336
+}

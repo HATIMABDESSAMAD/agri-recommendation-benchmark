@@ -1,0 +1,11 @@
+{
+  "question_id": "G09",
+  "decision": {
+    "label": "ANSWER",
+    "response": "Yes, you can still plant garlic in August. According to the manual, while the beginning of the rainy period (June-July) is the favorable time for rain-fed agriculture, if there is a possibility to supplement with irrigation, garlic can be planted in August.",
+    "justification": "The document explicitly states in section 3.6 (Planting time) on page 11 that 'In rain fed agriculture the beginning of the rainy period (June-July) is the favourable period and if there is possibility to supplement by irrigation it can be planted in August.'",
+    "cited_pages": [
+      11
+    ]
+  }
+}

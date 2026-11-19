@@ -1,0 +1,43 @@
+{
+  "raw": {
+    "service_tier": "default",
+    "id": "chatcmpl-RWSKsrVGJ1y1GhiBBFIOZ7SK",
+    "object": "chat.completion",
+    "created": 1794977202,
+    "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"label\":\"ANSWER\",\"response\":\"For your 0.24 ha plot, the per-hectare rates of 200 kg NPS and 150 kg urea scale to 48 kg NPS and 36 kg urea total. Apply all 48 kg NPS at planting. Split the 36 kg urea: apply 18 kg at planting and the remaining 18 kg 30–45 days after planting. These are fertilizer product masses, not nutrient masses.\",\"justification\":\"The PDF states both fertilizers are applied for garlic at 200 kg/ha NPS and 150 kg/ha urea; the whole phosphorus fertilizer is applied at planting, while half the urea is applied at planting and the remaining half 30–45 days after planting. Multiplying by the farmer's 0.24 ha gives 48 kg NPS and 36 kg urea, split as 18 kg urea at planting and 18 kg later.\",\"cited_pages\":[12]}",
+          "reasoning_content": null,
+          "name": null,
+          "tool_calls": null
+        },
+        "finish_reason": "stop",
+        "logprobs": null
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 18033,
+      "total_tokens": 18227,
+      "completion_tokens": 194,
+      "estimated_cost": 0.00182427,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": null
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    }
+  },
+  "latency_s": 3.0072339000034845,
+  "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+  "question_id": "G01",
+  "method": "direct",
+  "request_sha256": "001c36b6f0be0cd5dfb3e6c5e967e512b34295db372c6cef0ff5d81d9454f647",
+  "cost_usd": 0.00182427,
+  "reserved_usd": 0.0040136880000000005
+}

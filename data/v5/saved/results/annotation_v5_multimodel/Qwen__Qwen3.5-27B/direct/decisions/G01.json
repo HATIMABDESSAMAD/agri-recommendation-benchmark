@@ -1,0 +1,11 @@
+{
+  "question_id": "G01",
+  "decision": {
+    "label": "ANSWER",
+    "response": "For your 0.24-hectare plot, you need 48 kg of NPS and 36 kg of Urea. You should apply the entire 48 kg of NPS at planting. For the Urea, apply half (18 kg) at planting and the remaining half (18 kg) 30-45 days after planting.",
+    "justification": "The document states on Page 12 that the recommended rate is 200 kg/ha of NPS and 150 kg/ha of Urea. It specifies that the whole amount of phosphorus fertilizer (NPS) is applied once during planting, while half the rate of urea is applied during planting and the remainder 30-45 days after planting. Calculating for 0.24 hectares: NPS = 200 * 0.24 = 48 kg; Urea = 150 * 0.24 = 36 kg. Splitting the Urea: 36 / 2 = 18 kg per application.",
+    "cited_pages": [
+      12
+    ]
+  }
+}

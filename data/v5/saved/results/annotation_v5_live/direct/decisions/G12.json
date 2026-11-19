@@ -1,0 +1,14 @@
+{
+  "question_id": "G12",
+  "decision": {
+    "label": "ABSTAIN",
+    "response": "The document does not report a tested potassium chloride rate for garlic on Regosol. It states that 140 kg/ha of KCl combined with 92 kg N + 40 kg P + 30 kg S per hectare was optimum for Andosols and Vertisols, not Regosols, and it separately notes a negative potassium balance and advises use of K-fertilizer without giving a Regosol-specific rate. It also does not provide a soil-test threshold for interpreting your low potassium result. I therefore cannot give an exact amount shown to work for garlic on soil like yours.",
+    "justification": "The only KCl rate in the PDF is tied to Andosols and Vertisols in a combined N-P-S-K treatment, while the farmer's soil is Regosol; the document gives no Regosol-specific KCl rate or soil-test threshold, so a precise answer would require inventing a substitution.",
+    "cited_pages": [
+      8,
+      12,
+      19,
+      20
+    ]
+  }
+}

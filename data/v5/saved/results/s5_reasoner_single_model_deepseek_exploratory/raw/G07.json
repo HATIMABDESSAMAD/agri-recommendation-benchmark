@@ -1,0 +1,43 @@
+{
+  "raw": {
+    "service_tier": "default",
+    "id": "chatcmpl-RyG1CFKmz9o1Ft44iV00qGXm",
+    "object": "chat.completion",
+    "created": 1794975085,
+    "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"label\": \"ANSWER\", \"response\": \"Yes. Under the documented southern Tigray urea schedule, the remaining half of the urea is applied 30–45 days after planting. At 38 days after planting, you are within that window, so this is the right time to apply the remaining half.\", \"justification\": \"Rule r_c10_urea_2split specifies that half the urea is applied at planting and the remaining half 30–45 days after planting. The farmer planted 38 days ago, which falls within the 30–45 day window, and states half the urea remains. The optional three-split schedule (r_c10_urea_3split) is conditional on 'good rain', which is not stated, so the default two-split schedule applies. The bulbing-stage avoidance rule (r_c11_no_n_bulbing) is not triggered because growth stage is unknown and not stated to be bulb enlargement.\", \"rule_ids\": [\"r_c10_urea_2split\"], \"cited_pages\": [12], \"missing_facts\": []}",
+          "reasoning_content": null,
+          "name": null,
+          "tool_calls": null
+        },
+        "finish_reason": "stop",
+        "logprobs": null
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 12319,
+      "total_tokens": 12541,
+      "completion_tokens": 222,
+      "estimated_cost": 0.00127253,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": null
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    }
+  },
+  "latency_s": 3.6447592999975313,
+  "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+  "question_id": "G07",
+  "method": "D4",
+  "request_sha256": "b466d475c97ac285409a78f6fe8286695e50192ffbb86ebcaa77e9780f38d6e6",
+  "cost_usd": 0.00127253,
+  "reserved_usd": 0.015603167999999997
+}

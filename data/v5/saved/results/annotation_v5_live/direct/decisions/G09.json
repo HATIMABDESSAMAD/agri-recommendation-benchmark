@@ -1,0 +1,11 @@
+{
+  "question_id": "G09",
+  "decision": {
+    "label": "ANSWER",
+    "response": "Yes. The manual states that in rainfed agriculture the beginning of the rainy period (June–July) is the favourable planting period, and if there is a possibility to supplement by irrigation, garlic can be planted in August. So August planting is supported only where you can supplement soil moisture with irrigation; otherwise the manual does not support August planting.",
+    "justification": "Page 11 (section 3.6 Planting time) states: 'In rain fed agriculture the beginning of the rainy period (June-July) is the favourable period and if there is possibility to supplement by irrigation it can be planted in August.' The answer is conditional on irrigation, which the farmer must confirm; no other dates or doses are added.",
+    "cited_pages": [
+      11
+    ]
+  }
+}

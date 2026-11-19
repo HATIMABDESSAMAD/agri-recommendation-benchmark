@@ -1,0 +1,111 @@
+{
+  "schema_version": "S5Query-1",
+  "original_question": "A fertilizer seller suggested using 140 kg of potassium chloride per hectare together with nitrogen, phosphorus and sulfur on my garlic. I haven't brought my soil report with me. Is that fertilizer plan suitable for my land?",
+  "requests": [
+    {
+      "subject": "KCl (potassium chloride)",
+      "crop": "garlic",
+      "product": "potassium chloride",
+      "nutrient": "K",
+      "action": "using",
+      "fields": [
+        "action",
+        "product",
+        "nutrient",
+        "quantity",
+        "unit",
+        "basis"
+      ],
+      "source_text": "using 140 kg of potassium chloride per hectare together with nitrogen, phosphorus and sulfur on my garlic"
+    },
+    {
+      "subject": "nitrogen",
+      "crop": "garlic",
+      "product": null,
+      "nutrient": "N",
+      "action": "using",
+      "fields": [
+        "action",
+        "nutrient"
+      ],
+      "source_text": "together with nitrogen, phosphorus and sulfur on my garlic"
+    },
+    {
+      "subject": "phosphorus",
+      "crop": "garlic",
+      "product": null,
+      "nutrient": "P",
+      "action": "using",
+      "fields": [
+        "action",
+        "nutrient"
+      ],
+      "source_text": "together with nitrogen, phosphorus and sulfur on my garlic"
+    },
+    {
+      "subject": "sulphur",
+      "crop": "garlic",
+      "product": null,
+      "nutrient": "S",
+      "action": "using",
+      "fields": [
+        "action",
+        "nutrient"
+      ],
+      "source_text": "together with nitrogen, phosphorus and sulfur on my garlic"
+    },
+    {
+      "subject": "garlic",
+      "crop": "garlic",
+      "product": null,
+      "nutrient": null,
+      "action": null,
+      "fields": [
+        "product"
+      ],
+      "source_text": "on my garlic"
+    }
+  ],
+  "facts": {
+    "crop": {
+      "status": "EXPLICIT",
+      "value": "garlic",
+      "source_text": "on my garlic"
+    },
+    "area_ha": {
+      "status": "EXPLICIT",
+      "value": 1,
+      "source_text": "per hectare"
+    },
+    "soil": {
+      "status": "UNKNOWN",
+      "value": null,
+      "source_text": "I haven't brought my soil report with me"
+    },
+    "region": {
+      "status": "UNKNOWN",
+      "value": null,
+      "source_text": null
+    },
+    "soil_type": {
+      "status": "UNKNOWN",
+      "value": null,
+      "source_text": null
+    },
+    "growth_stage": {
+      "status": "UNKNOWN",
+      "value": null,
+      "source_text": null
+    },
+    "stage": {
+      "status": "UNKNOWN",
+      "value": null,
+      "source_text": null
+    },
+    "rainfall": {
+      "status": "UNKNOWN",
+      "value": null,
+      "source_text": null
+    }
+  }
+}

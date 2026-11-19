@@ -1,0 +1,46 @@
+{
+  "schema_version": "S5Query-1",
+  "original_question": "A neighbour told me that using 2 tonnes of manure plus 61 kg of nitrogen and 31 kg of phosphorus per hectare gave the biggest bulbs. If I use those amounts for my garlic, how many tonnes of garlic can I expect to harvest per hectare?",
+  "requests": [
+    {
+      "subject": "garlic",
+      "crop": "garlic",
+      "product": "garlic",
+      "nutrient": null,
+      "action": "harvest",
+      "fields": [
+        "quantity",
+        "unit",
+        "basis"
+      ],
+      "source_text": "how many tonnes of garlic can I expect to harvest per hectare"
+    }
+  ],
+  "facts": {
+    "crop": {
+      "status": "EXPLICIT",
+      "value": "garlic",
+      "source_text": "my garlic"
+    },
+    "manure_quantity": {
+      "status": "EXPLICIT",
+      "value": "2 tonnes",
+      "source_text": "2 tonnes of manure"
+    },
+    "nitrogen_quantity": {
+      "status": "EXPLICIT",
+      "value": "61 kg",
+      "source_text": "61 kg of nitrogen"
+    },
+    "phosphorus_quantity": {
+      "status": "EXPLICIT",
+      "value": "31 kg",
+      "source_text": "31 kg of phosphorus"
+    },
+    "area_ha": {
+      "status": "EXPLICIT",
+      "value": "per hectare",
+      "source_text": "per hectare"
+    }
+  }
+}

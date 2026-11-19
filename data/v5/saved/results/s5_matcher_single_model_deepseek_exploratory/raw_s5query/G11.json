@@ -1,0 +1,43 @@
+{
+  "raw": {
+    "service_tier": "default",
+    "id": "chatcmpl-RUdGp7CDooDQlytCgTV5xTAj",
+    "object": "chat.completion",
+    "created": 1794971217,
+    "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"schema_version\": \"S5Query-1\", \"original_question\": \"The soil test for my garlic field in Endamehoni shows a pH of 4.8. I want to raise it to 6.5 before planting. Exactly how many kilograms of lime should I spread per hectare?\", \"requests\": [{\"subject\": \"lime\", \"crop\": \"garlic\", \"product\": \"lime\", \"nutrient\": null, \"action\": \"spread\", \"fields\": [\"action\", \"product\", \"quantity\", \"unit\", \"basis\", \"timing\"], \"source_text\": \"Exactly how many kilograms of lime should I spread per hectare?\"}], \"facts\": {\"crop\": {\"status\": \"EXPLICIT\", \"value\": \"garlic\", \"source_text\": \"my garlic field\"}, \"region\": {\"status\": \"EXPLICIT\", \"value\": \"Endamehoni\", \"source_text\": \"in Endamehoni\"}, \"soil\": {\"status\": \"EXPLICIT\", \"value\": \"pH of 4.8\", \"source_text\": \"shows a pH of 4.8\"}, \"stage\": {\"status\": \"EXPLICIT\", \"value\": \"before planting\", \"source_text\": \"before planting\"}}}",
+          "reasoning_content": null,
+          "name": null,
+          "tool_calls": null
+        },
+        "finish_reason": "stop",
+        "logprobs": null
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1111,
+      "total_tokens": 1385,
+      "completion_tokens": 274,
+      "estimated_cost": 0.000189434,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": null
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    }
+  },
+  "latency_s": 2.4867332999929204,
+  "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+  "question_id": "G11",
+  "method": "s5query",
+  "request_sha256": "9895f3749c93a9623472fd79ff52fc36cd5c285af53b48ffd3d764cffff6361d",
+  "cost_usd": 0.000189434,
+  "reserved_usd": 0.007686336
+}

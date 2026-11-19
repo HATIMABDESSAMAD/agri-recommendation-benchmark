@@ -1,0 +1,43 @@
+{
+  "raw": {
+    "service_tier": "default",
+    "id": "chatcmpl-RqLgLRhbScfdPOeGGDbkbMGF",
+    "object": "chat.completion",
+    "created": 1794977281,
+    "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"schema_version\": \"S5Query-1\", \"original_question\": \"A fertilizer seller suggested using 92 kg of nitrogen, 40 kg of phosphorus and 30 kg of sulfur per hectare, together with 140 kg of potassium chloride per hectare, on my garlic. I haven't brought my soil report with me. Is that fertilizer plan suitable for my land?\", \"requests\": [{\"subject\": \"nitrogen\", \"crop\": \"garlic\", \"product\": null, \"nutrient\": \"nitrogen\", \"action\": \"using\", \"fields\": [\"action\", \"nutrient\", \"quantity\", \"unit\", \"basis\"], \"source_text\": \"using 92 kg of nitrogen, 40 kg of phosphorus and 30 kg of sulfur per hectare, together with 140 kg of potassium chloride per hectare, on my garlic\"}, {\"subject\": \"phosphorus\", \"crop\": \"garlic\", \"product\": null, \"nutrient\": \"phosphorus\", \"action\": \"using\", \"fields\": [\"action\", \"nutrient\", \"quantity\", \"unit\", \"basis\"], \"source_text\": \"using 92 kg of nitrogen, 40 kg of phosphorus and 30 kg of sulfur per hectare, together with 140 kg of potassium chloride per hectare, on my garlic\"}, {\"subject\": \"sulphur\", \"crop\": \"garlic\", \"product\": null, \"nutrient\": \"sulphur\", \"action\": \"using\", \"fields\": [\"action\", \"nutrient\", \"quantity\", \"unit\", \"basis\"], \"source_text\": \"using 92 kg of nitrogen, 40 kg of phosphorus and 30 kg of sulfur per hectare, together with 140 kg of potassium chloride per hectare, on my garlic\"}, {\"subject\": \"KCl (potassium chloride)\", \"crop\": \"garlic\", \"product\": \"potassium chloride\", \"nutrient\": null, \"action\": \"using\", \"fields\": [\"action\", \"product\", \"quantity\", \"unit\", \"basis\"], \"source_text\": \"using 92 kg of nitrogen, 40 kg of phosphorus and 30 kg of sulfur per hectare, together with 140 kg of potassium chloride per hectare, on my garlic\"}, {\"subject\": \"garlic\", \"crop\": \"garlic\", \"product\": null, \"nutrient\": null, \"action\": null, \"fields\": [\"product\"], \"source_text\": \"on my garlic\"}], \"facts\": {\"crop\": {\"status\": \"EXPLICIT\", \"value\": \"garlic\", \"source_text\": \"on my garlic\"}, \"area_ha\": {\"status\": \"UNKNOWN\", \"value\": null, \"source_text\": null}, \"soil\": {\"status\": \"UNKNOWN\", \"value\": null, \"source_text\": null}, \"soil_type\": {\"status\": \"UNKNOWN\", \"value\": null, \"source_text\": null}, \"region\": {\"status\": \"UNKNOWN\", \"value\": null, \"source_text\": null}, \"growth_stage\": {\"status\": \"UNKNOWN\", \"value\": null, \"source_text\": null}, \"stage\": {\"status\": \"UNKNOWN\", \"value\": null, \"source_text\": null}, \"rainfall\": {\"status\": \"UNKNOWN\", \"value\": null, \"source_text\": null}}}",
+          "reasoning_content": null,
+          "name": null,
+          "tool_calls": null
+        },
+        "finish_reason": "stop",
+        "logprobs": null
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1124,
+      "total_tokens": 1819,
+      "completion_tokens": 695,
+      "estimated_cost": 0.00031448200000000004,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": null
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    }
+  },
+  "latency_s": 5.106638299999759,
+  "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+  "question_id": "G08",
+  "method": "s5query",
+  "request_sha256": "74b9ee18621d5472aef3a5dc15db67fc46f382d45daec6bed17050566e5143ae",
+  "cost_usd": 0.00031448200000000004,
+  "reserved_usd": 0.007686336
+}

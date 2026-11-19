@@ -1,0 +1,37 @@
+{
+  "raw": {
+    "service_tier": "default",
+    "id": "chatcmpl-Ryxo4E36Jgie7vs3ar39alvW",
+    "object": "chat.completion",
+    "created": 1794978018,
+    "model": "Qwen/Qwen3.5-9B",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"schema_version\": \"S5Query-1\",\n  \"original_question\": \"The rains have started, and I'm preparing my garlic field. Should I plant on flat beds or make raised ridges?\",\n  \"requests\": [\n    {\n      \"subject\": \"garlic\",\n      \"crop\": \"garlic\",\n      \"fields\": [\n        \"action\",\n        \"modality\"\n      ],\n      \"source_text\": \"Should I plant on flat beds or make raised ridges?\"\n    }\n  ],\n  \"facts\": {\n    \"rainfall\": {\n      \"status\": \"EXPLICIT\",\n      \"value\": \"started\",\n      \"source_text\": \"The rains have started\"\n    },\n    \"crop\": {\n      \"status\": \"EXPLICIT\",\n      \"value\": \"garlic\",\n      \"source_text\": \"garlic field\"\n    }\n  }\n}",
+          "reasoning_content": null,
+          "name": null,
+          "tool_calls": null
+        },
+        "finish_reason": "stop",
+        "logprobs": null
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1088,
+      "total_tokens": 1295,
+      "completion_tokens": 207,
+      "estimated_cost": 0.00013985,
+      "prompt_tokens_details": null
+    }
+  },
+  "latency_s": 8.052217699994799,
+  "model": "Qwen/Qwen3.5-9B",
+  "question_id": "G10",
+  "method": "s5query",
+  "request_sha256": "8079eeac236c176bbd3e2d3be39a6ffb32e3525f068e37869803adbda4c14af2",
+  "reserved_usd": 0.006921599999999999,
+  "cost_usd": 0.00013985
+}

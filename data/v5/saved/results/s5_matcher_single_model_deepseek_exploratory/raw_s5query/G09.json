@@ -1,0 +1,43 @@
+{
+  "raw": {
+    "service_tier": "default",
+    "id": "chatcmpl-RNWCBQMZsst4RkwG4Adt1UmR",
+    "object": "chat.completion",
+    "created": 1794971212,
+    "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"schema_version\": \"S5Query-1\", \"original_question\": \"I missed the June–July planting time for my garlic, and now it's August. Can I still plant this month on my farm?\", \"requests\": [{\"subject\": \"garlic\", \"crop\": \"garlic\", \"action\": \"plant\", \"fields\": [\"action\", \"timing\"], \"source_text\": \"I missed the June–July planting time for my garlic, and now it's August. Can I still plant this month on my farm?\"}], \"facts\": {\"crop\": {\"status\": \"EXPLICIT\", \"value\": \"garlic\", \"source_text\": \"my garlic\"}, \"region\": {\"status\": \"UNKNOWN\", \"value\": null, \"source_text\": \"on my farm\"}}}",
+          "reasoning_content": null,
+          "name": null,
+          "tool_calls": null
+        },
+        "finish_reason": "stop",
+        "logprobs": null
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1093,
+      "total_tokens": 1265,
+      "completion_tokens": 172,
+      "estimated_cost": 0.000157682,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": null
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    }
+  },
+  "latency_s": 1.7927408999967156,
+  "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+  "question_id": "G09",
+  "method": "s5query",
+  "request_sha256": "d61c383322b0da3ea18d9fa9cb11c66ec8372ac78da4c095e7bee0bb57f7c47a",
+  "cost_usd": 0.000157682,
+  "reserved_usd": 0.007686336
+}

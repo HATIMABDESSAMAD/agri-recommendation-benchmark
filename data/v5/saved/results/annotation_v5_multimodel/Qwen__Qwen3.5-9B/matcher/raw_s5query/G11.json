@@ -1,0 +1,37 @@
+{
+  "raw": {
+    "service_tier": "default",
+    "id": "chatcmpl-RPdmZ8am0b8qST2j3IS7UHq8",
+    "object": "chat.completion",
+    "created": 1794978029,
+    "model": "Qwen/Qwen3.5-9B",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"schema_version\": \"S5Query-1\",\n  \"original_question\": \"The soil test for my garlic field in Endamehoni shows a pH of 4.8. I want to raise it to 6.5 before planting. Exactly how many kilograms of lime should I spread per hectare?\",\n  \"requests\": [\n    {\n      \"subject\": \"lime\",\n      \"fields\": [\n        \"quantity\",\n        \"unit\",\n        \"basis\"\n      ],\n      \"source_text\": \"Exactly how many kilograms of lime should I spread per hectare?\"\n    }\n  ],\n  \"facts\": {\n    \"crop\": {\n      \"status\": \"EXPLICIT\",\n      \"value\": \"garlic\",\n      \"source_text\": \"my garlic field\"\n    },\n    \"region\": {\n      \"status\": \"EXPLICIT\",\n      \"value\": \"Endamehoni\",\n      \"source_text\": \"in Endamehoni\"\n    },\n    \"soil\": {\n      \"status\": \"EXPLICIT\",\n      \"value\": \"pH of 4.8\",\n      \"source_text\": \"shows a pH of 4.8\"\n    },\n    \"action\": {\n      \"status\": \"EXPLICIT\",\n      \"value\": \"raise it to 6.5\",\n      \"source_text\": \"I want to raise it to 6.5\"\n    }\n  }\n}",
+          "reasoning_content": null,
+          "name": null,
+          "tool_calls": null
+        },
+        "finish_reason": "stop",
+        "logprobs": null
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1110,
+      "total_tokens": 1436,
+      "completion_tokens": 326,
+      "estimated_cost": 0.0001599,
+      "prompt_tokens_details": null
+    }
+  },
+  "latency_s": 5.193449799997325,
+  "model": "Qwen/Qwen3.5-9B",
+  "question_id": "G11",
+  "method": "s5query",
+  "request_sha256": "9895f3749c93a9623472fd79ff52fc36cd5c285af53b48ffd3d764cffff6361d",
+  "reserved_usd": 0.006921599999999999,
+  "cost_usd": 0.0001599
+}

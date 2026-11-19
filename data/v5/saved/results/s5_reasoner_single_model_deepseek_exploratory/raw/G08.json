@@ -1,0 +1,43 @@
+{
+  "raw": {
+    "service_tier": "default",
+    "id": "chatcmpl-RS0bbn3kz6G5iYH6Zg2ilULr",
+    "object": "chat.completion",
+    "created": 1794975089,
+    "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"label\": \"ASK\", \"response\": \"The S5 rules do contain a garlic regimen that matches your seller's plan: 140 kg KCl per hectare combined with 92 kg N, 40 kg P and 30 kg S per hectare. However, that four-part combination is stated as optimum only for Andosols and Vertisols soils. Your soil type is not known, and you mentioned you do not have your soil report. Whether your land is Andosols or Vertisols determines whether this specific plan applies, so I cannot confirm suitability without that fact.\", \"justification\": \"Rule r_c12_kcl (with r_c12_n, r_c12_p, r_c12_s) specifies 140 kg KCl product/ha combined with 92 kg N/ha, 40 kg P/ha and 30 kg S/ha as optimum for garlic, but its condition is soil_type IN [Andosols, Vertisols]. The farmer's soil_type is UNKNOWN. The general N rule r_c11_n_rate gives 70-125 kg N/ha but does not map field conditions to a precise value, and r_c15_k gives only a qualitative K advisory with no dose, so neither can validate the 140 kg KCl figure. Because a single specific farmer fact (soil type) would determine whether the applicable rule's condition is met, the correct response is to ask rather than answer or abstain.\", \"rule_ids\": [\"r_c12_kcl\", \"r_c12_n\", \"r_c12_p\", \"r_c12_s\", \"r_c11_n_rate\", \"r_c15_k\"], \"cited_pages\": [12, 20], \"missing_facts\": [\"soil_type\"]}",
+          "reasoning_content": null,
+          "name": null,
+          "tool_calls": null
+        },
+        "finish_reason": "stop",
+        "logprobs": null
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 12709,
+      "total_tokens": 13059,
+      "completion_tokens": 350,
+      "estimated_cost": 0.0013483820000000002,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": null
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    }
+  },
+  "latency_s": 4.296016600004805,
+  "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+  "question_id": "G08",
+  "method": "D4",
+  "request_sha256": "4a006138132df8ab9e242e717072b3d163a4acf5bafb89d2cae45164f05a0733",
+  "cost_usd": 0.0013483820000000002,
+  "reserved_usd": 0.015603167999999997
+}

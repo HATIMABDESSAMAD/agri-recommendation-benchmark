@@ -1,0 +1,37 @@
+{
+  "raw": {
+    "service_tier": "default",
+    "id": "chatcmpl-RebSEBKOGDVcwIe7ggTFzEob",
+    "object": "chat.completion",
+    "created": 1794977849,
+    "model": "Qwen/Qwen3.5-9B",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"label\": \"ANSWER\",\n  \"response\": \"Yes, it is the right time to apply the remaining urea. The manual recommends applying half of the urea at planting and the remaining half 30-45 days after planting. Since you planted 38 days ago, you are within the recommended window.\",\n  \"justification\": \"Section 3.8 (Page 12) states: 'Both fertilizers are applied for Garlic at the rate of 200 kg/ha NPS and 150 kg/ha Urea. The whole amount of phosphorus fertilizer is applied once during planting, whereas half rate of urea is applied during planting and remaining is applied 30-45 days after planting.' The farmer's planting date of 38 days ago falls within this 30-45 day range.\",\n  \"cited_pages\": [12]\n}",
+          "reasoning_content": null,
+          "name": null,
+          "tool_calls": null
+        },
+        "finish_reason": "stop",
+        "logprobs": null
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 19802,
+      "total_tokens": 19999,
+      "completion_tokens": 197,
+      "estimated_cost": 0.0020097500000000003,
+      "prompt_tokens_details": null
+    }
+  },
+  "latency_s": 5.289882500001113,
+  "model": "Qwen/Qwen3.5-9B",
+  "question_id": "G07",
+  "method": "direct",
+  "request_sha256": "6922323c2109ed3cc3beb2072ef0c3e5c1f2821f9be2f4fba62960a36a41e8fb",
+  "reserved_usd": 0.0039228,
+  "cost_usd": 0.0020097500000000003
+}

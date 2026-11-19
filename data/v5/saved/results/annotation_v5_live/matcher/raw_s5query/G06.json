@@ -1,0 +1,43 @@
+{
+  "raw": {
+    "service_tier": "default",
+    "id": "chatcmpl-RJqxmn5I4zwxdDyqRZ3egGHR",
+    "object": "chat.completion",
+    "created": 1794977272,
+    "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"schema_version\": \"S5Query-1\", \"original_question\": \"I'm growing garlic in southern Tigray with 150 kg of urea planned per hectare. Instead of the usual two applications, I'd like to split it into three this season. Is the three-application split right for my farm this season?\", \"requests\": [{\"subject\": \"three-application split of urea\", \"crop\": \"garlic\", \"product\": \"urea\", \"nutrient\": null, \"action\": \"split application\", \"fields\": [\"action\", \"timing\", \"method\"], \"source_text\": \"Instead of the usual two applications, I'd like to split it into three this season. Is the three-application split right for my farm this season?\"}], \"facts\": {\"crop\": {\"status\": \"EXPLICIT\", \"value\": \"garlic\", \"source_text\": \"I'm growing garlic\"}, \"region\": {\"status\": \"EXPLICIT\", \"value\": \"southern Tigray\", \"source_text\": \"in southern Tigray\"}, \"area_ha\": {\"status\": \"EXPLICIT\", \"value\": 1, \"source_text\": \"per hectare\"}, \"growth_stage\": {\"status\": \"UNKNOWN\", \"value\": null, \"source_text\": null}, \"soil\": {\"status\": \"UNKNOWN\", \"value\": null, \"source_text\": null}, \"soil_type\": {\"status\": \"UNKNOWN\", \"value\": null, \"source_text\": null}, \"rainfall\": {\"status\": \"UNKNOWN\", \"value\": null, \"source_text\": null}, \"stage\": {\"status\": \"UNKNOWN\", \"value\": null, \"source_text\": null}}}",
+          "reasoning_content": null,
+          "name": null,
+          "tool_calls": null
+        },
+        "finish_reason": "stop",
+        "logprobs": null
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1114,
+      "total_tokens": 1475,
+      "completion_tokens": 361,
+      "estimated_cost": 0.00021530600000000004,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": null
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    }
+  },
+  "latency_s": 7.848880099998496,
+  "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+  "question_id": "G06",
+  "method": "s5query",
+  "request_sha256": "dae7cd08afdfb96ba895e0289ace8d6cbc2e37130512468eac86d55f0a2178b1",
+  "cost_usd": 0.00021530600000000004,
+  "reserved_usd": 0.007686336
+}

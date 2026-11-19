@@ -1,0 +1,11 @@
+{
+  "question_id": "G06",
+  "decision": {
+    "label": "ANSWER",
+    "response": "Yes, splitting the 150 kg/ha of urea into three applications is supported by the document, but it is conditional on weather. The manual states that while the standard practice is to apply half at planting and the remaining half 30-45 days after planting, 'In some cases, when there is good rain, application of urea can be done in three phases (1/3 during planting, 1/3 after 30 days planting and the remaining three weeks after the second application).'",
+    "justification": "The document explicitly mentions a three-phase application schedule for urea as an alternative to the standard two-phase schedule, specifically noting it is applicable 'when there is good rain' (Page 12, Section 3.8). Since the user is asking if this split is 'right' for their farm, the document provides the specific condition (good rain) under which this practice is recommended.",
+    "cited_pages": [
+      12
+    ]
+  }
+}

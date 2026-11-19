@@ -1,0 +1,37 @@
+{
+  "raw": {
+    "service_tier": "default",
+    "id": "chatcmpl-RNqJCtjOoKbb2vAR7by6jpri",
+    "object": "chat.completion",
+    "created": 1794977950,
+    "model": "Qwen/Qwen3.5-9B",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"schema_version\": \"S5Query-1\",\n  \"original_question\": \"It's been 40 days since I planted my garlic, so I'm due to put on the second half of the urea. But the bulbs have already started getting bigger. Should I still add the urea today?\",\n  \"requests\": [\n    {\n      \"subject\": \"Urea\",\n      \"crop\": \"garlic\",\n      \"nutrient\": \"nitrogen\",\n      \"action\": \"nitrogen application\",\n      \"fields\": [\n        \"action\",\n        \"product\",\n        \"nutrient\",\n        \"crop\"\n      ],\n      \"source_text\": \"I'm due to put on the second half of the urea\"\n    },\n    {\n      \"subject\": \"garlic\",\n      \"crop\": \"garlic\",\n      \"fields\": [\n        \"crop\"\n      ],\n      \"source_text\": \"planted my garlic\"\n    },\n    {\n      \"subject\": \"nitrogen application\",\n      \"action\": \"nitrogen application\",\n      \"nutrient\": \"nitrogen\",\n      \"product\": \"Urea\",\n      \"fields\": [\n        \"action\",\n        \"product\",\n        \"nutrient\"\n      ],\n      \"source_text\": \"Should I still add the urea today?\"\n    }\n  ],\n  \"facts\": {\n    \"crop\": {\n      \"status\": \"EXPLICIT\",\n      \"value\": \"garlic\",\n      \"source_text\": \"planted my garlic\"\n    },\n    \"product\": {\n      \"status\": \"EXPLICIT\",\n      \"value\": \"urea\",\n      \"source_text\": \"put on the second half of the urea\"\n    },\n    \"nutrient\": {\n      \"status\": \"EXPLICIT\",\n      \"value\": \"nitrogen\",\n      \"source_text\": \"urea\"\n    },\n    \"action\": {\n      \"status\": \"EXPLICIT\",\n      \"value\": \"nitrogen application\",\n      \"source_text\": \"put on the second half of the urea\"\n    },\n    \"growth_stage\": {\n      \"status\": \"EXPLICIT\",\n      \"value\": \"bulbs beginning to enlarge\",\n      \"source_text\": \"the bulbs have already started getting bigger\"\n    }\n  }\n}",
+          "reasoning_content": null,
+          "name": null,
+          "tool_calls": null
+        },
+        "finish_reason": "stop",
+        "logprobs": null
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1109,
+      "total_tokens": 1640,
+      "completion_tokens": 531,
+      "estimated_cost": 0.00019055000000000002,
+      "prompt_tokens_details": null
+    }
+  },
+  "latency_s": 12.082472000001871,
+  "model": "Qwen/Qwen3.5-9B",
+  "question_id": "G05",
+  "method": "s5query",
+  "request_sha256": "671f4f401eae4af64a8558154e70af0ea01509247d471a2b2c47c3f366f5563b",
+  "reserved_usd": 0.006921599999999999,
+  "cost_usd": 0.00019055000000000002
+}

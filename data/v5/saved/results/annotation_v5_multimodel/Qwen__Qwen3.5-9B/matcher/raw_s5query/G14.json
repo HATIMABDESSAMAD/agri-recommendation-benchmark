@@ -1,0 +1,37 @@
+{
+  "raw": {
+    "service_tier": "default",
+    "id": "chatcmpl-RufkinWQEJzSXv04yg1rzk41",
+    "object": "chat.completion",
+    "created": 1794978101,
+    "model": "Qwen/Qwen3.5-9B",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"schema_version\": \"S5Query-1\",\n  \"original_question\": \"I can't find NPS or urea this season, but the shop has triple superphosphate and ammonium sulfate. How many kilograms of each should I use to replace exactly 200 kg of NPS and 150 kg of urea per hectare without changing the nutrients my garlic gets?\",\n  \"requests\": [\n    {\n      \"subject\": \"garlic\",\n      \"crop\": \"garlic\",\n      \"product\": null,\n      \"nutrient\": null,\n      \"action\": null,\n      \"fields\": [\n        \"crop\"\n      ],\n      \"source_text\": \"my garlic\"\n    },\n    {\n      \"subject\": \"NPS\",\n      \"crop\": null,\n      \"product\": \"NPS\",\n      \"nutrient\": null,\n      \"action\": null,\n      \"fields\": [\n        \"product\"\n      ],\n      \"source_text\": \"NPS\"\n    },\n    {\n      \"subject\": \"urea\",\n      \"crop\": null,\n      \"product\": \"urea\",\n      \"nutrient\": null,\n      \"action\": null,\n      \"fields\": [\n        \"product\"\n      ],\n      \"source_text\": \"urea\"\n    },\n    {\n      \"subject\": \"triple superphosphate\",\n      \"crop\": null,\n      \"product\": \"triple superphosphate\",\n      \"nutrient\": null,\n      \"action\": null,\n      \"fields\": [\n        \"product\"\n      ],\n      \"source_text\": \"triple superphosphate\"\n    },\n    {\n      \"subject\": \"ammonium sulfate\",\n      \"crop\": null,\n      \"product\": \"ammonium sulfate\",\n      \"nutrient\": null,\n      \"action\": null,\n      \"fields\": [\n        \"product\"\n      ],\n      \"source_text\": \"ammonium sulfate\"\n    },\n    {\n      \"subject\": \"NPS\",\n      \"crop\": null,\n      \"product\": \"NPS\",\n      \"nutrient\": null,\n      \"action\": null,\n      \"fields\": [\n        \"product\",\n        \"quantity\",\n        \"unit\",\n        \"basis\"\n      ],\n      \"source_text\": \"200 kg of NPS\"\n    },\n    {\n      \"subject\": \"urea\",\n      \"crop\": null,\n      \"product\": \"urea\",\n      \"nutrient\": null,\n      \"action\": null,\n      \"fields\": [\n        \"product\",\n        \"quantity\",\n        \"unit\",\n        \"basis\"\n      ],\n      \"source_text\": \"150 kg of urea\"\n    },\n    {\n      \"subject\": \"garlic\",\n      \"crop\": null,\n      \"product\": null,\n      \"nutrient\": null,\n      \"action\": null,\n      \"fields\": [\n        \"nutrient\"\n      ],\n      \"source_text\": \"nutrients my garlic gets\"\n    }\n  ],\n  \"facts\": {\n    \"crop\": {\n      \"status\": \"EXPLICIT\",\n      \"value\": \"garlic\",\n      \"source_text\": \"my garlic\"\n    },\n    \"product\": {\n      \"status\": \"EXPLICIT\",\n      \"value\": \"NPS\",\n      \"source_text\": \"NPS\"\n    },\n    \"product\": {\n      \"status\": \"EXPLICIT\",\n      \"value\": \"urea\",\n      \"source_text\": \"urea\"\n    },\n    \"product\": {\n      \"status\": \"EXPLICIT\",\n      \"value\": \"triple superphosphate\",\n      \"source_text\": \"triple superphosphate\"\n    },\n    \"product\": {\n      \"status\": \"EXPLICIT\",\n      \"value\": \"ammonium sulfate\",\n      \"source_text\": \"ammonium sulfate\"\n    },\n    \"quantity\": {\n      \"status\": \"EXPLICIT\",\n      \"value\": 200,\n      \"source_text\": \"200 kg\"\n    },\n    \"quantity\": {\n      \"status\": \"EXPLICIT\",\n      \"value\": 150,\n      \"source_text\": \"150 kg\"\n    },\n    \"unit\": {\n      \"status\": \"EXPLICIT\",\n      \"value\": \"kg\",\n      \"source_text\": \"kg\"\n    },\n    \"basis\": {\n      \"status\": \"EXPLICIT\",\n      \"value\": \"per hectare\",\n      \"source_text\": \"per hectare\"\n    }\n  }\n}",
+          "reasoning_content": null,
+          "name": null,
+          "tool_calls": null
+        },
+        "finish_reason": "stop",
+        "logprobs": null
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1127,
+      "total_tokens": 2199,
+      "completion_tokens": 1072,
+      "estimated_cost": 0.0002735,
+      "prompt_tokens_details": null
+    }
+  },
+  "latency_s": 26.143872499997087,
+  "model": "Qwen/Qwen3.5-9B",
+  "question_id": "G14",
+  "method": "s5query",
+  "request_sha256": "ff499eec81bc363c48ec73c2882adc61525f3a55dea4f9f72b8acaad37a0fcb7",
+  "reserved_usd": 0.006921599999999999,
+  "cost_usd": 0.0002735
+}

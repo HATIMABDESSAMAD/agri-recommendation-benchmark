@@ -1,0 +1,37 @@
+{
+  "raw": {
+    "service_tier": "default",
+    "id": "chatcmpl-RMWyssHzfymVCAtjH830vorS",
+    "object": "chat.completion",
+    "created": 1794977895,
+    "model": "Qwen/Qwen3.5-9B",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"schema_version\": \"S5Query-1\",\n  \"original_question\": \"We've had good rain this season, and I'm planting garlic on 0.18 hectares. I want to spread the usual 150 kg/ha of urea over three applications instead of two, and use 200 kg/ha of NPS as well. How much of each should I apply, and on which days?\",\n  \"requests\": [\n    {\n      \"subject\": \"Urea\",\n      \"fields\": [\n        \"quantity\",\n        \"unit\",\n        \"basis\",\n        \"timing\",\n        \"modality\"\n      ],\n      \"source_text\": \"I want to spread the usual 150 kg/ha of urea over three applications instead of two\"\n    },\n    {\n      \"subject\": \"NPS (blended)\",\n      \"fields\": [\n        \"quantity\",\n        \"unit\",\n        \"basis\"\n      ],\n      \"source_text\": \"use 200 kg/ha of NPS as well\"\n    }\n  ],\n  \"facts\": {\n    \"rainfall\": {\n      \"status\": \"EXPLICIT\",\n      \"value\": \"good\",\n      \"source_text\": \"We've had good rain this season\"\n    },\n    \"crop\": {\n      \"status\": \"EXPLICIT\",\n      \"value\": \"garlic\",\n      \"source_text\": \"I'm planting garlic\"\n    },\n    \"area_ha\": {\n      \"status\": \"EXPLICIT\",\n      \"value\": 0.18,\n      \"source_text\": \"0.18 hectares\"\n    },\n    \"Urea\": {\n      \"status\": \"EXPLICIT\",\n      \"value\": \"150 kg/ha\",\n      \"source_text\": \"150 kg/ha of urea\"\n    },\n    \"NPS (blended)\": {\n      \"status\": \"EXPLICIT\",\n      \"value\": \"200 kg/ha\",\n      \"source_text\": \"200 kg/ha of NPS\"\n    }\n  }\n}",
+          "reasoning_content": null,
+          "name": null,
+          "tool_calls": null
+        },
+        "finish_reason": "stop",
+        "logprobs": null
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1135,
+      "total_tokens": 1618,
+      "completion_tokens": 483,
+      "estimated_cost": 0.00018595,
+      "prompt_tokens_details": null
+    }
+  },
+  "latency_s": 10.621232600002259,
+  "model": "Qwen/Qwen3.5-9B",
+  "question_id": "G02",
+  "method": "s5query",
+  "request_sha256": "ac8a5956e3e03eca3e72b94b1581a2f6b0fa47ecca26f036543f23758d4c38d2",
+  "reserved_usd": 0.006921599999999999,
+  "cost_usd": 0.00018595
+}

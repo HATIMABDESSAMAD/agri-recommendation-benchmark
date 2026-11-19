@@ -1,0 +1,11 @@
+{
+  "question_id": "G10",
+  "decision": {
+    "label": "ABSTAIN",
+    "response": "The S5 ruleset provides guidance on fertilizer application (N, P, K, S) and soil fertility requirements for garlic, but it contains no rules, conditions, or metadata regarding land preparation methods such as 'flat beds' versus 'raised ridges'. The fact that rains have started is noted, but no rule links rainfall status to a specific planting bed configuration.",
+    "justification": "Rule r_c7_fertility_or_manure discusses selecting land with high fertility or applying manure, but does not specify the physical arrangement of the land (flat vs. ridged). No other rule addresses planting geometry or bed preparation. Therefore, the S5 system is silent on the specific question asked.",
+    "rule_ids": [],
+    "cited_pages": [],
+    "missing_facts": []
+  }
+}

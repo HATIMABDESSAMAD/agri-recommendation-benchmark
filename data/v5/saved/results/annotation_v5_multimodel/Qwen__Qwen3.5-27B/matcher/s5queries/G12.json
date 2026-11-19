@@ -1,0 +1,57 @@
+{
+  "schema_version": "S5Query-1",
+  "original_question": "My garlic is growing on Regosol, and the soil test says potassium is low. I've heard some growers use 140 kg of potassium chloride per hectare. What exact amount has been shown to work for garlic on soil like mine?",
+  "requests": [
+    {
+      "subject": "potassium chloride",
+      "crop": "garlic",
+      "product": null,
+      "nutrient": "potassium",
+      "action": "application",
+      "fields": [
+        "quantity",
+        "unit",
+        "basis",
+        "evidence"
+      ],
+      "source_text": "What exact amount has been shown to work for garlic on soil like mine?"
+    }
+  ],
+  "facts": {
+    "crop": {
+      "status": "EXPLICIT",
+      "value": "garlic",
+      "source_text": "My garlic is growing"
+    },
+    "soil_type": {
+      "status": "EXPLICIT",
+      "value": "Regosol",
+      "source_text": "growing on Regosol"
+    },
+    "potassium_status": {
+      "status": "EXPLICIT",
+      "value": "low",
+      "source_text": "soil test says potassium is low"
+    },
+    "area_ha": {
+      "status": "UNKNOWN",
+      "value": null,
+      "source_text": null
+    },
+    "growth_stage": {
+      "status": "UNKNOWN",
+      "value": null,
+      "source_text": null
+    },
+    "region": {
+      "status": "UNKNOWN",
+      "value": null,
+      "source_text": null
+    },
+    "rainfall": {
+      "status": "UNKNOWN",
+      "value": null,
+      "source_text": null
+    }
+  }
+}

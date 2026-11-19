@@ -1,0 +1,11 @@
+{
+  "question_id": "G02",
+  "decision": {
+    "label": "ANSWER",
+    "response": "For your 0.18 ha, the manual's standard garlic rates are 200 kg/ha NPS and 150 kg/ha urea. That means total product amounts of 36 kg NPS and 27 kg urea. Apply all 36 kg NPS at planting. For the urea, the manual allows three applications when there is good rain: one-third at planting (9 kg), one-third 30 days after planting (9 kg), and the remaining third three weeks after the second application (9 kg). The manual does not give exact calendar dates, so base the timing on your planting date.",
+    "justification": "The PDF states garlic is fertilized at 200 kg/ha NPS and 150 kg/ha Urea, with all phosphorus applied at planting and urea split; in good rain urea can be applied in three phases: 1/3 at planting, 1/3 after 30 days, and the remaining three weeks after the second application. Multiplying by 0.18 ha gives 36 kg NPS and 27 kg urea, split as 9 kg urea per application. The document does not specify calendar dates, only timings relative to planting.",
+    "cited_pages": [
+      12
+    ]
+  }
+}

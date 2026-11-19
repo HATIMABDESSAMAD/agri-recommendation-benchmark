@@ -1,0 +1,37 @@
+{
+  "raw": {
+    "service_tier": "default",
+    "id": "chatcmpl-RaBUqyDfB0y9qkAh5OsPRyb7",
+    "object": "chat.completion",
+    "created": 1794977867,
+    "model": "Qwen/Qwen3.5-9B",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"label\": \"ASK\",\n  \"response\": \"What is the current soil test result for Nitrogen (N) and Phosphorus (P) in your Regosol field?\",\n  \"justification\": \"The document states on page 12 that for Andosols and Vertisols, an application of 140 kg/ha of KCl is optimum when combined with 92 kg N + 40 kg P + 30 kg S. However, the document does not provide specific fertilizer recommendations for Regosol soils. Furthermore, the document notes on page 12 that soil fertility requirements vary significantly with soil type, previous crop, and organic matter. To provide a safe and precise recommendation for a Regosol, the current N and P status is required to determine if the specific N+P+K combination mentioned for other soil types is appropriate or if different rates are needed.\",\n  \"cited_pages\": [12]\n}",
+          "reasoning_content": null,
+          "name": null,
+          "tool_calls": null
+        },
+        "finish_reason": "stop",
+        "logprobs": null
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 19821,
+      "total_tokens": 20027,
+      "completion_tokens": 206,
+      "estimated_cost": 0.0020130000000000005,
+      "prompt_tokens_details": null
+    }
+  },
+  "latency_s": 2.915143199999875,
+  "model": "Qwen/Qwen3.5-9B",
+  "question_id": "G12",
+  "method": "direct",
+  "request_sha256": "32ce58c296977ebb447a444ddb96d98ea40d71ee01bb77188bb930f5ac673cf3",
+  "reserved_usd": 0.0039228,
+  "cost_usd": 0.0020130000000000005
+}

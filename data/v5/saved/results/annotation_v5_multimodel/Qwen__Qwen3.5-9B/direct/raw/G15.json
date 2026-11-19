@@ -1,0 +1,37 @@
+{
+  "raw": {
+    "service_tier": "default",
+    "id": "chatcmpl-REzmp4rWJE5bQG4rbGmXxVd0",
+    "object": "chat.completion",
+    "created": 1794977876,
+    "model": "Qwen/Qwen3.5-9B",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n\"label\": \"ASK\",\n\"response\": \"What specific NPS and urea application rates were tested and recorded for the Qoricho variety at 3,200 metres altitude in your specific location?\",\n\"justification\": \"The document provides general fertilizer recommendations for the southern Tigray region (200 kg/ha NPS and 150 kg/ha Urea) and notes that Qoricho is adapted to altitudes up to 3,350 m (Page 10). However, the text does not contain specific tested fertilizer rates for the Qoricho variety at the exact altitude of 3,200 metres. The fertilizer data provided in the text (Page 5 and Page 12) refers to general practices or trials involving the 'Bora local' variety, not specifically Qoricho at that specific elevation.\",\n\"cited_pages\": [5, 10, 12]\n}",
+          "reasoning_content": null,
+          "name": null,
+          "tool_calls": null
+        },
+        "finish_reason": "stop",
+        "logprobs": null
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 19844,
+      "total_tokens": 20046,
+      "completion_tokens": 202,
+      "estimated_cost": 0.0020147,
+      "prompt_tokens_details": null
+    }
+  },
+  "latency_s": 2.9511404000004404,
+  "model": "Qwen/Qwen3.5-9B",
+  "question_id": "G15",
+  "method": "direct",
+  "request_sha256": "a01e264f6f8481cfbfa5cdace840ef5663f9314c85490d959aea8fa28ce9586e",
+  "reserved_usd": 0.0039228,
+  "cost_usd": 0.0020147
+}

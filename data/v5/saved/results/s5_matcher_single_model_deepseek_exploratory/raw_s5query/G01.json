@@ -1,0 +1,43 @@
+{
+  "raw": {
+    "service_tier": "default",
+    "id": "chatcmpl-RGmTTS6AmJu59FpLwywwwxCq",
+    "object": "chat.completion",
+    "created": 1794971180,
+    "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"schema_version\": \"S5Query-1\", \"original_question\": \"I'm getting my 0.24-hectare garlic plot in southern Tigray ready for planting. The extension worker told me to use 200 kg of NPS and 150 kg of urea per hectare. How many kilograms of each fertilizer do I need for my plot, and how much urea should I put on at planting and later?\", \"requests\": [{\"subject\": \"NPS fertilizer\", \"crop\": \"garlic\", \"product\": \"NPS\", \"nutrient\": null, \"action\": null, \"fields\": [\"quantity\", \"unit\", \"basis\", \"total_quantity\"], \"source_text\": \"How many kilograms of each fertilizer do I need for my plot\"}, {\"subject\": \"urea fertilizer\", \"crop\": \"garlic\", \"product\": \"urea\", \"nutrient\": null, \"action\": null, \"fields\": [\"quantity\", \"unit\", \"basis\", \"total_quantity\"], \"source_text\": \"How many kilograms of each fertilizer do I need for my plot\"}, {\"subject\": \"urea fertilizer\", \"crop\": \"garlic\", \"product\": \"urea\", \"nutrient\": null, \"action\": \"apply\", \"fields\": [\"quantity\", \"unit\", \"timing\", \"method\"], \"source_text\": \"how much urea should I put on at planting and later?\"}], \"facts\": {\"area_ha\": {\"status\": \"EXPLICIT\", \"value\": 0.24, \"source_text\": \"0.24-hectare garlic plot\"}, \"crop\": {\"status\": \"EXPLICIT\", \"value\": \"garlic\", \"source_text\": \"garlic plot\"}, \"region\": {\"status\": \"EXPLICIT\", \"value\": \"southern Tigray\", \"source_text\": \"southern Tigray\"}, \"growth_stage\": {\"status\": \"UNKNOWN\", \"value\": null, \"source_text\": null}, \"soil\": {\"status\": \"UNKNOWN\", \"value\": null, \"source_text\": null}, \"soil_type\": {\"status\": \"UNKNOWN\", \"value\": null, \"source_text\": null}, \"rainfall\": {\"status\": \"UNKNOWN\", \"value\": null, \"source_text\": null}, \"stage\": {\"status\": \"UNKNOWN\", \"value\": null, \"source_text\": null}}}",
+          "reasoning_content": null,
+          "name": null,
+          "tool_calls": null
+        },
+        "finish_reason": "stop",
+        "logprobs": null
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1134,
+      "total_tokens": 1637,
+      "completion_tokens": 503,
+      "estimated_cost": 0.000259014,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": null
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    }
+  },
+  "latency_s": 3.415582200002973,
+  "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+  "question_id": "G01",
+  "method": "s5query",
+  "request_sha256": "fc76fd297a44e4c92a8ab18183044343617df6b69abd8ff574d92c3b139a1ad6",
+  "cost_usd": 0.000259014,
+  "reserved_usd": 0.007686336
+}

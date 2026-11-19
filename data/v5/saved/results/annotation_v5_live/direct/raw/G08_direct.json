@@ -1,0 +1,43 @@
+{
+  "raw": {
+    "service_tier": "default",
+    "id": "chatcmpl-R5Nhz0GHFrJtEbquZc1moTuo",
+    "object": "chat.completion",
+    "created": 1794977224,
+    "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"label\": \"ASK\", \"response\": \"What is the soil type and fertility status of your land (for example, is it an Andosol or Vertisol, and what does your soil report say about nitrogen, phosphorus, potassium, and sulfur levels)? The manual gives that 92 kg N + 40 kg P + 30 kg S per hectare with 140 kg KCl per hectare as an optimum for Andosols and Vertisols, and it also notes that garlic fertilizer requirements vary with soil fertility status, so I cannot confirm suitability without your soil information.\", \"justification\": \"The PDF states the 92 kg N + 40 kg P + 30 kg S plus 140 kg KCl per hectare combination is optimum for Andosols and Vertisols, and that fertilizer requirements of garlic vary with the fertility status of the soil. The farmer has not provided soil type or soil report, which is necessary to judge suitability.\", \"cited_pages\": [12]}",
+          "reasoning_content": null,
+          "name": null,
+          "tool_calls": null
+        },
+        "finish_reason": "stop",
+        "logprobs": null
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 18014,
+      "total_tokens": 18211,
+      "completion_tokens": 197,
+      "estimated_cost": 0.0001198148,
+      "prompt_tokens_details": {
+        "cached_tokens": 17920,
+        "cache_write_tokens": null
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    }
+  },
+  "latency_s": 3.411403199999768,
+  "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+  "question_id": "G08",
+  "method": "direct",
+  "request_sha256": "914354b5b5210062dcd1202b32611dbb0032de660038fee5f0d689d97fe70126",
+  "cost_usd": 0.0001198148,
+  "reserved_usd": 0.0040136880000000005
+}

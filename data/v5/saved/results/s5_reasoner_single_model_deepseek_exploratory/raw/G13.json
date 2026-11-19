@@ -1,0 +1,43 @@
+{
+  "raw": {
+    "service_tier": "default",
+    "id": "chatcmpl-RdMaaVn3wIY4KjA1DfD0sl5e",
+    "object": "chat.completion",
+    "created": 1794975108,
+    "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"label\": \"ABSTAIN\", \"response\": \"The S5 ruleset does not contain any rule that predicts garlic yield (tonnes per hectare) from manure, nitrogen, or phosphorus application rates. The rules describe fertility/manure advisories and specific N, P, S, K and urea/NPS application rates, but none state a yield outcome or a yield-response function. Therefore the expected harvest per hectare for the stated inputs cannot be determined from S5.\", \"justification\": \"No S5 rule links the specified manure/N/P amounts to a garlic yield quantity. r_c7_fertility_or_manure only says considerable manure/fertilizers MAY be applied (dose unspecified, no yield figure). r_c11_n_rate gives a general N range (70-125 kg N/ha) and r_c12_* give a combined Andosols/Vertisols regimen, but none provide a yield prediction. The requested output (tonnes of garlic per hectare) is not supported by any rule, so the answer is not derivable and no specific farmer fact would enable it under S5.\", \"rule_ids\": [\"r_c7_fertility_or_manure\", \"r_c11_n_rate\", \"r_c12_n\", \"r_c12_p\"], \"cited_pages\": [10, 12], \"missing_facts\": []}",
+          "reasoning_content": null,
+          "name": null,
+          "tool_calls": null
+        },
+        "finish_reason": "stop",
+        "logprobs": null
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 12339,
+      "total_tokens": 12619,
+      "completion_tokens": 280,
+      "estimated_cost": 0.0012915420000000003,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": null
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    }
+  },
+  "latency_s": 3.8052553000015905,
+  "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+  "question_id": "G13",
+  "method": "D4",
+  "request_sha256": "e4c4d7f58fa0ae89ac4ab0f4bd35ce047510f8bbb07808eff8ad90b72be72390",
+  "cost_usd": 0.0012915420000000003,
+  "reserved_usd": 0.015603167999999997
+}

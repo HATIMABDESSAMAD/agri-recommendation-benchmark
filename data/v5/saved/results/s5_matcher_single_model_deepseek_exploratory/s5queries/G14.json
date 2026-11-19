@@ -1,0 +1,76 @@
+{
+  "schema_version": "S5Query-1",
+  "original_question": "I can't find NPS or urea this season, but the shop has triple superphosphate and ammonium sulfate. How many kilograms of each should I use to replace exactly 200 kg of NPS and 150 kg of urea per hectare without changing the nutrients my garlic gets?",
+  "requests": [
+    {
+      "subject": "triple superphosphate",
+      "crop": "garlic",
+      "product": "triple superphosphate",
+      "nutrient": null,
+      "action": "replace",
+      "fields": [
+        "product",
+        "quantity",
+        "unit",
+        "basis",
+        "conversion"
+      ],
+      "source_text": "How many kilograms of each should I use to replace exactly 200 kg of NPS and 150 kg of urea per hectare without changing the nutrients my garlic gets?"
+    },
+    {
+      "subject": "ammonium sulfate",
+      "crop": "garlic",
+      "product": "ammonium sulfate",
+      "nutrient": null,
+      "action": "replace",
+      "fields": [
+        "product",
+        "quantity",
+        "unit",
+        "basis",
+        "conversion"
+      ],
+      "source_text": "How many kilograms of each should I use to replace exactly 200 kg of NPS and 150 kg of urea per hectare without changing the nutrients my garlic gets?"
+    },
+    {
+      "subject": "NPS (blended)",
+      "crop": "garlic",
+      "product": "NPS",
+      "nutrient": null,
+      "action": "replace",
+      "fields": [
+        "product",
+        "quantity",
+        "unit",
+        "basis"
+      ],
+      "source_text": "replace exactly 200 kg of NPS"
+    },
+    {
+      "subject": "Urea",
+      "crop": "garlic",
+      "product": "urea",
+      "nutrient": null,
+      "action": "replace",
+      "fields": [
+        "product",
+        "quantity",
+        "unit",
+        "basis"
+      ],
+      "source_text": "150 kg of urea per hectare"
+    }
+  ],
+  "facts": {
+    "crop": {
+      "status": "EXPLICIT",
+      "value": "garlic",
+      "source_text": "my garlic"
+    },
+    "area_ha": {
+      "status": "EXPLICIT",
+      "value": 1,
+      "source_text": "per hectare"
+    }
+  }
+}

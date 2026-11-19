@@ -1,0 +1,211 @@
+{
+  "question_id": "G01",
+  "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+  "decision": {
+    "engine": "D3-1.0.0",
+    "label": "ABSTAIN",
+    "status": "UNSUPPORTED_SEMANTICS",
+    "response": "S5 cannot resolve the requested relation safely.",
+    "rule_ids": [],
+    "missing_decisive_facts": [],
+    "unsupported_semantics": [
+      "r_c10_urea_2split: context.other.calculated_split_product_kg_ha has untyped structured semantics",
+      "r_c10_urea_3split: context.other.calculated_split_product_kg_ha has untyped structured semantics"
+    ],
+    "evidence": [],
+    "trace": [
+      {
+        "rule_id": "r_c10_nps",
+        "request_subject": "NPS fertilizer",
+        "scope": "TRUE",
+        "condition": "TRUE",
+        "exceptions": [],
+        "state": "TRUE",
+        "missing": [],
+        "unsupported": [],
+        "dependencies": [],
+        "required_rule_ids": [],
+        "descriptive_context_keys": [
+          "practice_type",
+          "regimen_id",
+          "timing_qualification"
+        ],
+        "evidence": [
+          {
+            "document_id": "garlic",
+            "page_number": 12,
+            "element_id": "garlic:p012:e0003",
+            "source_text": "In the southern zone of Tigray, the common inorganic fertilizers being used by farmers are blended (NPS) and Urea."
+          },
+          {
+            "document_id": "garlic",
+            "page_number": 12,
+            "element_id": "garlic:p012:e0003",
+            "source_text": "Both fertilizers are applied for Garlic at the rate of 200 kg/ha NPS and 150 kg/ha Urea."
+          },
+          {
+            "document_id": "garlic",
+            "page_number": 12,
+            "element_id": "garlic:p012:e0003",
+            "source_text": "The whole amount of phosphorus fertilizer is applied once during planting"
+          }
+        ]
+      },
+      {
+        "rule_id": "r_c10_urea_2split",
+        "request_subject": "urea fertilizer",
+        "scope": "TRUE",
+        "condition": "TRUE",
+        "exceptions": [],
+        "state": "TRUE",
+        "missing": [],
+        "unsupported": [
+          "context.other.calculated_split_product_kg_ha has untyped structured semantics"
+        ],
+        "dependencies": [],
+        "required_rule_ids": [],
+        "descriptive_context_keys": [
+          "alternative_regimen_rule_id",
+          "calculated_split_product_kg_ha",
+          "practice_type",
+          "regimen_id"
+        ],
+        "evidence": [
+          {
+            "document_id": "garlic",
+            "page_number": 12,
+            "element_id": "garlic:p012:e0003",
+            "source_text": "Both fertilizers are applied for Garlic at the rate of 200 kg/ha NPS and 150 kg/ha Urea."
+          },
+          {
+            "document_id": "garlic",
+            "page_number": 12,
+            "element_id": "garlic:p012:e0003",
+            "source_text": "half rate of urea is applied during planting and remaining is applied 30-45 days after planting"
+          },
+          {
+            "document_id": "garlic",
+            "page_number": 12,
+            "element_id": "garlic:p012:e0003",
+            "source_text": "In some cases, when there is good rain, application of urea can be done in three phases (1/3 during planting, 1/3 after 30 days planting and the remaining three weeks after the second application)."
+          }
+        ]
+      },
+      {
+        "rule_id": "r_c10_urea_3split",
+        "request_subject": "urea fertilizer",
+        "scope": "TRUE",
+        "condition": "UNKNOWN",
+        "exceptions": [],
+        "state": "UNKNOWN",
+        "missing": [
+          "rainfall"
+        ],
+        "unsupported": [
+          "context.other.calculated_split_product_kg_ha has untyped structured semantics"
+        ],
+        "dependencies": [],
+        "required_rule_ids": [],
+        "descriptive_context_keys": [
+          "alternative_regimen_rule_id",
+          "calculated_split_product_kg_ha",
+          "good_rain_threshold",
+          "practice_type",
+          "regimen_id"
+        ],
+        "evidence": [
+          {
+            "document_id": "garlic",
+            "page_number": 12,
+            "element_id": "garlic:p012:e0003",
+            "source_text": "Both fertilizers are applied for Garlic at the rate of 200 kg/ha NPS and 150 kg/ha Urea."
+          },
+          {
+            "document_id": "garlic",
+            "page_number": 12,
+            "element_id": "garlic:p012:e0003",
+            "source_text": "In some cases, when there is good rain, application of urea can be done in three phases (1/3 during planting, 1/3 after 30 days planting and the remaining three weeks after the second application)."
+          }
+        ]
+      },
+      {
+        "rule_id": "r_c10_urea_2split",
+        "request_subject": "urea fertilizer",
+        "scope": "TRUE",
+        "condition": "TRUE",
+        "exceptions": [],
+        "state": "TRUE",
+        "missing": [],
+        "unsupported": [
+          "context.other.calculated_split_product_kg_ha has untyped structured semantics"
+        ],
+        "dependencies": [],
+        "required_rule_ids": [],
+        "descriptive_context_keys": [
+          "alternative_regimen_rule_id",
+          "calculated_split_product_kg_ha",
+          "practice_type",
+          "regimen_id"
+        ],
+        "evidence": [
+          {
+            "document_id": "garlic",
+            "page_number": 12,
+            "element_id": "garlic:p012:e0003",
+            "source_text": "Both fertilizers are applied for Garlic at the rate of 200 kg/ha NPS and 150 kg/ha Urea."
+          },
+          {
+            "document_id": "garlic",
+            "page_number": 12,
+            "element_id": "garlic:p012:e0003",
+            "source_text": "half rate of urea is applied during planting and remaining is applied 30-45 days after planting"
+          },
+          {
+            "document_id": "garlic",
+            "page_number": 12,
+            "element_id": "garlic:p012:e0003",
+            "source_text": "In some cases, when there is good rain, application of urea can be done in three phases (1/3 during planting, 1/3 after 30 days planting and the remaining three weeks after the second application)."
+          }
+        ]
+      },
+      {
+        "rule_id": "r_c10_urea_3split",
+        "request_subject": "urea fertilizer",
+        "scope": "TRUE",
+        "condition": "UNKNOWN",
+        "exceptions": [],
+        "state": "UNKNOWN",
+        "missing": [
+          "rainfall"
+        ],
+        "unsupported": [
+          "context.other.calculated_split_product_kg_ha has untyped structured semantics"
+        ],
+        "dependencies": [],
+        "required_rule_ids": [],
+        "descriptive_context_keys": [
+          "alternative_regimen_rule_id",
+          "calculated_split_product_kg_ha",
+          "good_rain_threshold",
+          "practice_type",
+          "regimen_id"
+        ],
+        "evidence": [
+          {
+            "document_id": "garlic",
+            "page_number": 12,
+            "element_id": "garlic:p012:e0003",
+            "source_text": "Both fertilizers are applied for Garlic at the rate of 200 kg/ha NPS and 150 kg/ha Urea."
+          },
+          {
+            "document_id": "garlic",
+            "page_number": 12,
+            "element_id": "garlic:p012:e0003",
+            "source_text": "In some cases, when there is good rain, application of urea can be done in three phases (1/3 during planting, 1/3 after 30 days planting and the remaining three weeks after the second application)."
+          }
+        ]
+      }
+    ]
+  },
+  "query_path": "s5queries/G01.json"
+}

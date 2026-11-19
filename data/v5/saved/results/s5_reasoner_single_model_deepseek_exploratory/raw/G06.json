@@ -1,0 +1,43 @@
+{
+  "raw": {
+    "service_tier": "default",
+    "id": "chatcmpl-RMVVDTMwYLdyfzb3gcbb2NBh",
+    "object": "chat.completion",
+    "created": 1794975081,
+    "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"label\": \"ASK\", \"response\": \"The S5 rules describe two urea schedules for garlic in southern Tigray at 150 kg urea/ha: a two-application schedule (half at planting, half 30-45 days after planting) and an optional three-application schedule (1/3 at planting, 1/3 at 30 days, final 1/3 three weeks later) that applies only 'when there is good rain.' Because the three-split option is conditional on rainfall, I cannot choose between two and three splits for your farm without knowing your rainfall/water situation this season. Please tell me whether rainfall/soil moisture this season is expected to be good.\", \"justification\": \"The two-split urea schedule (r_c10_urea_2split) is the described regional practice at 150 kg urea/ha, and the three-split schedule (r_c10_urea_3split) is a MAY option conditioned on 'good rain' (rainfall = good), a threshold not numerically defined. The farmer's rainfall is UNKNOWN, so the applicable rule cannot be resolved. The general N rule (r_c11_n_rate) gives a nutrient range and a 2-3 later-split schedule but no field-specific selection, and the bulbing advisory (r_c11_no_n_bulbing) depends on an unknown growth stage. A specific farmer fact (rainfall/water availability) would change which schedule applies, so ASK is appropriate.\", \"rule_ids\": [\"r_c10_urea_2split\", \"r_c10_urea_3split\", \"r_c11_n_rate\", \"r_c11_no_n_bulbing\"], \"cited_pages\": [12], \"missing_facts\": [\"rainfall\", \"growth_stage\"]}",
+          "reasoning_content": null,
+          "name": null,
+          "tool_calls": null
+        },
+        "finish_reason": "stop",
+        "logprobs": null
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 12507,
+      "total_tokens": 12875,
+      "completion_tokens": 368,
+      "estimated_cost": 0.001333878,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": null
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    }
+  },
+  "latency_s": 4.537667299999157,
+  "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+  "question_id": "G06",
+  "method": "D4",
+  "request_sha256": "83a2013b9628d98b03c029c96866f582c5ce7e5650df0b3fda8c51bfae2abe3f",
+  "cost_usd": 0.001333878,
+  "reserved_usd": 0.015603167999999997
+}

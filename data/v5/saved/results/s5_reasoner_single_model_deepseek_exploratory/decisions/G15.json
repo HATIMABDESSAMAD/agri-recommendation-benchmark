@@ -1,0 +1,21 @@
+{
+  "question_id": "G15",
+  "decision": {
+    "label": "ABSTAIN",
+    "response": "The S5 ruleset does not contain any tested NPS or urea amounts specific to farms at 3,200 m altitude. The only quantified NPS/urea figures in S5 are reported common practice for the southern zone of Tigray (200 kg/ha NPS and 150 kg/ha urea), with no altitude stated, so they cannot be confirmed as tested at your altitude. S5 is silent on altitude-specific fertilizer trial results, so no exact tested amounts for high-altitude farms can be given.",
+    "justification": "The request asks for NPS and urea amounts tested specifically at this altitude (3,200 m) rather than lower areas. Rule r_c10_nps gives 200 kg/ha NPS and r_c10_urea_2split gives 150 kg/ha urea, but both are scoped to 'southern Tigray' as reported common regional practice with no altitude condition or altitude-specific trial evidence. No S5 rule provides altitude-differentiated or high-altitude-tested NPS/urea doses. The urea three-split option (r_c10_urea_3split) depends on a qualitative 'good rain' condition with no numeric threshold, so the stated 750 mm cannot be evaluated against it. Because S5 lacks the altitude-specific tested amounts requested, the answer cannot be supported.",
+    "rule_ids": [
+      "r_c10_nps",
+      "r_c10_urea_2split",
+      "r_c10_urea_3split"
+    ],
+    "cited_pages": [
+      12
+    ],
+    "missing_facts": [
+      "altitude_specific_trial_data",
+      "rainfall_good_threshold"
+    ]
+  },
+  "s5query_sha256": "d4d5977914a943418e19f5af48040ac095da8b675d38944e9efbd2976af5dab9"
+}

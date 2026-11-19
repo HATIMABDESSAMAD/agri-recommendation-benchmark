@@ -1,0 +1,37 @@
+{
+  "raw": {
+    "service_tier": "default",
+    "id": "chatcmpl-RZRkvdHi8FxqHHqlUk5aKAtd",
+    "object": "chat.completion",
+    "created": 1794977930,
+    "model": "Qwen/Qwen3.5-9B",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"schema_version\": \"S5Query-1\",\n  \"original_question\": \"I have 0.10 hectares and want to plant sprouted Bora garlic cloves. The extension worker showed me the hot-water treatment description in the CASCAPE demonstration, which lists DAP rather than NPS. If I follow the seed rate and fertilizer amounts written in that hot-water treatment description, how many kilograms of cloves, DAP and urea will I need, and when should I add the fertilizers?\",\n  \"requests\": [\n    {\n      \"subject\": \"K\",\n      \"crop\": \"garlic\",\n      \"product\": \"cloves\",\n      \"nutrient\": null,\n      \"action\": null,\n      \"fields\": [\n        \"quantity\",\n        \"unit\",\n        \"basis\",\n        \"timing\"\n      ],\n      \"source_text\": \"how many kilograms of cloves, DAP and urea will I need, and when should I add the fertilizers?\"\n    },\n    {\n      \"subject\": \"NPS (blended)\",\n      \"crop\": \"garlic\",\n      \"product\": null,\n      \"nutrient\": null,\n      \"action\": null,\n      \"fields\": [\n        \"quantity\",\n        \"unit\",\n        \"basis\",\n        \"timing\"\n      ],\n      \"source_text\": \"how many kilograms of cloves, DAP and urea will I need, and when should I add the fertilizers?\"\n    },\n    {\n      \"subject\": \"Urea\",\n      \"crop\": \"garlic\",\n      \"product\": null,\n      \"nutrient\": null,\n      \"action\": null,\n      \"fields\": [\n        \"quantity\",\n        \"unit\",\n        \"basis\",\n        \"timing\"\n      ],\n      \"source_text\": \"how many kilograms of cloves, DAP and urea will I need, and when should I add the fertilizers?\"\n    }\n  ],\n  \"facts\": {\n    \"area_ha\": {\n      \"status\": \"EXPLICIT\",\n      \"value\": 0.10,\n      \"source_text\": \"I have 0.10 hectares\"\n    },\n    \"crop\": {\n      \"status\": \"EXPLICIT\",\n      \"value\": \"Bora garlic\",\n      \"source_text\": \"want to plant sprouted Bora garlic cloves\"\n    },\n    \"product\": {\n      \"status\": \"EXPLICIT\",\n      \"value\": \"cloves\",\n      \"source_text\": \"sprouted Bora garlic cloves\"\n    },\n    \"nutrient\": {\n      \"status\": \"EXPLICIT\",\n      \"value\": \"DAP\",\n      \"source_text\": \"which lists DAP rather than NPS\"\n    },\n    \"action\": {\n      \"status\": \"EXPLICIT\",\n      \"value\": \"hot-water treatment\",\n      \"source_text\": \"hot-water treatment description\"\n    }\n  }\n}",
+          "reasoning_content": null,
+          "name": null,
+          "tool_calls": null
+        },
+        "finish_reason": "stop",
+        "logprobs": null
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1148,
+      "total_tokens": 1814,
+      "completion_tokens": 666,
+      "estimated_cost": 0.00021470000000000004,
+      "prompt_tokens_details": null
+    }
+  },
+  "latency_s": 13.649276799995278,
+  "model": "Qwen/Qwen3.5-9B",
+  "question_id": "G04",
+  "method": "s5query",
+  "request_sha256": "3e2fc977c5b2988246e226bd76654ad58930457a4885764f70e38270e6d65053",
+  "reserved_usd": 0.006921599999999999,
+  "cost_usd": 0.00021470000000000004
+}

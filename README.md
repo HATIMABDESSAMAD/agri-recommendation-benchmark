@@ -1,6 +1,16 @@
 # Agricultural Recommendation Extraction and Decision Benchmark
 
-Research code for turning agricultural PDF manuals into structured recommendations and evaluating whether a question should be **answered**, **clarified**, or **left unanswered**. This repository contains the extraction framework, decision methods, the three original CC BY 4.0 source PDFs, tests, and an aggregate three-model benchmark. Question-level annotations, model responses, and credentials remain excluded.
+## Quick start
+
+This project extracts agricultural recommendations from PDFs and benchmarks when to answer, clarify, or abstain.
+Main code: `agri_extract/`; public V5 inputs and saved per-item outputs: `data/v5/`; final charts and metrics: `reports/v5/`.
+From the repository root, reproduce all nine V5 score rows and verify saved decisions and costs offline:
+```powershell
+python scripts/reproduce_v5_offline.py
+```
+This command uses only Python's standard library and makes no API calls. See [data/v5/README.md](data/v5/README.md) for provenance and limits.
+
+Research code for turning agricultural PDF manuals into structured recommendations and evaluating whether a question should be **answered**, **clarified**, or **left unanswered**. This repository contains the extraction framework, decision methods, the three original CC BY 4.0 source PDFs, tests, the public V5 inputs and saved per-item outputs, and an aggregate three-model benchmark. Credentials remain excluded.
 
 **Python 3.13 · MIT license · Offline tests · DeepInfra benchmark results**
 
@@ -96,7 +106,7 @@ python -m pytest -q
 python -m agri_extract --help
 ```
 
-The test suite uses synthetic fixtures and mocked providers; it needs no PDF or API key. The locally validated suite has **86 passing tests**. For a smoke run across extraction variants, configure local documents first, then run `python scripts/smoke_all_variants.py`.
+The test suite uses synthetic fixtures and mocked providers; it needs no API key. The previously recorded suite had **86 passing tests**. For a smoke run across extraction variants, configure local documents first, then run `python scripts/smoke_all_variants.py`.
 
 To use the three included manuals, copy `configs/documents.cascape.example.json` to `configs/documents.local.json`. The local config is ignored by Git. To register a different PDF, use `configs/documents.example.json` as a template and set its path and metadata. `AGRI_DOCUMENT_CONFIG` can point to another configuration file. The general CLI supports parsing, planning, extraction, validation, evaluation, and reporting; use `python -m agri_extract <command> --help` for command-specific options. Live model calls require explicit local configuration and the relevant API key in the process environment.
 
@@ -111,13 +121,13 @@ python -m agri_extract.s5_matcher_cli decide --rules path/to/rules.json --query 
 
 `messages` prepares a prompt but sends no API request; `decide` runs Python matching. The freeze records hashes of the rule file, code, schema, and prompt. See the [pipeline guide](docs/S5_MATCHER_PIPELINE.md) for the exact S5Query contract.
 
-The checked-in figures and aggregate JSON can be inspected without private data. Rebuilding them requires the excluded local `comparison.json` and `questions.csv`:
+The checked-in figures and aggregate JSON can be rebuilt from the public saved comparison and per-item labels:
 
 ```powershell
-python scripts/build_v5_dashboard.py --comparison results/annotation_v5_three_model_comparison/comparison.json --questions results/annotation_v5_three_model_comparison/questions.csv --out reports/v5
+python scripts/build_v5_dashboard.py --comparison data/v5/saved/results/annotation_v5_three_model_comparison/comparison.json --questions data/v5/saved/results/annotation_v5_three_model_comparison/questions.csv --out reports/v5
 ```
 
-This command is offline. A fresh public clone contains the original PDFs, but **not** the question-level reference data, model responses, or the supplied S5 rule file; it cannot independently rerun the published model evaluation without those remaining inputs.
+This command is offline. A fresh public clone also contains the V5 question annotations, final S5 rules, and saved per-item model decisions needed for `scripts/reproduce_v5_offline.py`. Repeating the original model calls would require external model access and could differ from the saved responses. The exact prepared P4 PDF artifact is not published because it contains email addresses from the source text; the original PDF remains available under `docs/`.
 
 ## Repository structure and data policy
 
@@ -127,11 +137,13 @@ This command is offline. A fresh public clone contains the original PDFs, but **
 | `configs/` | Shareable examples, experiment definitions, and the S5Query system prompt |
 | `docs/` | S5 pipeline and annotation procedure |
 | `scripts/` | Offline dashboard builder and variant smoke test |
+| `scripts/v5/` | Copies of the original V5 producer and evaluation scripts; only the support-module import path was updated |
 | `tests/` | Synthetic and mocked validation tests |
+| `data/v5/` | Public V5 annotations, 12-rule S5 input, model catalog snapshot, source evaluations, saved responses, and per-item decisions |
 | `reports/v5/` | Aggregate benchmark report, JSON summary, PNG and SVG figures |
 | `docs/*.pdf` | Three unchanged CC BY 4.0 source manuals |
 
-`.gitignore` allows only the three listed source PDFs and excludes other local PDFs, `data/private/`, `results/`, `artifacts/`, local configs, credentials, and generated caches. Keep API keys out of commits and logs. Third-party model weights are not distributed here.
+`.gitignore` allows only the three listed source PDFs and excludes other local PDFs, `data/private/`, `results/`, `artifacts/`, local configs, credentials, and generated caches. The public `data/v5/` files were scanned for embedded credentials and direct personal identifiers before inclusion. Keep API keys out of commits and logs. Third-party model weights are not distributed here.
 
 ## License and citation
 

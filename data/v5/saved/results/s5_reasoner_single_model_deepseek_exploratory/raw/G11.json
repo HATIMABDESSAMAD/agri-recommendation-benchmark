@@ -1,0 +1,43 @@
+{
+  "raw": {
+    "service_tier": "default",
+    "id": "chatcmpl-R7LZx70mO6DeXKDAeUw5Rb7F",
+    "object": "chat.completion",
+    "created": 1794975099,
+    "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"label\": \"ABSTAIN\", \"response\": \"The S5 ruleset contains no rule that specifies a lime application rate, nor any rule linking soil pH to a lime dose for garlic. No quantity of lime per hectare can be derived from the supplied rules.\", \"justification\": \"The request asks for an exact lime rate to raise soil pH from 4.8 to 6.5. None of the S5 rules address lime, soil pH correction, or a pH-to-lime-dose relationship. The fertility rule (r_c7_fertility_or_manure) mentions only 'considerable quantities of manure or fertilizers' with no dose and no pH threshold, and it is not about lime. The K rule (r_c15_k) is qualitative and dose-free. All other rules concern N, P, S, KCl, NPS, or urea and are irrelevant to lime. Because S5 is silent on lime dosing, the answer cannot be supported and no farmer fact could change an applicable rule, so ABSTAIN.\", \"rule_ids\": [\"r_c7_fertility_or_manure\", \"r_c15_k\"], \"cited_pages\": [10, 20], \"missing_facts\": []}",
+          "reasoning_content": null,
+          "name": null,
+          "tool_calls": null
+        },
+        "finish_reason": "stop",
+        "logprobs": null
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 12410,
+      "total_tokens": 12663,
+      "completion_tokens": 253,
+      "estimated_cost": 0.0012905620000000003,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": null
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    }
+  },
+  "latency_s": 3.7761811000018497,
+  "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+  "question_id": "G11",
+  "method": "D4",
+  "request_sha256": "f5de354a7bd9a226b3b2c3e01d96caea75ab1949f65354dad354d2ee9f51e5f2",
+  "cost_usd": 0.0012905620000000003,
+  "reserved_usd": 0.015603167999999997
+}

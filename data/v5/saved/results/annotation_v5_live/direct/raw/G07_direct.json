@@ -1,0 +1,43 @@
+{
+  "raw": {
+    "service_tier": "default",
+    "id": "chatcmpl-R9Acmkahr83w921irHMVphWB",
+    "object": "chat.completion",
+    "created": 1794977221,
+    "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"label\":\"ANSWER\",\"response\":\"Yes. The manual's recommended practice is to apply half of the urea at planting and the remaining half 30–45 days after planting. At 38 days after planting you are within that window, so the remaining half can be applied now. Note that the stated rate is 150 kg/ha of urea (product) together with 200 kg/ha NPS, with all phosphorus applied at planting.\",\"justification\":\"The fertilizer section states that both NPS and Urea are applied for garlic at 200 kg/ha NPS and 150 kg/ha Urea, with the whole phosphorus amount applied at planting and half the urea at planting, the remainder 30-45 days after planting. The farmer is at 38 days, within this interval, and has half the urea remaining, matching the split-application recommendation.\",\"cited_pages\":[12]}",
+          "reasoning_content": null,
+          "name": null,
+          "tool_calls": null
+        },
+        "finish_reason": "stop",
+        "logprobs": null
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 17985,
+      "total_tokens": 18165,
+      "completion_tokens": 180,
+      "estimated_cost": 0.00011197480000000002,
+      "prompt_tokens_details": {
+        "cached_tokens": 17920,
+        "cache_write_tokens": null
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    }
+  },
+  "latency_s": 3.3026997999986634,
+  "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+  "question_id": "G07",
+  "method": "direct",
+  "request_sha256": "6922323c2109ed3cc3beb2072ef0c3e5c1f2821f9be2f4fba62960a36a41e8fb",
+  "cost_usd": 0.00011197480000000002,
+  "reserved_usd": 0.0040136880000000005
+}

@@ -1,0 +1,21 @@
+{
+  "catalog_checked_utc": "2026-11-18",
+  "pricing_source": "https://deepinfra.com/pricing",
+  "prices_usd_per_million_tokens_are_snapshot": true,
+  "models": [
+    {"id":"google/gemma-3-4b-it","family":"Gemma","total_b":4,"active_b":null,"context_tokens":128000,"max_output_tokens_published":null,"input_price":0.05,"output_price":0.10},
+    {"id":"meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo","family":"Llama","total_b":8,"active_b":null,"context_tokens":128000,"max_output_tokens_published":null,"input_price":0.02,"output_price":0.04},
+    {"id":"Qwen/Qwen3.5-9B","family":"Qwen","total_b":9,"active_b":null,"context_tokens":256000,"max_output_tokens_published":null,"input_price":0.10,"output_price":0.15},
+    {"id":"google/gemma-3-12b-it","family":"Gemma","total_b":12,"active_b":null,"context_tokens":128000,"max_output_tokens_published":null,"input_price":0.05,"output_price":0.15},
+    {"id":"google/gemma-4-26B-A4B-it","family":"Gemma","total_b":26,"active_b":4,"context_tokens":256000,"max_output_tokens_published":null,"input_price":0.07,"output_price":0.34},
+    {"id":"google/gemma-3-27b-it","family":"Gemma","total_b":27,"active_b":null,"context_tokens":128000,"max_output_tokens_published":null,"input_price":0.08,"output_price":0.16},
+    {"id":"Qwen/Qwen3.5-27B","family":"Qwen","total_b":27,"active_b":null,"context_tokens":256000,"max_output_tokens_published":null,"input_price":0.26,"output_price":2.60},
+    {"id":"google/gemma-4-31B-it","family":"Gemma","total_b":31,"active_b":null,"context_tokens":256000,"max_output_tokens_published":null,"input_price":0.20,"output_price":0.40},
+    {"id":"Qwen/Qwen3.5-35B-A3B","family":"Qwen","total_b":35,"active_b":3,"context_tokens":256000,"max_output_tokens_published":null,"input_price":0.14,"output_price":1.00},
+    {"id":"meta-llama/Llama-3.3-70B-Instruct-Turbo","family":"Llama","total_b":70,"active_b":null,"context_tokens":128000,"max_output_tokens_published":null,"input_price":0.10,"output_price":0.32},
+    {"id":"Qwen/Qwen3-Next-80B-A3B-Instruct","family":"Qwen","total_b":80,"active_b":3,"context_tokens":256000,"max_output_tokens_published":null,"input_price":0.09,"output_price":1.10},
+    {"id":"Qwen/Qwen3-235B-A22B-Instruct-2507","family":"Qwen","total_b":235,"active_b":22,"context_tokens":256000,"max_output_tokens_published":null,"input_price":0.09,"output_price":0.55},
+    {"id":"Qwen/Qwen3.5-397B-A17B","family":"Qwen","total_b":397,"active_b":17,"context_tokens":256000,"max_output_tokens_published":null,"input_price":0.45,"output_price":3.00},
+    {"id":"deepseek-ai/DeepSeek-V4.1-Flash-1017","family":"DeepSeek","total_b":552,"active_b":16,"prefill_active_b":8,"context_tokens":1048576,"max_output_tokens_published":null,"input_price":0.098,"output_price":0.294}
+  ]
+}

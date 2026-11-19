@@ -1,0 +1,10 @@
+{
+  "question_id": "G03",
+  "decision": {
+    "label": "ANSWER",
+    "response": "For 0.22 ha, multiply each per-hectare figure by 0.22: 92 kg N/ha → 20.24 kg N; 40 kg P/ha → 8.8 kg P; 30 kg S/ha → 6.6 kg S; 140 kg KCl/ha → 30.8 kg KCl. The first three (92 kg N, 40 kg P, 30 kg S) are nutrient amounts, not fertilizer product or bag masses; the 140 kg is the mass of KCl fertilizer product. The PDF states this combination (92 kg N + 40 kg P + 30 kg S per hectare with 140 kg/ha KCl) is optimum for Andosols and Vertisols, but it does not give conversions from nutrient amounts to bags or product masses for N, P, or S fertilizers.",
+    "cited_pages": [
+      12
+    ]
+  }
+}

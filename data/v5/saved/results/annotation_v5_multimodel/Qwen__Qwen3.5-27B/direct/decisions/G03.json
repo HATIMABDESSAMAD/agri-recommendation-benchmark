@@ -1,0 +1,11 @@
+{
+  "question_id": "G03",
+  "decision": {
+    "label": "ANSWER",
+    "response": "For your 0.22-hectare field, you need the following amounts based on the recommended rates per hectare: 20.24 kg of Nitrogen, 8.8 kg of Phosphorus, 6.6 kg of Sulfur, and 30.8 kg of Potassium Chloride (KCl). The first three amounts (92 kg N, 40 kg P, 30 kg S) refer to the mass of the specific nutrients (Nitrogen, Phosphorus, and Sulfur), not the mass of fertilizer bags. The document explicitly states these are nutrient requirements ('92 kg N + 40 kg P + 30 kg S') and distinguishes them from the fertilizer product mass, which is given as '140 kg per hectare of KCl fertilizer'.",
+    "justification": "The document on Page 12 (Section 3.8) states: 'Application of 92 kg N + 40 kg P + 30 kg S per hectare in combination with 140 kg per hectare of KCl fertilizer are optimum for Andosols and Vertisols'. This confirms the rates and the soil type (Vertisol). The text distinguishes between nutrient mass (kg N, kg P, kg S) and fertilizer product mass (kg of KCl fertilizer). The calculation for a 0.22 ha field is a direct multiplication of the per-hectare rates by 0.22 (e.g., 92 * 0.22 = 20.24).",
+    "cited_pages": [
+      12
+    ]
+  }
+}

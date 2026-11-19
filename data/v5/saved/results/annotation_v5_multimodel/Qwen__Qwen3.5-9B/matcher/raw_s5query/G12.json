@@ -1,0 +1,37 @@
+{
+  "raw": {
+    "service_tier": "default",
+    "id": "chatcmpl-Rnj6JgruWN5qE9gEucDw3V1d",
+    "object": "chat.completion",
+    "created": 1794978051,
+    "model": "Qwen/Qwen3.5-9B",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"schema_version\": \"S5Query-1\",\n  \"original_question\": \"My garlic is growing on Regosol, and the soil test says potassium is low. I've heard some growers use 140 kg of potassium chloride per hectare. What exact amount has been shown to work for garlic on soil like mine?\",\n  \"requests\": [\n    {\n      \"subject\": \"garlic\",\n      \"crop\": \"garlic\",\n      \"nutrient\": \"potassium\",\n      \"fields\": [\n        \"action\",\n        \"modality\",\n        \"product\",\n        \"nutrient\",\n        \"quantity\",\n        \"unit\",\n        \"basis\",\n        \"timing\",\n        \"method\",\n        \"evidence\",\n        \"total_quantity\",\n        \"conversion\"\n      ],\n      \"source_text\": \"What exact amount has been shown to work for garlic on soil like mine?\"\n    }\n  ],\n  \"facts\": {\n    \"crop\": {\n      \"status\": \"EXPLICIT\",\n      \"value\": \"garlic\",\n      \"source_text\": \"My garlic is growing\"\n    },\n    \"soil_type\": {\n      \"status\": \"EXPLICIT\",\n      \"value\": \"Regosol\",\n      \"source_text\": \"on Regosol\"\n    },\n    \"nutrient\": {\n      \"status\": \"EXPLICIT\",\n      \"value\": \"potassium\",\n      \"source_text\": \"potassium is low\"\n    },\n    \"product\": {\n      \"status\": \"EXPLICIT\",\n      \"value\": \"potassium chloride\",\n      \"source_text\": \"potassium chloride\"\n    },\n    \"quantity\": {\n      \"status\": \"EXPLICIT\",\n      \"value\": 140,\n      \"source_text\": \"140 kg\"\n    },\n    \"unit\": {\n      \"status\": \"EXPLICIT\",\n      \"value\": \"kg\",\n      \"source_text\": \"140 kg\"\n    },\n    \"basis\": {\n      \"status\": \"EXPLICIT\",\n      \"value\": \"hectare\",\n      \"source_text\": \"per hectare\"\n    }\n  }\n}",
+          "reasoning_content": null,
+          "name": null,
+          "tool_calls": null
+        },
+        "finish_reason": "stop",
+        "logprobs": null
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1114,
+      "total_tokens": 1613,
+      "completion_tokens": 499,
+      "estimated_cost": 0.00018625000000000003,
+      "prompt_tokens_details": null
+    }
+  },
+  "latency_s": 12.50784510000085,
+  "model": "Qwen/Qwen3.5-9B",
+  "question_id": "G12",
+  "method": "s5query",
+  "request_sha256": "f903e54a524ec9e3cebaf48cb8f3d17531682f03fcce8aa7244674eda02657a5",
+  "reserved_usd": 0.006921599999999999,
+  "cost_usd": 0.00018625000000000003
+}

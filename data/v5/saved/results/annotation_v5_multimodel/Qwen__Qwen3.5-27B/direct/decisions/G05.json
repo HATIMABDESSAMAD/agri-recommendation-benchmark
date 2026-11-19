@@ -1,0 +1,11 @@
+{
+  "question_id": "G05",
+  "decision": {
+    "label": "ANSWER",
+    "response": "No, you should not apply the urea today. The document explicitly advises not to apply nitrogen when the bulbs are beginning to enlarge, as it will encourage excessive leaf growth and reduce bulb size.",
+    "justification": "The document states in section 3.8 (Page 12) that while half the urea is typically applied 30-45 days after planting, 'It is advised not to apply N when the bulbs are beginning to enlarge since it will encourage excessive leaf growth and reduce bulb size.' Since the user reports the bulbs are already getting bigger, applying the fertilizer now would be detrimental to the crop yield.",
+    "cited_pages": [
+      12
+    ]
+  }
+}

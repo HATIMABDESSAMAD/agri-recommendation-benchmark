@@ -1,0 +1,37 @@
+{
+  "raw": {
+    "service_tier": "default",
+    "id": "chatcmpl-RS8NV6Mx8YGQotNwKtLvw9Pi",
+    "object": "chat.completion",
+    "created": 1794978293,
+    "model": "Qwen/Qwen3.5-27B",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"schema_version\": \"S5Query-1\",\n  \"original_question\": \"I missed the June–July planting time for my garlic, and now it's August. Can I still plant this month on my farm?\",\n  \"requests\": [\n    {\n      \"subject\": \"garlic\",\n      \"crop\": \"garlic\",\n      \"product\": null,\n      \"nutrient\": null,\n      \"action\": \"plant\",\n      \"fields\": [\n        \"action\",\n        \"timing\"\n      ],\n      \"source_text\": \"Can I still plant this month on my farm?\"\n    }\n  ],\n  \"facts\": {\n    \"crop\": {\n      \"status\": \"EXPLICIT\",\n      \"value\": \"garlic\",\n      \"source_text\": \"my garlic\"\n    },\n    \"timing\": {\n      \"status\": \"EXPLICIT\",\n      \"value\": \"August\",\n      \"source_text\": \"now it's August\"\n    },\n    \"missed_timing\": {\n      \"status\": \"EXPLICIT\",\n      \"value\": \"June–July\",\n      \"source_text\": \"missed the June–July planting time\"\n    },\n    \"region\": {\n      \"status\": \"UNKNOWN\",\n      \"value\": null,\n      \"source_text\": null\n    },\n    \"soil\": {\n      \"status\": \"UNKNOWN\",\n      \"value\": null,\n      \"source_text\": null\n    },\n    \"growth_stage\": {\n      \"status\": \"UNKNOWN\",\n      \"value\": null,\n      \"source_text\": null\n    }\n  }\n}",
+          "reasoning_content": null,
+          "name": null,
+          "tool_calls": []
+        },
+        "finish_reason": "stop",
+        "logprobs": null
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1091,
+      "total_tokens": 1460,
+      "completion_tokens": 369,
+      "estimated_cost": 0.00124306,
+      "prompt_tokens_details": null
+    }
+  },
+  "latency_s": 4.693658300006064,
+  "model": "Qwen/Qwen3.5-27B",
+  "question_id": "G09",
+  "method": "s5query",
+  "request_sha256": "d61c383322b0da3ea18d9fa9cb11c66ec8372ac78da4c095e7bee0bb57f7c47a",
+  "reserved_usd": 0.031574399999999996,
+  "cost_usd": 0.00124306
+}

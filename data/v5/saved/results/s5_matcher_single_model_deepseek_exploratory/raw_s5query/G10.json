@@ -1,0 +1,43 @@
+{
+  "raw": {
+    "service_tier": "default",
+    "id": "chatcmpl-RcoGLjRWz2hpzmdNs1zmfylI",
+    "object": "chat.completion",
+    "created": 1794971214,
+    "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"schema_version\": \"S5Query-1\", \"original_question\": \"The rains have started, and I'm preparing my garlic field. Should I plant on flat beds or make raised ridges?\", \"requests\": [{\"subject\": \"garlic\", \"crop\": \"garlic\", \"product\": null, \"nutrient\": null, \"action\": \"plant\", \"fields\": [\"action\", \"method\"], \"source_text\": \"I'm preparing my garlic field. Should I plant on flat beds or make raised ridges?\"}], \"facts\": {\"crop\": {\"status\": \"EXPLICIT\", \"value\": \"garlic\", \"source_text\": \"my garlic field\"}, \"rainfall\": {\"status\": \"EXPLICIT\", \"value\": \"rains have started\", \"source_text\": \"The rains have started\"}, \"region\": {\"status\": \"UNKNOWN\", \"value\": null, \"source_text\": null}, \"soil\": {\"status\": \"UNKNOWN\", \"value\": null, \"source_text\": null}, \"soil_type\": {\"status\": \"UNKNOWN\", \"value\": null, \"source_text\": null}, \"growth_stage\": {\"status\": \"UNKNOWN\", \"value\": null, \"source_text\": null}, \"stage\": {\"status\": \"UNKNOWN\", \"value\": null, \"source_text\": null}, \"area_ha\": {\"status\": \"UNKNOWN\", \"value\": null, \"source_text\": null}}}",
+          "reasoning_content": null,
+          "name": null,
+          "tool_calls": null
+        },
+        "finish_reason": "stop",
+        "logprobs": null
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1089,
+      "total_tokens": 1395,
+      "completion_tokens": 306,
+      "estimated_cost": 0.000196686,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": null
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    }
+  },
+  "latency_s": 2.49358470000152,
+  "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+  "question_id": "G10",
+  "method": "s5query",
+  "request_sha256": "8079eeac236c176bbd3e2d3be39a6ffb32e3525f068e37869803adbda4c14af2",
+  "cost_usd": 0.000196686,
+  "reserved_usd": 0.007686336
+}

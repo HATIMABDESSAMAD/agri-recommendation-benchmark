@@ -1,0 +1,18 @@
+{
+  "question_id": "G11",
+  "decision": {
+    "label": "ABSTAIN",
+    "response": "The S5 ruleset contains no rule that specifies a lime application rate, nor any rule linking soil pH to a lime dose for garlic. No quantity of lime per hectare can be derived from the supplied rules.",
+    "justification": "The request asks for an exact lime rate to raise soil pH from 4.8 to 6.5. None of the S5 rules address lime, soil pH correction, or a pH-to-lime-dose relationship. The fertility rule (r_c7_fertility_or_manure) mentions only 'considerable quantities of manure or fertilizers' with no dose and no pH threshold, and it is not about lime. The K rule (r_c15_k) is qualitative and dose-free. All other rules concern N, P, S, KCl, NPS, or urea and are irrelevant to lime. Because S5 is silent on lime dosing, the answer cannot be supported and no farmer fact could change an applicable rule, so ABSTAIN.",
+    "rule_ids": [
+      "r_c7_fertility_or_manure",
+      "r_c15_k"
+    ],
+    "cited_pages": [
+      10,
+      20
+    ],
+    "missing_facts": []
+  },
+  "s5query_sha256": "b700843440a35b8bb7e8a3208a2704625899b95b98e12e840ffdfbbe48b1539f"
+}

@@ -1,0 +1,7 @@
+{
+  "question_id": "G04",
+  "error": {
+    "type": "ValidationError",
+    "message": "1 validation error for S5Query\n  Value error, Request source_text must be a verbatim substring of the question [type=value_error, input_value={'schema_version': 'S5Que..., 'source_text': None}}}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/value_error"
+  }
+}

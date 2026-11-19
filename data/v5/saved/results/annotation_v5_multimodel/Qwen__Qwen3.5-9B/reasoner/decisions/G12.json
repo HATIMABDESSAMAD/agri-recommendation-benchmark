@@ -1,0 +1,19 @@
+{
+  "question_id": "G12",
+  "decision": {
+    "label": "ASK",
+    "response": "ASK",
+    "justification": "The user's soil is Regosol, but the only specific quantitative recommendation for potassium chloride (140 kg/ha) in the provided rules (r_c12_kcl) is explicitly conditioned on the soil being 'Andosols' or 'Vertisols'. The rule r_c15_k advises using potassium fertilizer for Regosol (where negative balance was observed) but does not specify an amount. Since the exact amount for Regosol is not stated in the rules, and the specific 140 kg/ha dose is tied to a different soil type, the answer cannot be determined without knowing if the user's Regosol falls under the specific conditions of the Andosol/Vertisol rule or if a different unquantified rule applies.",
+    "rule_ids": [
+      "r_c12_kcl",
+      "r_c15_k"
+    ],
+    "cited_pages": [
+      12,
+      20
+    ],
+    "missing_facts": [
+      "soil_type_match_to_Andosols_Vertisols"
+    ]
+  }
+}

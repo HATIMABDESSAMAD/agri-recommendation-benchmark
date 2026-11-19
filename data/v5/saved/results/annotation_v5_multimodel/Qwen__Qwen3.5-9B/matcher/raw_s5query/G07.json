@@ -1,0 +1,37 @@
+{
+  "raw": {
+    "service_tier": "default",
+    "id": "chatcmpl-RhCOtIARQ3X8dbVP4RLeVka0",
+    "object": "chat.completion",
+    "created": 1794977978,
+    "model": "Qwen/Qwen3.5-9B",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"schema_version\": \"S5Query-1\",\n  \"original_question\": \"I planted my garlic 38 days ago and still have half of the urea left to put on. Is it the right time to spread it now?\",\n  \"requests\": [\n    {\n      \"subject\": \"Urea\",\n      \"crop\": \"garlic\",\n      \"nutrient\": \"nitrogen\",\n      \"action\": \"nitrogen application\",\n      \"fields\": [\n        \"timing\",\n        \"quantity\",\n        \"unit\",\n        \"basis\"\n      ],\n      \"source_text\": \"I planted my garlic 38 days ago and still have half of the urea left to put on. Is it the right time to spread it now?\"\n    }\n  ],\n  \"facts\": {\n    \"crop\": {\n      \"status\": \"EXPLICIT\",\n      \"value\": \"garlic\",\n      \"source_text\": \"I planted my garlic 38 days ago\"\n    },\n    \"growth_stage\": {\n      \"status\": \"UNKNOWN\",\n      \"value\": null,\n      \"source_text\": null\n    },\n    \"product\": {\n      \"status\": \"EXPLICIT\",\n      \"value\": \"urea\",\n      \"source_text\": \"still have half of the urea left\"\n    },\n    \"quantity\": {\n      \"status\": \"EXPLICIT\",\n      \"value\": \"half\",\n      \"source_text\": \"still have half of the urea left\"\n    },\n    \"unit\": {\n      \"status\": \"UNKNOWN\",\n      \"value\": null,\n      \"source_text\": null\n    },\n    \"basis\": {\n      \"status\": \"UNKNOWN\",\n      \"value\": null,\n      \"source_text\": null\n    },\n    \"timing\": {\n      \"status\": \"UNKNOWN\",\n      \"value\": null,\n      \"source_text\": null\n    },\n    \"action\": {\n      \"status\": \"EXPLICIT\",\n      \"value\": \"spread\",\n      \"source_text\": \"Is it the right time to spread it now?\"\n    }\n  }\n}",
+          "reasoning_content": null,
+          "name": null,
+          "tool_calls": null
+        },
+        "finish_reason": "stop",
+        "logprobs": null
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1095,
+      "total_tokens": 1578,
+      "completion_tokens": 483,
+      "estimated_cost": 0.00018195000000000003,
+      "prompt_tokens_details": null
+    }
+  },
+  "latency_s": 13.020774800002982,
+  "model": "Qwen/Qwen3.5-9B",
+  "question_id": "G07",
+  "method": "s5query",
+  "request_sha256": "f4d1c7ab21413e8f85efe896595bac1b272dd40d0b4babb2afb2a6defc439a9b",
+  "reserved_usd": 0.006921599999999999,
+  "cost_usd": 0.00018195000000000003
+}

@@ -1,0 +1,16 @@
+question_id,gold_label,direct_label,s5_matcher_label,s5_reasoner_label,s5_reasoner_rule_ids,s5_reasoner_cited_pages,s5_reasoner_error
+G01,ANSWER,ANSWER,ABSTAIN,ANSWER,"r_c10_nps,r_c10_urea_2split,r_c10_urea_3split",12,
+G02,ANSWER,ASK,,,,,Frozen S5Query invalid or absent
+G03,ANSWER,ANSWER,ABSTAIN,ANSWER,"r_c12_n,r_c12_p,r_c12_s,r_c12_kcl",12,
+G04,ANSWER,ANSWER,ABSTAIN,ABSTAIN,"r_c10_nps,r_c10_urea_2split,r_c10_urea_3split",12,
+G05,ANSWER,ANSWER,ABSTAIN,ANSWER,"r_c11_no_n_bulbing,r_c10_urea_2split,r_c10_urea_3split",12,
+G06,ASK,ANSWER,ABSTAIN,ASK,"r_c10_urea_2split,r_c10_urea_3split,r_c11_n_rate,r_c11_no_n_bulbing",12,
+G07,ASK,ANSWER,ABSTAIN,ANSWER,r_c10_urea_2split,12,
+G08,ASK,ABSTAIN,ABSTAIN,ASK,"r_c12_kcl,r_c12_n,r_c12_p,r_c12_s,r_c11_n_rate,r_c15_k","12,20",
+G09,ASK,ANSWER,ABSTAIN,ABSTAIN,,,
+G10,ASK,ANSWER,ABSTAIN,ABSTAIN,,,
+G11,ABSTAIN,ABSTAIN,ABSTAIN,ABSTAIN,"r_c7_fertility_or_manure,r_c15_k","10,20",
+G12,ABSTAIN,ABSTAIN,ABSTAIN,ABSTAIN,"r_c12_kcl,r_c15_k,r_c7_fertility_or_manure","12,20,19,10",
+G13,ABSTAIN,ABSTAIN,ABSTAIN,ABSTAIN,"r_c7_fertility_or_manure,r_c11_n_rate,r_c12_n,r_c12_p","10,12",
+G14,ABSTAIN,ABSTAIN,ABSTAIN,ABSTAIN,"r_c10_nps,r_c10_urea_2split,r_c11_n_rate,r_c7_fertility_or_manure","12,10",
+G15,ABSTAIN,ABSTAIN,ABSTAIN,ABSTAIN,"r_c10_nps,r_c10_urea_2split,r_c10_urea_3split",12,

@@ -1,0 +1,12 @@
+{
+  "question_id": "G07",
+  "decision": {
+    "label": "ANSWER",
+    "response": "Yes, it is the right time to apply the remaining half of the urea. The manual recommends applying half of the urea at planting and the remaining half 30-45 days after planting. Since you planted 38 days ago, you are within this recommended window.",
+    "justification": "The document states in Section 3.8 (Page 12) and Section 2 (Page 5) that for garlic production, 'half rate of urea is applied during planting and remaining is applied 30-45 days after planting.' The farmer's situation (38 days post-planting) falls squarely within this 30-45 day range.",
+    "cited_pages": [
+      5,
+      12
+    ]
+  }
+}

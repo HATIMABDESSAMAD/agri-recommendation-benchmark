@@ -1,0 +1,37 @@
+{
+  "raw": {
+    "service_tier": "default",
+    "id": "chatcmpl-RIu7MsymzuvncVtsoTLKkdy4",
+    "object": "chat.completion",
+    "created": 1794978338,
+    "model": "Qwen/Qwen3.5-27B",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"schema_version\": \"S5Query-1\",\n  \"original_question\": \"A neighbour told me that using 2 tonnes of manure plus 61 kg of nitrogen and 31 kg of phosphorus per hectare gave the biggest bulbs. If I use those amounts for my garlic, how many tonnes of garlic can I expect to harvest per hectare?\",\n  \"requests\": [\n    {\n      \"subject\": \"garlic\",\n      \"crop\": \"garlic\",\n      \"product\": \"garlic\",\n      \"nutrient\": null,\n      \"action\": \"harvest\",\n      \"fields\": [\n        \"quantity\",\n        \"unit\",\n        \"basis\"\n      ],\n      \"source_text\": \"how many tonnes of garlic can I expect to harvest per hectare\"\n    }\n  ],\n  \"facts\": {\n    \"crop\": {\n      \"status\": \"EXPLICIT\",\n      \"value\": \"garlic\",\n      \"source_text\": \"my garlic\"\n    },\n    \"manure_quantity\": {\n      \"status\": \"EXPLICIT\",\n      \"value\": \"2 tonnes\",\n      \"source_text\": \"2 tonnes of manure\"\n    },\n    \"nitrogen_quantity\": {\n      \"status\": \"EXPLICIT\",\n      \"value\": \"61 kg\",\n      \"source_text\": \"61 kg of nitrogen\"\n    },\n    \"phosphorus_quantity\": {\n      \"status\": \"EXPLICIT\",\n      \"value\": \"31 kg\",\n      \"source_text\": \"31 kg of phosphorus\"\n    },\n    \"area_ha\": {\n      \"status\": \"EXPLICIT\",\n      \"value\": \"per hectare\",\n      \"source_text\": \"per hectare\"\n    }\n  }\n}",
+          "reasoning_content": null,
+          "name": null,
+          "tool_calls": []
+        },
+        "finish_reason": "stop",
+        "logprobs": null
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1121,
+      "total_tokens": 1524,
+      "completion_tokens": 403,
+      "estimated_cost": 0.0013392599999999999,
+      "prompt_tokens_details": null
+    }
+  },
+  "latency_s": 5.443619800003944,
+  "model": "Qwen/Qwen3.5-27B",
+  "question_id": "G13",
+  "method": "s5query",
+  "request_sha256": "ed481170af163be430404ea4f190e48db30bbb8e0a7d08ccd3fd2d877e326266",
+  "reserved_usd": 0.031574399999999996,
+  "cost_usd": 0.0013392599999999999
+}

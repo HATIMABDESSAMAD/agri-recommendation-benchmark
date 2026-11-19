@@ -1,0 +1,37 @@
+{
+  "raw": {
+    "service_tier": "default",
+    "id": "chatcmpl-RDptvlJtscUEBVW7AwGizG13",
+    "object": "chat.completion",
+    "created": 1794977852,
+    "model": "Qwen/Qwen3.5-9B",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"label\": \"ASK\",\n  \"response\": \"What is the soil type of your field (e.g., Vertisol, Cambisol, Andosol)?\",\n  \"justification\": \"The document states that the specific fertilizer recommendation of 92 kg N + 40 kg P + 30 kg S combined with 140 kg KCl is optimum specifically for 'Andosols and Vertisols' (Page 12, Section 3.8). The document notes that soil fertility status significantly affects yield and that different soil types (like Cambisols) have different characteristics (Page 12). Without knowing the soil type, one cannot confirm if this specific high-dose plan is suitable for the user's land.\",\n  \"cited_pages\": [12]\n}",
+          "reasoning_content": null,
+          "name": null,
+          "tool_calls": null
+        },
+        "finish_reason": "stop",
+        "logprobs": null
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 19837,
+      "total_tokens": 20010,
+      "completion_tokens": 173,
+      "estimated_cost": 0.00200965,
+      "prompt_tokens_details": null
+    }
+  },
+  "latency_s": 3.1263861000043107,
+  "model": "Qwen/Qwen3.5-9B",
+  "question_id": "G08",
+  "method": "direct",
+  "request_sha256": "914354b5b5210062dcd1202b32611dbb0032de660038fee5f0d689d97fe70126",
+  "reserved_usd": 0.0039228,
+  "cost_usd": 0.00200965
+}

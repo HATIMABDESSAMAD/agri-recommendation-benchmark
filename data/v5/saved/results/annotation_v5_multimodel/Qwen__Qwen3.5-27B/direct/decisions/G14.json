@@ -1,0 +1,12 @@
+{
+  "question_id": "G14",
+  "decision": {
+    "label": "ABSTAIN",
+    "response": "The provided document does not contain the nutrient composition (N-P-K-S percentages) for NPS, Urea, Triple Superphosphate, or Ammonium Sulfate. Without these specific values, it is impossible to calculate the exact substitution rates required to maintain the same nutrient levels. Additionally, the document does not provide conversion factors or substitution guidelines for these specific fertilizer products.",
+    "justification": "The document specifies the recommended application rates for NPS (200 kg/ha) and Urea (150 kg/ha) on pages 5 and 12. However, it does not list the chemical analysis or nutrient content of these fertilizers, nor does it provide data for Triple Superphosphate or Ammonium Sulfate. The instructions explicitly forbid inventing doses, conversions, or nutrient thresholds. Therefore, a precise calculation cannot be performed based solely on the provided text.",
+    "cited_pages": [
+      5,
+      12
+    ]
+  }
+}

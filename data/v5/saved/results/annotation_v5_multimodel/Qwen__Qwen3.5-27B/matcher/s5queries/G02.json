@@ -1,0 +1,62 @@
+{
+  "schema_version": "S5Query-1",
+  "original_question": "We've had good rain this season, and I'm planting garlic on 0.18 hectares. I want to spread the usual 150 kg/ha of urea over three applications instead of two, and use 200 kg/ha of NPS as well. How much of each should I apply, and on which days?",
+  "requests": [
+    {
+      "subject": "urea",
+      "crop": "garlic",
+      "product": "urea",
+      "nutrient": null,
+      "action": "apply",
+      "fields": [
+        "quantity",
+        "timing"
+      ],
+      "source_text": "How much of each should I apply, and on which days?"
+    },
+    {
+      "subject": "NPS",
+      "crop": "garlic",
+      "product": "NPS",
+      "nutrient": null,
+      "action": "apply",
+      "fields": [
+        "quantity",
+        "timing"
+      ],
+      "source_text": "How much of each should I apply, and on which days?"
+    }
+  ],
+  "facts": {
+    "rainfall": {
+      "status": "EXPLICIT",
+      "value": "good",
+      "source_text": "good rain this season"
+    },
+    "crop": {
+      "status": "EXPLICIT",
+      "value": "garlic",
+      "source_text": "planting garlic"
+    },
+    "area_ha": {
+      "status": "EXPLICIT",
+      "value": 0.18,
+      "source_text": "0.18 hectares"
+    },
+    "urea_rate_kg_ha": {
+      "status": "EXPLICIT",
+      "value": 150,
+      "source_text": "150 kg/ha of urea"
+    },
+    "urea_application_count": {
+      "status": "EXPLICIT",
+      "value": 3,
+      "source_text": "over three applications"
+    },
+    "nps_rate_kg_ha": {
+      "status": "EXPLICIT",
+      "value": 200,
+      "source_text": "200 kg/ha of NPS"
+    }
+  }
+}

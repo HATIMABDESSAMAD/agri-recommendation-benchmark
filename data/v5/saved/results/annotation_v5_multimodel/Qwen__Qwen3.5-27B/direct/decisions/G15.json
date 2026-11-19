@@ -1,0 +1,13 @@
+{
+  "question_id": "G15",
+  "decision": {
+    "label": "ANSWER",
+    "response": "The document specifies that for garlic production in the southern zone of Tigray (which includes highland areas with Regosol soils and altitudes up to 3,909 m.a.s.l), the tested and recommended fertilizer rates are 200 kg/ha of NPS and 150 kg/ha of Urea. The NPS is applied entirely at planting, while the Urea is split: half is applied at planting and the remaining half is applied 30-45 days after planting. These rates were used in the CASCAPE trials involving the Bora local variety in high-altitude Kebeles (e.g., Ayba at 2889-3848 m.a.s.l) and are presented as the common inorganic fertilizers used by farmers in the region.",
+    "justification": "The document explicitly states in Section 3.8 (Page 12) that 'Both fertilizers are applied for Garlic at the rate of 200 kg/ha NPS and 150 kg/ha Urea' in the southern zone of Tigray. Section 3.3.1 (Page 8) and Table 3 (Page 9) confirm that the trials were conducted in high-altitude areas (up to 3909 m.a.s.l) with Regosol soils (Page 8), matching the user's conditions. While the trials specifically used the 'Bora local' variety (Page 5), the fertilizer recommendation is given as a general practice for the region and agro-ecology, and no specific different rates are provided for the 'Qoricho' variety in the text. The document does not distinguish fertilizer rates based on altitude within the tested range, implying the 200/150 kg/ha rate applies to the highland conditions described.",
+    "cited_pages": [
+      8,
+      9,
+      12
+    ]
+  }
+}

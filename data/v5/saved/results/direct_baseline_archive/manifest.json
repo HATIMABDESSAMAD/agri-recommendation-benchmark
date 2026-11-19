@@ -1,0 +1,111 @@
+{
+  "files_sha256": {
+    "salem_garlic_15_farmer_questions_blind_v4_final (1).jsonl": "1ba0b711cd130217eb0aa9386af7f7bd9e5bc263b6cf4011e75f14a4abaa31f6",
+    "salem_garlic_15_farmer_questions_gold_v4_final.jsonl": "9b403d893d9a9ec6fe033d480b4a539514ef23748cacd0f3def524757dd393fb",
+    "Garlic_PROF_S5_12_QA.json": "62fda994ddefae8dc6a5528fca2e9d327502811c1cb14a9a84487366a1e404db",
+    "Bestfitmanual_MUCASCAPE_Garlic_Sep2019final.pdf": "aa97906e8637400b00a333ad5d61e2b0c314d133b825cea3586375bea9bdc818",
+    "garlic_P4_tables.json": "8fecc350481b265246e4630ecb6b869bef9805c1969d6f60518a8cfd23045eb0",
+    "deepinfra_aaa_models.json": "d1ec9bcc52bb4f81109608d12df32a5e8db8d70a63a1ec17ea460e87fd4700f6"
+  },
+  "document_text_sha256": "6d27704c3a08a0ef816aa66f1d34b54a673c61ad269bbbf6816265bc73f2d282",
+  "document_utf8_bytes": 76830,
+  "pages": 24,
+  "questions": 15,
+  "gold_class_counts": {
+    "ANSWER": 5,
+    "ASK": 5,
+    "ABSTAIN": 5
+  },
+  "s5_rules": 12,
+  "s5_working_copy_encodings": [
+    {
+      "rule_id": "r_c7_fertility_or_manure",
+      "path": "context.other.logical_alternative",
+      "original_type": "dict",
+      "encoding": "JSON string"
+    },
+    {
+      "rule_id": "r_c10_urea_2split",
+      "path": "context.other.calculated_split_product_kg_ha",
+      "original_type": "list",
+      "encoding": "JSON string"
+    },
+    {
+      "rule_id": "r_c10_urea_3split",
+      "path": "context.other.calculated_split_product_kg_ha",
+      "original_type": "list",
+      "encoding": "JSON string"
+    },
+    {
+      "rule_id": "r_c11_n_rate",
+      "path": "context.other.factors",
+      "original_type": "list",
+      "encoding": "JSON string"
+    },
+    {
+      "rule_id": "r_c12_n",
+      "path": "context.other.regimen_required_components",
+      "original_type": "list",
+      "encoding": "JSON string"
+    },
+    {
+      "rule_id": "r_c12_n",
+      "path": "context.other.component_is_not_standalone",
+      "original_type": "bool",
+      "encoding": "JSON string"
+    },
+    {
+      "rule_id": "r_c12_p",
+      "path": "context.other.regimen_required_components",
+      "original_type": "list",
+      "encoding": "JSON string"
+    },
+    {
+      "rule_id": "r_c12_p",
+      "path": "context.other.component_is_not_standalone",
+      "original_type": "bool",
+      "encoding": "JSON string"
+    },
+    {
+      "rule_id": "r_c12_s",
+      "path": "context.other.regimen_required_components",
+      "original_type": "list",
+      "encoding": "JSON string"
+    },
+    {
+      "rule_id": "r_c12_s",
+      "path": "context.other.component_is_not_standalone",
+      "original_type": "bool",
+      "encoding": "JSON string"
+    },
+    {
+      "rule_id": "r_c12_kcl",
+      "path": "context.other.regimen_required_components",
+      "original_type": "list",
+      "encoding": "JSON string"
+    },
+    {
+      "rule_id": "r_c12_kcl",
+      "path": "context.other.component_is_not_standalone",
+      "original_type": "bool",
+      "encoding": "JSON string"
+    },
+    {
+      "rule_id": "r_c15_k",
+      "path": "context.other.observed_K_balance_kg_ha",
+      "original_type": "float",
+      "encoding": "JSON string"
+    }
+  ],
+  "prompt_sha256": {
+    "direct": "4c73331afce2e14a971949fc4a266b5c3a8ec03e71d08bf11efef08f578ee747",
+    "facts": "40f49b579893e02805075c2b8ab98e5f00a15d9e22282b6acf84f50becec01df"
+  },
+  "output_cap_tokens": 768,
+  "api_parameters": {
+    "temperature": 0,
+    "reasoning_effort": "none"
+  },
+  "budget_usd": 3.0,
+  "prior_pilot": "C:\\Users\\DevoMag\\Desktop\\MBZUAI\\results\\deepinfra_aaa"
+}

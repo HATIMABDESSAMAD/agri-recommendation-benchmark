@@ -1,0 +1,89 @@
+{
+  "schema_version": "S5Query-1",
+  "original_question": "I have 0.10 hectares and want to plant sprouted Bora garlic cloves. The extension worker showed me the older hot-water demonstration that used DAP, not NPS. If I follow that demonstration's planting and fertilizer amounts, how many kilograms of cloves, DAP and urea will I need, and when should I add the fertilizers?",
+  "requests": [
+    {
+      "subject": "sprouted Bora garlic cloves",
+      "crop": "garlic",
+      "product": "sprouted Bora garlic cloves",
+      "nutrient": null,
+      "action": "plant",
+      "fields": [
+        "quantity",
+        "unit",
+        "basis"
+      ],
+      "source_text": "how many kilograms of cloves"
+    },
+    {
+      "subject": "DAP",
+      "crop": "garlic",
+      "product": "DAP",
+      "nutrient": null,
+      "action": "add",
+      "fields": [
+        "quantity",
+        "unit",
+        "basis",
+        "timing"
+      ],
+      "source_text": "how many kilograms of cloves, DAP and urea will I need, and when should I add the fertilizers?"
+    },
+    {
+      "subject": "urea",
+      "crop": "garlic",
+      "product": "urea",
+      "nutrient": null,
+      "action": "add",
+      "fields": [
+        "quantity",
+        "unit",
+        "basis",
+        "timing"
+      ],
+      "source_text": "how many kilograms of cloves, DAP and urea will I need, and when should I add the fertilizers?"
+    }
+  ],
+  "facts": {
+    "area_ha": {
+      "status": "EXPLICIT",
+      "value": 0.1,
+      "source_text": "0.10 hectares"
+    },
+    "crop": {
+      "status": "EXPLICIT",
+      "value": "garlic",
+      "source_text": "Bora garlic cloves"
+    },
+    "growth_stage": {
+      "status": "UNKNOWN",
+      "value": null,
+      "source_text": null
+    },
+    "rainfall": {
+      "status": "UNKNOWN",
+      "value": null,
+      "source_text": null
+    },
+    "region": {
+      "status": "UNKNOWN",
+      "value": null,
+      "source_text": null
+    },
+    "soil": {
+      "status": "UNKNOWN",
+      "value": null,
+      "source_text": null
+    },
+    "soil_type": {
+      "status": "UNKNOWN",
+      "value": null,
+      "source_text": null
+    },
+    "stage": {
+      "status": "UNKNOWN",
+      "value": null,
+      "source_text": null
+    }
+  }
+}

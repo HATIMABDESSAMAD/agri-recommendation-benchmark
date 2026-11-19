@@ -1,0 +1,11 @@
+{
+  "question_id": "G13",
+  "decision": {
+    "label": "ABSTAIN",
+    "response": "The document does not provide a garlic yield prediction for the manure-plus-N-and-P treatment you describe. It reports that combination as producing the highest bulb yield of shallot, not garlic, and gives no garlic yield figure for it. Therefore I cannot estimate tonnes of garlic per hectare from those amounts.",
+    "justification": "The only mention of 2 t FYM/ha with 61 kg N/ha and 31 kg P/ha is stated as producing the highest bulb yield of shallot (Teklu and Teklewold, 2009), not garlic, and no corresponding garlic yield is reported. The PDF's garlic yield figures are for other treatments and cannot be substituted.",
+    "cited_pages": [
+      12
+    ]
+  }
+}

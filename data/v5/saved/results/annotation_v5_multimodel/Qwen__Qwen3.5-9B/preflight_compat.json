@@ -1,0 +1,37 @@
+{
+  "raw": {
+    "service_tier": "default",
+    "id": "chatcmpl-REy8D0Wbek5Pza5FilOI3oFr",
+    "object": "chat.completion",
+    "created": 1794977806,
+    "model": "Qwen/Qwen3.5-9B",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"ok\":true}",
+          "reasoning_content": null,
+          "name": null,
+          "tool_calls": null
+        },
+        "finish_reason": "stop",
+        "logprobs": null
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 28,
+      "total_tokens": 34,
+      "completion_tokens": 6,
+      "estimated_cost": 3.7000000000000006e-06,
+      "prompt_tokens_details": null
+    }
+  },
+  "latency_s": 0.8482327000019723,
+  "model": "Qwen/Qwen3.5-9B",
+  "question_id": "preflight",
+  "method": "compat",
+  "request_sha256": "b7ee5ab1e76474a01f9d0f90c49de8bc8bde8d5bf98bd4ad652a0e0f99c7124f",
+  "reserved_usd": 2.175e-05,
+  "cost_usd": 3.7000000000000006e-06
+}

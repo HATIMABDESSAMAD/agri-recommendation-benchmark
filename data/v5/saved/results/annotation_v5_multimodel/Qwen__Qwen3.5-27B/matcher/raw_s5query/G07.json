@@ -1,0 +1,37 @@
+{
+  "raw": {
+    "service_tier": "default",
+    "id": "chatcmpl-RfEonsXtukyQZyUtQ0YlQLV9",
+    "object": "chat.completion",
+    "created": 1794978271,
+    "model": "Qwen/Qwen3.5-27B",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"schema_version\": \"S5Query-1\",\n  \"original_question\": \"I planted my garlic 38 days ago and still have half of the urea left to put on. Is it the right time to spread it now?\",\n  \"requests\": [\n    {\n      \"subject\": \"urea\",\n      \"crop\": \"garlic\",\n      \"product\": \"urea\",\n      \"nutrient\": null,\n      \"action\": \"spread\",\n      \"fields\": [\n        \"timing\"\n      ],\n      \"source_text\": \"Is it the right time to spread it now?\"\n    }\n  ],\n  \"facts\": {\n    \"crop\": {\n      \"status\": \"EXPLICIT\",\n      \"value\": \"garlic\",\n      \"source_text\": \"my garlic\"\n    },\n    \"days_since_planting\": {\n      \"status\": \"EXPLICIT\",\n      \"value\": 38,\n      \"source_text\": \"38 days ago\"\n    },\n    \"urea_remaining\": {\n      \"status\": \"EXPLICIT\",\n      \"value\": \"half\",\n      \"source_text\": \"half of the urea left\"\n    },\n    \"growth_stage\": {\n      \"status\": \"UNKNOWN\",\n      \"value\": null,\n      \"source_text\": null\n    },\n    \"region\": {\n      \"status\": \"UNKNOWN\",\n      \"value\": null,\n      \"source_text\": null\n    },\n    \"soil\": {\n      \"status\": \"UNKNOWN\",\n      \"value\": null,\n      \"source_text\": null\n    }\n  }\n}",
+          "reasoning_content": null,
+          "name": null,
+          "tool_calls": []
+        },
+        "finish_reason": "stop",
+        "logprobs": null
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1095,
+      "total_tokens": 1466,
+      "completion_tokens": 371,
+      "estimated_cost": 0.0012492999999999998,
+      "prompt_tokens_details": null
+    }
+  },
+  "latency_s": 5.689015900003142,
+  "model": "Qwen/Qwen3.5-27B",
+  "question_id": "G07",
+  "method": "s5query",
+  "request_sha256": "f4d1c7ab21413e8f85efe896595bac1b272dd40d0b4babb2afb2a6defc439a9b",
+  "reserved_usd": 0.031574399999999996,
+  "cost_usd": 0.0012492999999999998
+}

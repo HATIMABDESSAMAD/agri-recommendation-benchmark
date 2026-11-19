@@ -1,0 +1,11 @@
+{
+  "question_id": "G13",
+  "decision": {
+    "label": "ABSTAIN",
+    "response": "I cannot provide an expected harvest tonnage based on those specific fertilizer amounts because the document does not contain the yield data for that specific treatment combination.",
+    "justification": "The document mentions on page 12 (garlic:p012:e0006) that 'Application of one season 2 tons of FYM per hectare and inorganic fertilizers of 61 kg N per hectare and 31 kg P per hectare produced the highest bulb yield of shallot (Teklu and Teklewold, 2009).' However, the text explicitly states this result was for 'shallot', not garlic. Furthermore, the document does not provide the specific yield value (in tonnes or kg) achieved by this shallot treatment, nor does it provide yield data for garlic using this exact fertilizer regimen. Therefore, a precise harvest expectation cannot be derived from the provided text.",
+    "cited_pages": [
+      12
+    ]
+  }
+}

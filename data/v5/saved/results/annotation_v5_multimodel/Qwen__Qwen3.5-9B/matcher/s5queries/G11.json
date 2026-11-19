@@ -1,0 +1,41 @@
+{
+  "schema_version": "S5Query-1",
+  "original_question": "The soil test for my garlic field in Endamehoni shows a pH of 4.8. I want to raise it to 6.5 before planting. Exactly how many kilograms of lime should I spread per hectare?",
+  "requests": [
+    {
+      "subject": "lime",
+      "crop": null,
+      "product": null,
+      "nutrient": null,
+      "action": null,
+      "fields": [
+        "quantity",
+        "unit",
+        "basis"
+      ],
+      "source_text": "Exactly how many kilograms of lime should I spread per hectare?"
+    }
+  ],
+  "facts": {
+    "crop": {
+      "status": "EXPLICIT",
+      "value": "garlic",
+      "source_text": "my garlic field"
+    },
+    "region": {
+      "status": "EXPLICIT",
+      "value": "Endamehoni",
+      "source_text": "in Endamehoni"
+    },
+    "soil": {
+      "status": "EXPLICIT",
+      "value": "pH of 4.8",
+      "source_text": "shows a pH of 4.8"
+    },
+    "action": {
+      "status": "EXPLICIT",
+      "value": "raise it to 6.5",
+      "source_text": "I want to raise it to 6.5"
+    }
+  }
+}

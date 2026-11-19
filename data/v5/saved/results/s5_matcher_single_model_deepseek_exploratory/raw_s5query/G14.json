@@ -1,0 +1,43 @@
+{
+  "raw": {
+    "service_tier": "default",
+    "id": "chatcmpl-R30Xi7yVKAkU9czxeI10UFeF",
+    "object": "chat.completion",
+    "created": 1794971223,
+    "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"schema_version\": \"S5Query-1\", \"original_question\": \"I can't find NPS or urea this season, but the shop has triple superphosphate and ammonium sulfate. How many kilograms of each should I use to replace exactly 200 kg of NPS and 150 kg of urea per hectare without changing the nutrients my garlic gets?\", \"requests\": [{\"subject\": \"triple superphosphate\", \"crop\": \"garlic\", \"product\": \"triple superphosphate\", \"nutrient\": null, \"action\": \"replace\", \"fields\": [\"product\", \"quantity\", \"unit\", \"basis\", \"conversion\"], \"source_text\": \"How many kilograms of each should I use to replace exactly 200 kg of NPS and 150 kg of urea per hectare without changing the nutrients my garlic gets?\"}, {\"subject\": \"ammonium sulfate\", \"crop\": \"garlic\", \"product\": \"ammonium sulfate\", \"nutrient\": null, \"action\": \"replace\", \"fields\": [\"product\", \"quantity\", \"unit\", \"basis\", \"conversion\"], \"source_text\": \"How many kilograms of each should I use to replace exactly 200 kg of NPS and 150 kg of urea per hectare without changing the nutrients my garlic gets?\"}, {\"subject\": \"NPS (blended)\", \"crop\": \"garlic\", \"product\": \"NPS\", \"nutrient\": null, \"action\": \"replace\", \"fields\": [\"product\", \"quantity\", \"unit\", \"basis\"], \"source_text\": \"replace exactly 200 kg of NPS\"}, {\"subject\": \"Urea\", \"crop\": \"garlic\", \"product\": \"urea\", \"nutrient\": null, \"action\": \"replace\", \"fields\": [\"product\", \"quantity\", \"unit\", \"basis\"], \"source_text\": \"150 kg of urea per hectare\"}], \"facts\": {\"crop\": {\"status\": \"EXPLICIT\", \"value\": \"garlic\", \"source_text\": \"my garlic\"}, \"area_ha\": {\"status\": \"EXPLICIT\", \"value\": 1, \"source_text\": \"per hectare\"}}}",
+          "reasoning_content": null,
+          "name": null,
+          "tool_calls": null
+        },
+        "finish_reason": "stop",
+        "logprobs": null
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1120,
+      "total_tokens": 1574,
+      "completion_tokens": 454,
+      "estimated_cost": 0.000243236,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": null
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    }
+  },
+  "latency_s": 2.8613761000015074,
+  "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+  "question_id": "G14",
+  "method": "s5query",
+  "request_sha256": "ff499eec81bc363c48ec73c2882adc61525f3a55dea4f9f72b8acaad37a0fcb7",
+  "cost_usd": 0.000243236,
+  "reserved_usd": 0.007686336
+}

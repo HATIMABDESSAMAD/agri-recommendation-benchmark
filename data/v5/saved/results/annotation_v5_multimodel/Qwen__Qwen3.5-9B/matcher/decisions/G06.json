@@ -1,0 +1,7 @@
+{
+  "question_id": "G06",
+  "error": {
+    "type": "ValidationError",
+    "message": "3 validation errors for S5Query\nrequests.0.quantity\n  Extra inputs are not permitted [type=extra_forbidden, input_value=150, input_type=int]\n    For further information visit https://errors.pydantic.dev/2.13/v/extra_forbidden\nrequests.0.unit\n  Extra inputs are not permitted [type=extra_forbidden, input_value='kg', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/extra_forbidden\nrequests.0.basis\n  Extra inputs are not permitted [type=extra_forbidden, input_valu"
+  }
+}

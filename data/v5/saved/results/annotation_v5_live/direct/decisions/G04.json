@@ -1,0 +1,12 @@
+{
+  "question_id": "G04",
+  "decision": {
+    "label": "ANSWER",
+    "response": "For 0.10 ha, following the hot-water treatment description: use 60 kg of garlic cloves (600 kg/ha × 0.10 ha). Apply 20 kg of DAP (200 kg/ha × 0.10 ha) at planting. Apply 15 kg of urea total (150 kg/ha × 0.10 ha): half (7.5 kg) at planting and the remaining half (7.5 kg) 30–45 days after planting. Note that the manual's general fertilizer recommendation elsewhere is 200 kg/ha NPS plus 150 kg/ha urea; the DAP rate appears in the hot-water treatment description you cited.",
+    "justification": "The PDF's hot-water treatment description states cloves at 600 kg/ha, DAP at 200 kg/ha applied at planting, and urea at 150 kg/ha with half at planting and half 30–45 days after planting (p.5). Multiplying by 0.10 ha gives 60 kg cloves, 20 kg DAP, and 15 kg urea total (7.5 kg at planting, 7.5 kg later). The manual also notes the common recommendation of 200 kg/ha NPS and 150 kg/ha urea (p.12), so the DAP reference is specific to the cited treatment description.",
+    "cited_pages": [
+      5,
+      12
+    ]
+  }
+}

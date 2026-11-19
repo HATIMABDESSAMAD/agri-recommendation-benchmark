@@ -1,0 +1,37 @@
+{
+  "raw": {
+    "service_tier": "default",
+    "id": "chatcmpl-RGpWIiPPQG0CiTq3nLHkPk91",
+    "object": "chat.completion",
+    "created": 1794978265,
+    "model": "Qwen/Qwen3.5-27B",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"label\": \"ASK\",\n  \"response\": \"I cannot confirm if the three-application split is right for your farm this season because the S5 rules state that this schedule is an option only 'when there is good rain.' You have not provided information about the expected rainfall conditions for this season. Without knowing if rainfall will be 'good,' I cannot determine if the three-application rule applies or if the standard two-application schedule is more appropriate.\",\n  \"justification\": \"Rule r_c10_urea_3split (Page 12) specifies that splitting urea into three phases is an option ('MAY') conditional on the presence of 'good rain'. The rule explicitly states: 'In some cases, when there is good rain, application of urea can be done in three phases'. The farmer's query provides crop, region, total quantity, and desired modality, but lacks the critical condition variable 'rainfall'. Since the condition is unknown, the applicability of the three-application rule cannot be confirmed, and the standard two-application rule (r_c10_urea_2split) remains the default unless the condition is met. Therefore, the missing fact 'rainfall' prevents a definitive ANSWER.\",\n  \"rule_ids\": [\n    \"r_c10_urea_3split\",\n    \"r_c10_urea_2split\"\n  ],\n  \"cited_pages\": [\n    12\n  ],\n  \"missing_facts\": [\n    \"rainfall\"\n  ]\n}",
+          "reasoning_content": null,
+          "name": null,
+          "tool_calls": []
+        },
+        "finish_reason": "stop",
+        "logprobs": null
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 13395,
+      "total_tokens": 13724,
+      "completion_tokens": 329,
+      "estimated_cost": 0.0043381,
+      "prompt_tokens_details": null
+    }
+  },
+  "latency_s": 7.035530300003302,
+  "model": "Qwen/Qwen3.5-27B",
+  "question_id": "G06",
+  "method": "s5_reasoner",
+  "request_sha256": "4d859f349f2b9299c3b82b54879f3a087f0e024821fe4870a3adb9f46a848537",
+  "reserved_usd": 0.0469872,
+  "cost_usd": 0.0043381
+}

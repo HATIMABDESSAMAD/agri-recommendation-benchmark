@@ -1,0 +1,1293 @@
+{
+  "document_id": "garlic",
+  "schema_version": "S5",
+  "rules": [
+    {
+      "rule_id": "r_c7_fertility_or_manure",
+      "document_id": "garlic",
+      "schema_version": "S5",
+      "crop": "garlic",
+      "modality": "MAY",
+      "product": "manure or fertilizers",
+      "nutrient": null,
+      "notes": "A fertilizer-application branch of an explicit OR: select land with high fertility OR apply considerable manure/fertilizers to obtain good yields. Neither the exact dose nor a numerical soil fertility cutoff is provided. Do not treat fertilizer as unconditional or MUST. REVIEW: The source offers HIGH-FERTILITY LAND OR substantial manure/fertilizer; original condition land_fertility != high is a derived policy not a stated strict predicate. Dose unquantified.",
+      "action": {
+        "verb": "apply",
+        "target": "manure or fertilizers",
+        "method": null
+      },
+      "quantity": {
+        "value": null,
+        "lower": null,
+        "upper": null,
+        "unit": null,
+        "basis": null,
+        "original": "considerable quantities of manure or fertilizers",
+        "status": "NOT_SPECIFIED"
+      },
+      "context": {
+        "crop": "garlic",
+        "region": null,
+        "soil": null,
+        "stage": null,
+        "other": {
+          "logical_alternative": {
+            "operator": "OR",
+            "branches": [
+              "select land with high fertility",
+              "apply considerable quantities of manure or fertilizers"
+            ]
+          },
+          "source_statement_strength": "essential for either/or",
+          "recommendation_role": "alternative_branch"
+        }
+      },
+      "timing": null,
+      "conditions": null,
+      "exceptions": [],
+      "evidence": [
+        {
+          "document_id": "garlic",
+          "page_number": 10,
+          "element_id": "garlic:p010:e0010",
+          "source_text": "It is essential to select land with high fertility or to apply considerable quantities of manure or fertilizers to obtain good yields."
+        }
+      ],
+      "field_evidence": {
+        "action.target": [
+          {
+            "document_id": "garlic",
+            "page_number": 10,
+            "element_id": "garlic:p010:e0010",
+            "source_text": "It is essential to select land with high fertility or to apply considerable quantities of manure or fertilizers to obtain good yields."
+          }
+        ],
+        "modality": [
+          {
+            "document_id": "garlic",
+            "page_number": 10,
+            "element_id": "garlic:p010:e0010",
+            "source_text": "It is essential to select land with high fertility or to apply considerable quantities of manure or fertilizers to obtain good yields."
+          }
+        ],
+        "quantity.status": [
+          {
+            "document_id": "garlic",
+            "page_number": 10,
+            "element_id": "garlic:p010:e0010",
+            "source_text": "It is essential to select land with high fertility or to apply considerable quantities of manure or fertilizers to obtain good yields."
+          }
+        ],
+        "context.other.logical_alternative": [
+          {
+            "document_id": "garlic",
+            "page_number": 10,
+            "element_id": "garlic:p010:e0010",
+            "source_text": "It is essential to select land with high fertility or to apply considerable quantities of manure or fertilizers to obtain good yields."
+          }
+        ]
+      },
+      "dependencies": []
+    },
+    {
+      "rule_id": "r_c10_nps",
+      "document_id": "garlic",
+      "schema_version": "S5",
+      "crop": "garlic",
+      "modality": "UNSPECIFIED",
+      "product": "NPS (blended)",
+      "nutrient": null,
+      "notes": "Document reports common use of 200 kg/ha NPS plus 150 kg/ha urea in southern Tigray. NPS dose is product mass, not kg P/ha. Phosphorus applied at planting is documented, but exact timing for entire NPS blend is not explicitly isolated. DAP at 200 kg/ha on p5 is a separate product in trial description; do not merge. REVIEW: 200 kg/ha NPS is stated as common practice; applying ALL NPS at planting is not explicit: text says whole PHOSPHORUS FERTILIZER at planting.",
+      "action": {
+        "verb": "apply",
+        "target": "NPS fertilizer",
+        "method": null
+      },
+      "quantity": {
+        "value": 200,
+        "lower": null,
+        "upper": null,
+        "unit": "kg/ha",
+        "basis": "product (NPS)",
+        "original": "200 kg/ha NPS",
+        "status": "EXPLICIT"
+      },
+      "context": {
+        "crop": "garlic",
+        "region": "southern Tigray",
+        "soil": null,
+        "stage": null,
+        "other": {
+          "practice_type": "reported_common_regional_practice",
+          "regimen_id": "south_tigray_nps_urea",
+          "timing_qualification": "The source states all phosphorus fertilizer is applied once at planting; timing of whole NPS blend is an inference, not explicit."
+        }
+      },
+      "timing": null,
+      "conditions": null,
+      "exceptions": [],
+      "evidence": [
+        {
+          "document_id": "garlic",
+          "page_number": 12,
+          "element_id": "garlic:p012:e0003",
+          "source_text": "In the southern zone of Tigray, the common inorganic fertilizers being used by farmers are blended (NPS) and Urea."
+        },
+        {
+          "document_id": "garlic",
+          "page_number": 12,
+          "element_id": "garlic:p012:e0003",
+          "source_text": "Both fertilizers are applied for Garlic at the rate of 200 kg/ha NPS and 150 kg/ha Urea."
+        },
+        {
+          "document_id": "garlic",
+          "page_number": 12,
+          "element_id": "garlic:p012:e0003",
+          "source_text": "The whole amount of phosphorus fertilizer is applied once during planting"
+        }
+      ],
+      "field_evidence": {
+        "action.target": [
+          {
+            "document_id": "garlic",
+            "page_number": 12,
+            "element_id": "garlic:p012:e0003",
+            "source_text": "Both fertilizers are applied for Garlic at the rate of 200 kg/ha NPS and 150 kg/ha Urea."
+          }
+        ],
+        "quantity.value": [
+          {
+            "document_id": "garlic",
+            "page_number": 12,
+            "element_id": "garlic:p012:e0003",
+            "source_text": "Both fertilizers are applied for Garlic at the rate of 200 kg/ha NPS and 150 kg/ha Urea."
+          }
+        ],
+        "quantity.unit": [
+          {
+            "document_id": "garlic",
+            "page_number": 12,
+            "element_id": "garlic:p012:e0003",
+            "source_text": "Both fertilizers are applied for Garlic at the rate of 200 kg/ha NPS and 150 kg/ha Urea."
+          }
+        ],
+        "context.region": [
+          {
+            "document_id": "garlic",
+            "page_number": 12,
+            "element_id": "garlic:p012:e0003",
+            "source_text": "In the southern zone of Tigray, the common inorganic fertilizers being used by farmers are blended (NPS) and Urea."
+          }
+        ],
+        "context.other.timing_qualification": [
+          {
+            "document_id": "garlic",
+            "page_number": 12,
+            "element_id": "garlic:p012:e0003",
+            "source_text": "The whole amount of phosphorus fertilizer is applied once during planting"
+          }
+        ]
+      },
+      "dependencies": []
+    },
+    {
+      "rule_id": "r_c10_urea_2split",
+      "document_id": "garlic",
+      "schema_version": "S5",
+      "crop": "garlic",
+      "modality": "UNSPECIFIED",
+      "product": "Urea",
+      "nutrient": "N",
+      "notes": "Total 150 kg/ha is UREA PRODUCT mass; source splits into equal halves (computed 75 + 75 kg/ha). This is the described two-application schedule. When rainfall is good, a three-application schedule MAY be used in some cases; this does not automatically invalidate the two-application schedule. REVIEW: 150 kg/ha product urea half at planting and half at 30-45d; rainfall exception should be modeled as optional alternative, not exclusion of default.",
+      "action": {
+        "verb": "apply",
+        "target": "urea fertilizer",
+        "method": "two split applications"
+      },
+      "quantity": {
+        "value": 150,
+        "lower": null,
+        "upper": null,
+        "unit": "kg/ha",
+        "basis": "product (urea)",
+        "original": "150 kg/ha Urea",
+        "status": "EXPLICIT"
+      },
+      "context": {
+        "crop": "garlic",
+        "region": "southern Tigray",
+        "soil": null,
+        "stage": null,
+        "other": {
+          "practice_type": "reported_common_regional_practice",
+          "regimen_id": "south_tigray_nps_urea",
+          "alternative_regimen_rule_id": "r_c10_urea_3split",
+          "calculated_split_product_kg_ha": [
+            75,
+            75
+          ]
+        }
+      },
+      "timing": "Half at planting; remaining half 30-45 days after planting",
+      "conditions": null,
+      "exceptions": [],
+      "evidence": [
+        {
+          "document_id": "garlic",
+          "page_number": 12,
+          "element_id": "garlic:p012:e0003",
+          "source_text": "Both fertilizers are applied for Garlic at the rate of 200 kg/ha NPS and 150 kg/ha Urea."
+        },
+        {
+          "document_id": "garlic",
+          "page_number": 12,
+          "element_id": "garlic:p012:e0003",
+          "source_text": "half rate of urea is applied during planting and remaining is applied 30-45 days after planting"
+        },
+        {
+          "document_id": "garlic",
+          "page_number": 12,
+          "element_id": "garlic:p012:e0003",
+          "source_text": "In some cases, when there is good rain, application of urea can be done in three phases (1/3 during planting, 1/3 after 30 days planting and the remaining three weeks after the second application)."
+        }
+      ],
+      "field_evidence": {
+        "action.target": [
+          {
+            "document_id": "garlic",
+            "page_number": 12,
+            "element_id": "garlic:p012:e0003",
+            "source_text": "Both fertilizers are applied for Garlic at the rate of 200 kg/ha NPS and 150 kg/ha Urea."
+          }
+        ],
+        "action.method": [
+          {
+            "document_id": "garlic",
+            "page_number": 12,
+            "element_id": "garlic:p012:e0003",
+            "source_text": "half rate of urea is applied during planting and remaining is applied 30-45 days after planting"
+          }
+        ],
+        "quantity.value": [
+          {
+            "document_id": "garlic",
+            "page_number": 12,
+            "element_id": "garlic:p012:e0003",
+            "source_text": "Both fertilizers are applied for Garlic at the rate of 200 kg/ha NPS and 150 kg/ha Urea."
+          }
+        ],
+        "quantity.unit": [
+          {
+            "document_id": "garlic",
+            "page_number": 12,
+            "element_id": "garlic:p012:e0003",
+            "source_text": "Both fertilizers are applied for Garlic at the rate of 200 kg/ha NPS and 150 kg/ha Urea."
+          }
+        ],
+        "timing": [
+          {
+            "document_id": "garlic",
+            "page_number": 12,
+            "element_id": "garlic:p012:e0003",
+            "source_text": "half rate of urea is applied during planting and remaining is applied 30-45 days after planting"
+          }
+        ],
+        "context.other.alternative": [
+          {
+            "document_id": "garlic",
+            "page_number": 12,
+            "element_id": "garlic:p012:e0003",
+            "source_text": "In some cases, when there is good rain, application of urea can be done in three phases (1/3 during planting, 1/3 after 30 days planting and the remaining three weeks after the second application)."
+          }
+        ]
+      },
+      "dependencies": []
+    },
+    {
+      "rule_id": "r_c10_urea_3split",
+      "document_id": "garlic",
+      "schema_version": "S5",
+      "crop": "garlic",
+      "modality": "MAY",
+      "product": "Urea",
+      "nutrient": "N",
+      "notes": "In some cases with good rain, urea can be split into 3 equal portions. The 150 kg/ha total is inherited from the preceding sentence (50 + 50 + 50 kg/ha calculated); the rain threshold is not defined. This is an option, not a mandatory replacement. REVIEW: Good rain is qualitative; 150 kg/ha inferred by same paragraph and must be marked contextual; 3 x 50 kg/ha calculated not verbatim.",
+      "action": {
+        "verb": "apply",
+        "target": "urea fertilizer",
+        "method": "three split applications"
+      },
+      "quantity": {
+        "value": 150,
+        "lower": null,
+        "upper": null,
+        "unit": "kg/ha",
+        "basis": "product (urea)",
+        "original": "150 kg/ha Urea (stated earlier in the same paragraph)",
+        "status": "INHERITED_FROM_CONTEXT"
+      },
+      "context": {
+        "crop": "garlic",
+        "region": "southern Tigray",
+        "soil": null,
+        "stage": null,
+        "other": {
+          "regimen_id": "south_tigray_nps_urea",
+          "practice_type": "optional_regional_schedule",
+          "alternative_regimen_rule_id": "r_c10_urea_2split",
+          "good_rain_threshold": "not numerically specified",
+          "calculated_split_product_kg_ha": [
+            50,
+            50,
+            50
+          ]
+        }
+      },
+      "timing": "1/3 at planting; 1/3 at 30 days after planting; final 1/3 three weeks after the second application",
+      "conditions": {
+        "kind": "PREDICATE",
+        "variable": "rainfall",
+        "operator": "EQ",
+        "value": "good",
+        "lower": null,
+        "upper": null,
+        "lower_inclusive": null,
+        "upper_inclusive": null,
+        "unit": null
+      },
+      "exceptions": [],
+      "evidence": [
+        {
+          "document_id": "garlic",
+          "page_number": 12,
+          "element_id": "garlic:p012:e0003",
+          "source_text": "Both fertilizers are applied for Garlic at the rate of 200 kg/ha NPS and 150 kg/ha Urea."
+        },
+        {
+          "document_id": "garlic",
+          "page_number": 12,
+          "element_id": "garlic:p012:e0003",
+          "source_text": "In some cases, when there is good rain, application of urea can be done in three phases (1/3 during planting, 1/3 after 30 days planting and the remaining three weeks after the second application)."
+        }
+      ],
+      "field_evidence": {
+        "action.target": [
+          {
+            "document_id": "garlic",
+            "page_number": 12,
+            "element_id": "garlic:p012:e0003",
+            "source_text": "Both fertilizers are applied for Garlic at the rate of 200 kg/ha NPS and 150 kg/ha Urea."
+          }
+        ],
+        "action.method": [
+          {
+            "document_id": "garlic",
+            "page_number": 12,
+            "element_id": "garlic:p012:e0003",
+            "source_text": "In some cases, when there is good rain, application of urea can be done in three phases (1/3 during planting, 1/3 after 30 days planting and the remaining three weeks after the second application)."
+          }
+        ],
+        "quantity.value": [
+          {
+            "document_id": "garlic",
+            "page_number": 12,
+            "element_id": "garlic:p012:e0003",
+            "source_text": "Both fertilizers are applied for Garlic at the rate of 200 kg/ha NPS and 150 kg/ha Urea."
+          }
+        ],
+        "quantity.status": [
+          {
+            "document_id": "garlic",
+            "page_number": 12,
+            "element_id": "garlic:p012:e0003",
+            "source_text": "Both fertilizers are applied for Garlic at the rate of 200 kg/ha NPS and 150 kg/ha Urea."
+          },
+          {
+            "document_id": "garlic",
+            "page_number": 12,
+            "element_id": "garlic:p012:e0003",
+            "source_text": "In some cases, when there is good rain, application of urea can be done in three phases (1/3 during planting, 1/3 after 30 days planting and the remaining three weeks after the second application)."
+          }
+        ],
+        "timing": [
+          {
+            "document_id": "garlic",
+            "page_number": 12,
+            "element_id": "garlic:p012:e0003",
+            "source_text": "In some cases, when there is good rain, application of urea can be done in three phases (1/3 during planting, 1/3 after 30 days planting and the remaining three weeks after the second application)."
+          }
+        ],
+        "conditions": [
+          {
+            "document_id": "garlic",
+            "page_number": 12,
+            "element_id": "garlic:p012:e0003",
+            "source_text": "In some cases, when there is good rain, application of urea can be done in three phases (1/3 during planting, 1/3 after 30 days planting and the remaining three weeks after the second application)."
+          }
+        ]
+      },
+      "dependencies": []
+    },
+    {
+      "rule_id": "r_c11_n_rate",
+      "document_id": "garlic",
+      "schema_version": "S5",
+      "crop": "garlic",
+      "modality": "UNSPECIFIED",
+      "product": null,
+      "nutrient": "N",
+      "notes": "General garlic N nutrient requirement 70-125 kg N/ha, NOT urea product kg/ha. The manual does not provide a mapping from field conditions to a precise value within this interval. The first half is applied as crop growth begins; remaining half is split into 2-3 later applications spaced three weeks. Do not apply when bulbing begins (separate advisory). REVIEW: 70-125 kg N/ha nutrient (not urea); schedule accurate. Soil, prior crop, organic matter and climate are variability factors, NOT quantified thresholds.",
+      "action": {
+        "verb": "apply",
+        "target": "nitrogen",
+        "method": "split application"
+      },
+      "quantity": {
+        "value": null,
+        "lower": 70,
+        "upper": 125,
+        "unit": "kg N/ha",
+        "basis": "nutrient (N)",
+        "original": "70-125 kg N per hectare",
+        "status": "EXPLICIT"
+      },
+      "context": {
+        "crop": "garlic",
+        "region": null,
+        "soil": null,
+        "stage": null,
+        "other": {
+          "variation": "depends on soil type, previous crop, organic matter, climate",
+          "regimen_id": "general_nitrogen_guidance",
+          "factors": [
+            "soil fertility",
+            "soil moisture",
+            "variety",
+            "purpose of production",
+            "soil type",
+            "previous crop",
+            "soil organic matter",
+            "climate"
+          ]
+        }
+      },
+      "timing": "One-half as soon as the crop begins to grow; remainder split into two to three applications at three-week intervals",
+      "conditions": null,
+      "exceptions": [],
+      "evidence": [
+        {
+          "document_id": "garlic",
+          "page_number": 12,
+          "element_id": "garlic:p012:e0004",
+          "source_text": "Garlic will generally require 70-125 kg N per hectare and one-half of it should be applied as soon as the crop begins to grow; the remainder should be split into two to three applications at three-week intervals."
+        },
+        {
+          "document_id": "garlic",
+          "page_number": 12,
+          "element_id": "garlic:p012:e0004",
+          "source_text": "Fertilizer requirements of garlic crop vary with fertility status of the soil, availability of soil moisture, variety of the crop, purpose for which the crop is grown, etc."
+        },
+        {
+          "document_id": "garlic",
+          "page_number": 12,
+          "element_id": "garlic:p012:e0004",
+          "source_text": "The total amount of N required for crops vary with the soil type, the previous crop grown, and the amount of organic matter present in the soil and the climatic conditions during the growing season."
+        }
+      ],
+      "field_evidence": {
+        "action.target": [
+          {
+            "document_id": "garlic",
+            "page_number": 12,
+            "element_id": "garlic:p012:e0004",
+            "source_text": "Garlic will generally require 70-125 kg N per hectare and one-half of it should be applied as soon as the crop begins to grow; the remainder should be split into two to three applications at three-week intervals."
+          }
+        ],
+        "action.method": [
+          {
+            "document_id": "garlic",
+            "page_number": 12,
+            "element_id": "garlic:p012:e0004",
+            "source_text": "Garlic will generally require 70-125 kg N per hectare and one-half of it should be applied as soon as the crop begins to grow; the remainder should be split into two to three applications at three-week intervals."
+          }
+        ],
+        "quantity.lower": [
+          {
+            "document_id": "garlic",
+            "page_number": 12,
+            "element_id": "garlic:p012:e0004",
+            "source_text": "Garlic will generally require 70-125 kg N per hectare and one-half of it should be applied as soon as the crop begins to grow; the remainder should be split into two to three applications at three-week intervals."
+          }
+        ],
+        "quantity.upper": [
+          {
+            "document_id": "garlic",
+            "page_number": 12,
+            "element_id": "garlic:p012:e0004",
+            "source_text": "Garlic will generally require 70-125 kg N per hectare and one-half of it should be applied as soon as the crop begins to grow; the remainder should be split into two to three applications at three-week intervals."
+          }
+        ],
+        "quantity.unit": [
+          {
+            "document_id": "garlic",
+            "page_number": 12,
+            "element_id": "garlic:p012:e0004",
+            "source_text": "Garlic will generally require 70-125 kg N per hectare and one-half of it should be applied as soon as the crop begins to grow; the remainder should be split into two to three applications at three-week intervals."
+          }
+        ],
+        "timing": [
+          {
+            "document_id": "garlic",
+            "page_number": 12,
+            "element_id": "garlic:p012:e0004",
+            "source_text": "Garlic will generally require 70-125 kg N per hectare and one-half of it should be applied as soon as the crop begins to grow; the remainder should be split into two to three applications at three-week intervals."
+          }
+        ],
+        "context.other.factors": [
+          {
+            "document_id": "garlic",
+            "page_number": 12,
+            "element_id": "garlic:p012:e0004",
+            "source_text": "Fertilizer requirements of garlic crop vary with fertility status of the soil, availability of soil moisture, variety of the crop, purpose for which the crop is grown, etc."
+          },
+          {
+            "document_id": "garlic",
+            "page_number": 12,
+            "element_id": "garlic:p012:e0004",
+            "source_text": "The total amount of N required for crops vary with the soil type, the previous crop grown, and the amount of organic matter present in the soil and the climatic conditions during the growing season."
+          }
+        ]
+      },
+      "dependencies": []
+    },
+    {
+      "rule_id": "r_c11_no_n_bulbing",
+      "document_id": "garlic",
+      "schema_version": "S5",
+      "crop": "garlic",
+      "modality": "SHOULD",
+      "product": null,
+      "nutrient": "N",
+      "notes": "Source says it is advised not to apply nitrogen once bulbs are beginning to enlarge, since excessive leaf growth can reduce bulb size. This is an advisory negative recommendation, not an absolute or regulatory prohibition. REVIEW: MUST_NOT overstates advisory wording \"It is advised not to\"; represent as advisory avoid rather than absolute prohibition.",
+      "action": {
+        "verb": "avoid",
+        "target": "nitrogen application",
+        "method": null
+      },
+      "quantity": null,
+      "context": {
+        "crop": "garlic",
+        "region": null,
+        "soil": null,
+        "stage": "beginning of bulb enlargement",
+        "other": {
+          "regimen_id": "general_nitrogen_guidance",
+          "advisory_strength": "advised not to apply (not absolute prohibition)"
+        }
+      },
+      "timing": "Avoid when garlic bulbs begin to enlarge",
+      "conditions": {
+        "kind": "PREDICATE",
+        "variable": "growth_stage",
+        "operator": "EQ",
+        "value": "bulbs beginning to enlarge",
+        "lower": null,
+        "upper": null,
+        "lower_inclusive": null,
+        "upper_inclusive": null,
+        "unit": null
+      },
+      "exceptions": [],
+      "evidence": [
+        {
+          "document_id": "garlic",
+          "page_number": 12,
+          "element_id": "garlic:p012:e0004",
+          "source_text": "It is advised not to apply N when the bulbs are beginning to enlarge since it will encourage excessive leaf growth and reduce bulb size."
+        }
+      ],
+      "field_evidence": {
+        "action.verb": [
+          {
+            "document_id": "garlic",
+            "page_number": 12,
+            "element_id": "garlic:p012:e0004",
+            "source_text": "It is advised not to apply N when the bulbs are beginning to enlarge since it will encourage excessive leaf growth and reduce bulb size."
+          }
+        ],
+        "modality": [
+          {
+            "document_id": "garlic",
+            "page_number": 12,
+            "element_id": "garlic:p012:e0004",
+            "source_text": "It is advised not to apply N when the bulbs are beginning to enlarge since it will encourage excessive leaf growth and reduce bulb size."
+          }
+        ],
+        "context.stage": [
+          {
+            "document_id": "garlic",
+            "page_number": 12,
+            "element_id": "garlic:p012:e0004",
+            "source_text": "It is advised not to apply N when the bulbs are beginning to enlarge since it will encourage excessive leaf growth and reduce bulb size."
+          }
+        ],
+        "timing": [
+          {
+            "document_id": "garlic",
+            "page_number": 12,
+            "element_id": "garlic:p012:e0004",
+            "source_text": "It is advised not to apply N when the bulbs are beginning to enlarge since it will encourage excessive leaf growth and reduce bulb size."
+          }
+        ],
+        "conditions": [
+          {
+            "document_id": "garlic",
+            "page_number": 12,
+            "element_id": "garlic:p012:e0004",
+            "source_text": "It is advised not to apply N when the bulbs are beginning to enlarge since it will encourage excessive leaf growth and reduce bulb size."
+          }
+        ]
+      },
+      "dependencies": []
+    },
+    {
+      "rule_id": "r_c12_n",
+      "document_id": "garlic",
+      "schema_version": "S5",
+      "crop": "garlic",
+      "modality": "SHOULD",
+      "product": null,
+      "nutrient": "N",
+      "notes": "Component of a SINGLE four-part combination for garlic on Andosols/Vertisols: 92 kg N/ha + 40 kg P/ha + 30 kg S/ha, combined with 140 kg KCl product/ha (Diriba et al., 2015). Do not recommend component independently. No application times or N/P/S fertilizer product sources specified. REVIEW: 92 kg N/ha, only as part of a four-input combined regimen for Andosols/Vertisols; original links other members.",
+      "action": {
+        "verb": "apply",
+        "target": "nitrogen",
+        "method": null
+      },
+      "quantity": {
+        "value": 92,
+        "lower": null,
+        "upper": null,
+        "unit": "kg N/ha",
+        "basis": "nutrient (N)",
+        "original": "92 kg N",
+        "status": "EXPLICIT"
+      },
+      "context": {
+        "crop": "garlic",
+        "region": null,
+        "soil": "Andosols and Vertisols",
+        "stage": null,
+        "other": {
+          "source": "Diriba et al., 2015",
+          "regimen_id": "andosols_vertisols_optimum_4part",
+          "regimen_required_components": [
+            "r_c12_n",
+            "r_c12_p",
+            "r_c12_s",
+            "r_c12_kcl"
+          ],
+          "source_study": "Diriba et al., 2015",
+          "timing": "not specified",
+          "component_is_not_standalone": true
+        }
+      },
+      "timing": null,
+      "conditions": {
+        "kind": "PREDICATE",
+        "variable": "soil_type",
+        "operator": "IN",
+        "value": [
+          "Andosols",
+          "Vertisols"
+        ],
+        "lower": null,
+        "upper": null,
+        "lower_inclusive": null,
+        "upper_inclusive": null,
+        "unit": null
+      },
+      "exceptions": [],
+      "evidence": [
+        {
+          "document_id": "garlic",
+          "page_number": 12,
+          "element_id": "garlic:p012:e0005",
+          "source_text": "Application of 92 kg N + 40 kg P + 30 kg S per hectare in combination with 140 kg per hectare of KCl fertilizer are optimum for Andosols and Vertisols to attain better productivity of garlic crop to enhance household income and livelihoods of farmers (Diriba et al., 2015)."
+        }
+      ],
+      "field_evidence": {
+        "action.target": [
+          {
+            "document_id": "garlic",
+            "page_number": 12,
+            "element_id": "garlic:p012:e0005",
+            "source_text": "Application of 92 kg N + 40 kg P + 30 kg S per hectare in combination with 140 kg per hectare of KCl fertilizer are optimum for Andosols and Vertisols to attain better productivity of garlic crop to enhance household income and livelihoods of farmers (Diriba et al., 2015)."
+          }
+        ],
+        "quantity.value": [
+          {
+            "document_id": "garlic",
+            "page_number": 12,
+            "element_id": "garlic:p012:e0005",
+            "source_text": "Application of 92 kg N + 40 kg P + 30 kg S per hectare in combination with 140 kg per hectare of KCl fertilizer are optimum for Andosols and Vertisols to attain better productivity of garlic crop to enhance household income and livelihoods of farmers (Diriba et al., 2015)."
+          }
+        ],
+        "quantity.unit": [
+          {
+            "document_id": "garlic",
+            "page_number": 12,
+            "element_id": "garlic:p012:e0005",
+            "source_text": "Application of 92 kg N + 40 kg P + 30 kg S per hectare in combination with 140 kg per hectare of KCl fertilizer are optimum for Andosols and Vertisols to attain better productivity of garlic crop to enhance household income and livelihoods of farmers (Diriba et al., 2015)."
+          }
+        ],
+        "context.soil": [
+          {
+            "document_id": "garlic",
+            "page_number": 12,
+            "element_id": "garlic:p012:e0005",
+            "source_text": "Application of 92 kg N + 40 kg P + 30 kg S per hectare in combination with 140 kg per hectare of KCl fertilizer are optimum for Andosols and Vertisols to attain better productivity of garlic crop to enhance household income and livelihoods of farmers (Diriba et al., 2015)."
+          }
+        ],
+        "conditions": [
+          {
+            "document_id": "garlic",
+            "page_number": 12,
+            "element_id": "garlic:p012:e0005",
+            "source_text": "Application of 92 kg N + 40 kg P + 30 kg S per hectare in combination with 140 kg per hectare of KCl fertilizer are optimum for Andosols and Vertisols to attain better productivity of garlic crop to enhance household income and livelihoods of farmers (Diriba et al., 2015)."
+          }
+        ],
+        "context.other.regimen_id": [
+          {
+            "document_id": "garlic",
+            "page_number": 12,
+            "element_id": "garlic:p012:e0005",
+            "source_text": "Application of 92 kg N + 40 kg P + 30 kg S per hectare in combination with 140 kg per hectare of KCl fertilizer are optimum for Andosols and Vertisols to attain better productivity of garlic crop to enhance household income and livelihoods of farmers (Diriba et al., 2015)."
+          }
+        ]
+      },
+      "dependencies": []
+    },
+    {
+      "rule_id": "r_c12_p",
+      "document_id": "garlic",
+      "schema_version": "S5",
+      "crop": "garlic",
+      "modality": "SHOULD",
+      "product": null,
+      "nutrient": "P",
+      "notes": "Component of a SINGLE four-part combination for garlic on Andosols/Vertisols: 92 kg N/ha + 40 kg P/ha + 30 kg S/ha, combined with 140 kg KCl product/ha (Diriba et al., 2015). Do not recommend component independently. No application times or N/P/S fertilizer product sources specified. REVIEW: 40 kg P/ha as printed (NOT silently P2O5), same combined regimen; original link to anchor rule.",
+      "action": {
+        "verb": "apply",
+        "target": "phosphorus",
+        "method": null
+      },
+      "quantity": {
+        "value": 40,
+        "lower": null,
+        "upper": null,
+        "unit": "kg P/ha",
+        "basis": "nutrient (P as printed; do not convert to P2O5 without further evidence)",
+        "original": "40 kg P",
+        "status": "EXPLICIT"
+      },
+      "context": {
+        "crop": "garlic",
+        "region": null,
+        "soil": "Andosols and Vertisols",
+        "stage": null,
+        "other": {
+          "source": "Diriba et al., 2015",
+          "regimen_id": "andosols_vertisols_optimum_4part",
+          "regimen_required_components": [
+            "r_c12_n",
+            "r_c12_p",
+            "r_c12_s",
+            "r_c12_kcl"
+          ],
+          "source_study": "Diriba et al., 2015",
+          "timing": "not specified",
+          "component_is_not_standalone": true
+        }
+      },
+      "timing": null,
+      "conditions": {
+        "kind": "PREDICATE",
+        "variable": "soil_type",
+        "operator": "IN",
+        "value": [
+          "Andosols",
+          "Vertisols"
+        ],
+        "lower": null,
+        "upper": null,
+        "lower_inclusive": null,
+        "upper_inclusive": null,
+        "unit": null
+      },
+      "exceptions": [],
+      "evidence": [
+        {
+          "document_id": "garlic",
+          "page_number": 12,
+          "element_id": "garlic:p012:e0005",
+          "source_text": "Application of 92 kg N + 40 kg P + 30 kg S per hectare in combination with 140 kg per hectare of KCl fertilizer are optimum for Andosols and Vertisols to attain better productivity of garlic crop to enhance household income and livelihoods of farmers (Diriba et al., 2015)."
+        }
+      ],
+      "field_evidence": {
+        "action.target": [
+          {
+            "document_id": "garlic",
+            "page_number": 12,
+            "element_id": "garlic:p012:e0005",
+            "source_text": "Application of 92 kg N + 40 kg P + 30 kg S per hectare in combination with 140 kg per hectare of KCl fertilizer are optimum for Andosols and Vertisols to attain better productivity of garlic crop to enhance household income and livelihoods of farmers (Diriba et al., 2015)."
+          }
+        ],
+        "quantity.value": [
+          {
+            "document_id": "garlic",
+            "page_number": 12,
+            "element_id": "garlic:p012:e0005",
+            "source_text": "Application of 92 kg N + 40 kg P + 30 kg S per hectare in combination with 140 kg per hectare of KCl fertilizer are optimum for Andosols and Vertisols to attain better productivity of garlic crop to enhance household income and livelihoods of farmers (Diriba et al., 2015)."
+          }
+        ],
+        "quantity.unit": [
+          {
+            "document_id": "garlic",
+            "page_number": 12,
+            "element_id": "garlic:p012:e0005",
+            "source_text": "Application of 92 kg N + 40 kg P + 30 kg S per hectare in combination with 140 kg per hectare of KCl fertilizer are optimum for Andosols and Vertisols to attain better productivity of garlic crop to enhance household income and livelihoods of farmers (Diriba et al., 2015)."
+          }
+        ],
+        "context.soil": [
+          {
+            "document_id": "garlic",
+            "page_number": 12,
+            "element_id": "garlic:p012:e0005",
+            "source_text": "Application of 92 kg N + 40 kg P + 30 kg S per hectare in combination with 140 kg per hectare of KCl fertilizer are optimum for Andosols and Vertisols to attain better productivity of garlic crop to enhance household income and livelihoods of farmers (Diriba et al., 2015)."
+          }
+        ],
+        "conditions": [
+          {
+            "document_id": "garlic",
+            "page_number": 12,
+            "element_id": "garlic:p012:e0005",
+            "source_text": "Application of 92 kg N + 40 kg P + 30 kg S per hectare in combination with 140 kg per hectare of KCl fertilizer are optimum for Andosols and Vertisols to attain better productivity of garlic crop to enhance household income and livelihoods of farmers (Diriba et al., 2015)."
+          }
+        ],
+        "context.other.regimen_id": [
+          {
+            "document_id": "garlic",
+            "page_number": 12,
+            "element_id": "garlic:p012:e0005",
+            "source_text": "Application of 92 kg N + 40 kg P + 30 kg S per hectare in combination with 140 kg per hectare of KCl fertilizer are optimum for Andosols and Vertisols to attain better productivity of garlic crop to enhance household income and livelihoods of farmers (Diriba et al., 2015)."
+          }
+        ]
+      },
+      "dependencies": []
+    },
+    {
+      "rule_id": "r_c12_s",
+      "document_id": "garlic",
+      "schema_version": "S5",
+      "crop": "garlic",
+      "modality": "SHOULD",
+      "product": null,
+      "nutrient": "S",
+      "notes": "Component of a SINGLE four-part combination for garlic on Andosols/Vertisols: 92 kg N/ha + 40 kg P/ha + 30 kg S/ha, combined with 140 kg KCl product/ha (Diriba et al., 2015). Do not recommend component independently. No application times or N/P/S fertilizer product sources specified. REVIEW: 30 kg S/ha, same combined regimen; sulfur fertilizer product not named.",
+      "action": {
+        "verb": "apply",
+        "target": "sulphur",
+        "method": null
+      },
+      "quantity": {
+        "value": 30,
+        "lower": null,
+        "upper": null,
+        "unit": "kg S/ha",
+        "basis": "nutrient (S)",
+        "original": "30 kg S",
+        "status": "EXPLICIT"
+      },
+      "context": {
+        "crop": "garlic",
+        "region": null,
+        "soil": "Andosols and Vertisols",
+        "stage": null,
+        "other": {
+          "source": "Diriba et al., 2015",
+          "regimen_id": "andosols_vertisols_optimum_4part",
+          "regimen_required_components": [
+            "r_c12_n",
+            "r_c12_p",
+            "r_c12_s",
+            "r_c12_kcl"
+          ],
+          "source_study": "Diriba et al., 2015",
+          "timing": "not specified",
+          "component_is_not_standalone": true
+        }
+      },
+      "timing": null,
+      "conditions": {
+        "kind": "PREDICATE",
+        "variable": "soil_type",
+        "operator": "IN",
+        "value": [
+          "Andosols",
+          "Vertisols"
+        ],
+        "lower": null,
+        "upper": null,
+        "lower_inclusive": null,
+        "upper_inclusive": null,
+        "unit": null
+      },
+      "exceptions": [],
+      "evidence": [
+        {
+          "document_id": "garlic",
+          "page_number": 12,
+          "element_id": "garlic:p012:e0005",
+          "source_text": "Application of 92 kg N + 40 kg P + 30 kg S per hectare in combination with 140 kg per hectare of KCl fertilizer are optimum for Andosols and Vertisols to attain better productivity of garlic crop to enhance household income and livelihoods of farmers (Diriba et al., 2015)."
+        }
+      ],
+      "field_evidence": {
+        "action.target": [
+          {
+            "document_id": "garlic",
+            "page_number": 12,
+            "element_id": "garlic:p012:e0005",
+            "source_text": "Application of 92 kg N + 40 kg P + 30 kg S per hectare in combination with 140 kg per hectare of KCl fertilizer are optimum for Andosols and Vertisols to attain better productivity of garlic crop to enhance household income and livelihoods of farmers (Diriba et al., 2015)."
+          }
+        ],
+        "quantity.value": [
+          {
+            "document_id": "garlic",
+            "page_number": 12,
+            "element_id": "garlic:p012:e0005",
+            "source_text": "Application of 92 kg N + 40 kg P + 30 kg S per hectare in combination with 140 kg per hectare of KCl fertilizer are optimum for Andosols and Vertisols to attain better productivity of garlic crop to enhance household income and livelihoods of farmers (Diriba et al., 2015)."
+          }
+        ],
+        "quantity.unit": [
+          {
+            "document_id": "garlic",
+            "page_number": 12,
+            "element_id": "garlic:p012:e0005",
+            "source_text": "Application of 92 kg N + 40 kg P + 30 kg S per hectare in combination with 140 kg per hectare of KCl fertilizer are optimum for Andosols and Vertisols to attain better productivity of garlic crop to enhance household income and livelihoods of farmers (Diriba et al., 2015)."
+          }
+        ],
+        "context.soil": [
+          {
+            "document_id": "garlic",
+            "page_number": 12,
+            "element_id": "garlic:p012:e0005",
+            "source_text": "Application of 92 kg N + 40 kg P + 30 kg S per hectare in combination with 140 kg per hectare of KCl fertilizer are optimum for Andosols and Vertisols to attain better productivity of garlic crop to enhance household income and livelihoods of farmers (Diriba et al., 2015)."
+          }
+        ],
+        "conditions": [
+          {
+            "document_id": "garlic",
+            "page_number": 12,
+            "element_id": "garlic:p012:e0005",
+            "source_text": "Application of 92 kg N + 40 kg P + 30 kg S per hectare in combination with 140 kg per hectare of KCl fertilizer are optimum for Andosols and Vertisols to attain better productivity of garlic crop to enhance household income and livelihoods of farmers (Diriba et al., 2015)."
+          }
+        ],
+        "context.other.regimen_id": [
+          {
+            "document_id": "garlic",
+            "page_number": 12,
+            "element_id": "garlic:p012:e0005",
+            "source_text": "Application of 92 kg N + 40 kg P + 30 kg S per hectare in combination with 140 kg per hectare of KCl fertilizer are optimum for Andosols and Vertisols to attain better productivity of garlic crop to enhance household income and livelihoods of farmers (Diriba et al., 2015)."
+          }
+        ]
+      },
+      "dependencies": []
+    },
+    {
+      "rule_id": "r_c12_kcl",
+      "document_id": "garlic",
+      "schema_version": "S5",
+      "crop": "garlic",
+      "modality": "SHOULD",
+      "product": "KCl (potassium chloride)",
+      "nutrient": "K",
+      "notes": "Component of a SINGLE four-part combination for garlic on Andosols/Vertisols: 92 kg N/ha + 40 kg P/ha + 30 kg S/ha, combined with 140 kg KCl product/ha (Diriba et al., 2015). Do not recommend component independently. No application times or N/P/S fertilizer product sources specified. REVIEW: 140 kg KCl PRODUCT/ha, NOT 140 kg K/ha, same combined regimen.",
+      "action": {
+        "verb": "apply",
+        "target": "KCl fertilizer",
+        "method": null
+      },
+      "quantity": {
+        "value": 140,
+        "lower": null,
+        "upper": null,
+        "unit": "kg/ha",
+        "basis": "product (KCl, not elemental K or K2O)",
+        "original": "140 kg per hectare of KCl fertilizer",
+        "status": "EXPLICIT"
+      },
+      "context": {
+        "crop": "garlic",
+        "region": null,
+        "soil": "Andosols and Vertisols",
+        "stage": null,
+        "other": {
+          "source": "Diriba et al., 2015",
+          "regimen_id": "andosols_vertisols_optimum_4part",
+          "regimen_required_components": [
+            "r_c12_n",
+            "r_c12_p",
+            "r_c12_s",
+            "r_c12_kcl"
+          ],
+          "source_study": "Diriba et al., 2015",
+          "timing": "not specified",
+          "component_is_not_standalone": true
+        }
+      },
+      "timing": null,
+      "conditions": {
+        "kind": "PREDICATE",
+        "variable": "soil_type",
+        "operator": "IN",
+        "value": [
+          "Andosols",
+          "Vertisols"
+        ],
+        "lower": null,
+        "upper": null,
+        "lower_inclusive": null,
+        "upper_inclusive": null,
+        "unit": null
+      },
+      "exceptions": [],
+      "evidence": [
+        {
+          "document_id": "garlic",
+          "page_number": 12,
+          "element_id": "garlic:p012:e0005",
+          "source_text": "Application of 92 kg N + 40 kg P + 30 kg S per hectare in combination with 140 kg per hectare of KCl fertilizer are optimum for Andosols and Vertisols to attain better productivity of garlic crop to enhance household income and livelihoods of farmers (Diriba et al., 2015)."
+        }
+      ],
+      "field_evidence": {
+        "action.target": [
+          {
+            "document_id": "garlic",
+            "page_number": 12,
+            "element_id": "garlic:p012:e0005",
+            "source_text": "Application of 92 kg N + 40 kg P + 30 kg S per hectare in combination with 140 kg per hectare of KCl fertilizer are optimum for Andosols and Vertisols to attain better productivity of garlic crop to enhance household income and livelihoods of farmers (Diriba et al., 2015)."
+          }
+        ],
+        "quantity.value": [
+          {
+            "document_id": "garlic",
+            "page_number": 12,
+            "element_id": "garlic:p012:e0005",
+            "source_text": "Application of 92 kg N + 40 kg P + 30 kg S per hectare in combination with 140 kg per hectare of KCl fertilizer are optimum for Andosols and Vertisols to attain better productivity of garlic crop to enhance household income and livelihoods of farmers (Diriba et al., 2015)."
+          }
+        ],
+        "quantity.unit": [
+          {
+            "document_id": "garlic",
+            "page_number": 12,
+            "element_id": "garlic:p012:e0005",
+            "source_text": "Application of 92 kg N + 40 kg P + 30 kg S per hectare in combination with 140 kg per hectare of KCl fertilizer are optimum for Andosols and Vertisols to attain better productivity of garlic crop to enhance household income and livelihoods of farmers (Diriba et al., 2015)."
+          }
+        ],
+        "context.soil": [
+          {
+            "document_id": "garlic",
+            "page_number": 12,
+            "element_id": "garlic:p012:e0005",
+            "source_text": "Application of 92 kg N + 40 kg P + 30 kg S per hectare in combination with 140 kg per hectare of KCl fertilizer are optimum for Andosols and Vertisols to attain better productivity of garlic crop to enhance household income and livelihoods of farmers (Diriba et al., 2015)."
+          }
+        ],
+        "conditions": [
+          {
+            "document_id": "garlic",
+            "page_number": 12,
+            "element_id": "garlic:p012:e0005",
+            "source_text": "Application of 92 kg N + 40 kg P + 30 kg S per hectare in combination with 140 kg per hectare of KCl fertilizer are optimum for Andosols and Vertisols to attain better productivity of garlic crop to enhance household income and livelihoods of farmers (Diriba et al., 2015)."
+          }
+        ],
+        "context.other.regimen_id": [
+          {
+            "document_id": "garlic",
+            "page_number": 12,
+            "element_id": "garlic:p012:e0005",
+            "source_text": "Application of 92 kg N + 40 kg P + 30 kg S per hectare in combination with 140 kg per hectare of KCl fertilizer are optimum for Andosols and Vertisols to attain better productivity of garlic crop to enhance household income and livelihoods of farmers (Diriba et al., 2015)."
+          }
+        ]
+      },
+      "dependencies": []
+    },
+    {
+      "rule_id": "r_c15_k",
+      "document_id": "garlic",
+      "schema_version": "S5",
+      "crop": "garlic",
+      "modality": "SHOULD",
+      "product": "K fertilizer",
+      "nutrient": "K",
+      "notes": "Source advises K fertilizer to reduce continued depletion, based on the observed negative K balance. This is qualitative, with no product amount, application schedule or threshold for other farms. Do not borrow the separate 140 kg/ha KCl rate for Andosols/Vertisols. REVIEW: Negative K balance is the observed motivation from the studied fields, not a universally applicable threshold; do not invent kg K or bind to 140 kg/ha KCl elsewhere.",
+      "action": {
+        "verb": "apply",
+        "target": "potassium fertilizer",
+        "method": null
+      },
+      "quantity": {
+        "value": null,
+        "lower": null,
+        "upper": null,
+        "unit": null,
+        "basis": null,
+        "original": "use of K-Fertilizer is advisable",
+        "status": "NOT_SPECIFIED"
+      },
+      "context": {
+        "crop": "garlic",
+        "region": "Emba Alaje and Endamehoni, Tigray",
+        "soil": null,
+        "stage": null,
+        "other": {
+          "observed_potassium_balance": "negative (0.766 kg/ha magnitude) in the documented intervention plots, not a general decision threshold",
+          "study_context": "2014 MonQIT nutrient balance, Emba Alaje and Endamehoni",
+          "observed_balance": "negative K balance",
+          "observed_K_balance_kg_ha": -0.766,
+          "recommendation_type": "qualitative_advisory",
+          "exact_dose": "not given"
+        }
+      },
+      "timing": null,
+      "conditions": null,
+      "exceptions": [],
+      "evidence": [
+        {
+          "document_id": "garlic",
+          "page_number": 20,
+          "element_id": "garlic:p020:e0006",
+          "source_text": "the nutrient balance of potassium has shown a negative balance and use of K-Fertilizer is advisable to minimize continuous nutrient depletion"
+        },
+        {
+          "document_id": "garlic",
+          "page_number": 19,
+          "element_id": "garlic:p019:e0002",
+          "source_text": "The nutrient balance of garlic best practice using MonQIT software indicates that there is positive balance for Nitrogen (3.86 kg/ha) and phosphorus (0.294 kg/ha) and with a negative balance for potassium (0.766 kg/ha)."
+        }
+      ],
+      "field_evidence": {
+        "action.target": [
+          {
+            "document_id": "garlic",
+            "page_number": 20,
+            "element_id": "garlic:p020:e0006",
+            "source_text": "the nutrient balance of potassium has shown a negative balance and use of K-Fertilizer is advisable to minimize continuous nutrient depletion"
+          }
+        ],
+        "modality": [
+          {
+            "document_id": "garlic",
+            "page_number": 20,
+            "element_id": "garlic:p020:e0006",
+            "source_text": "the nutrient balance of potassium has shown a negative balance and use of K-Fertilizer is advisable to minimize continuous nutrient depletion"
+          }
+        ],
+        "quantity.status": [
+          {
+            "document_id": "garlic",
+            "page_number": 20,
+            "element_id": "garlic:p020:e0006",
+            "source_text": "the nutrient balance of potassium has shown a negative balance and use of K-Fertilizer is advisable to minimize continuous nutrient depletion"
+          }
+        ],
+        "context.other.observed_balance": [
+          {
+            "document_id": "garlic",
+            "page_number": 19,
+            "element_id": "garlic:p019:e0002",
+            "source_text": "The nutrient balance of garlic best practice using MonQIT software indicates that there is positive balance for Nitrogen (3.86 kg/ha) and phosphorus (0.294 kg/ha) and with a negative balance for potassium (0.766 kg/ha)."
+          },
+          {
+            "document_id": "garlic",
+            "page_number": 20,
+            "element_id": "garlic:p020:e0006",
+            "source_text": "the nutrient balance of potassium has shown a negative balance and use of K-Fertilizer is advisable to minimize continuous nutrient depletion"
+          }
+        ]
+      },
+      "dependencies": []
+    },
+    {
+      "rule_id": "r_new_balanced_nutrients",
+      "document_id": "garlic",
+      "schema_version": "S5",
+      "crop": "garlic",
+      "modality": "SHOULD",
+      "product": null,
+      "nutrient": null,
+      "notes": "NEW omission found by rescanning PDF page 12: balanced nutrient sources for garlic quality/yield. No specific nutrient, product, amount or timing provided in this sentence. Do not derive doses from the following shallot example.",
+      "action": {
+        "verb": "use",
+        "target": "balanced sources of nutrients",
+        "method": null
+      },
+      "quantity": {
+        "value": null,
+        "lower": null,
+        "upper": null,
+        "unit": null,
+        "basis": null,
+        "original": "not specified",
+        "status": "NOT_SPECIFIED"
+      },
+      "context": {
+        "crop": "garlic",
+        "region": null,
+        "soil": null,
+        "stage": null,
+        "other": {
+          "purpose": "high yield and good quality garlic bulbs"
+        }
+      },
+      "timing": null,
+      "conditions": null,
+      "exceptions": [],
+      "evidence": [
+        {
+          "document_id": "garlic",
+          "page_number": 12,
+          "element_id": "garlic:p012:balanced_nutrients",
+          "source_text": "The use of balanced sources of nutrients to obtain high yield and good quality garlic bulbs is an important practice in today’s garlic production."
+        }
+      ],
+      "field_evidence": {
+        "action.target": [
+          {
+            "document_id": "garlic",
+            "page_number": 12,
+            "element_id": "garlic:p012:balanced_nutrients",
+            "source_text": "The use of balanced sources of nutrients to obtain high yield and good quality garlic bulbs is an important practice in today’s garlic production."
+          }
+        ],
+        "crop": [
+          {
+            "document_id": "garlic",
+            "page_number": 12,
+            "element_id": "garlic:p012:balanced_nutrients",
+            "source_text": "The use of balanced sources of nutrients to obtain high yield and good quality garlic bulbs is an important practice in today’s garlic production."
+          }
+        ],
+        "quantity.status": [
+          {
+            "document_id": "garlic",
+            "page_number": 12,
+            "element_id": "garlic:p012:balanced_nutrients",
+            "source_text": "The use of balanced sources of nutrients to obtain high yield and good quality garlic bulbs is an important practice in today’s garlic production."
+          }
+        ]
+      },
+      "dependencies": []
+    }
+  ]
+}

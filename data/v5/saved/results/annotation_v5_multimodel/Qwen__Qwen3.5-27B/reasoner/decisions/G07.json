@@ -1,0 +1,15 @@
+{
+  "question_id": "G07",
+  "decision": {
+    "label": "ANSWER",
+    "response": "Yes, it is the right time to spread the remaining urea. According to the common practice in southern Tigray, the remaining half of the urea should be applied 30 to 45 days after planting. Since your garlic was planted 38 days ago, you are currently within this recommended window.",
+    "justification": "The rule r_c10_urea_2split explicitly states that for garlic, half the urea is applied at planting and the remaining half is applied 30-45 days after planting. The farmer's fact 'days_since_planting' is 38, which falls within the 30-45 day range specified in the rule. The rule also notes that a three-split application is an alternative only 'in some cases, when there is good rain', but the two-split schedule is the primary reported practice. Since 38 days is within the 30-45 day window for the second application of the two-split schedule, the action is supported.",
+    "rule_ids": [
+      "r_c10_urea_2split"
+    ],
+    "cited_pages": [
+      12
+    ],
+    "missing_facts": []
+  }
+}

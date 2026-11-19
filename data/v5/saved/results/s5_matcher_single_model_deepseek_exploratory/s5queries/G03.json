@@ -1,0 +1,112 @@
+{
+  "schema_version": "S5Query-1",
+  "original_question": "My garlic field is 0.22 hectares and has Vertisol soil. An agricultural adviser gave me a plan of 92 kg nitrogen, 40 kg phosphorus, 30 kg sulfur and 140 kg potassium chloride per hectare. How much of each of those do I need for my field? Are the first three amounts nutrients or bags of fertilizer?",
+  "requests": [
+    {
+      "subject": "nitrogen",
+      "crop": "garlic",
+      "product": null,
+      "nutrient": "nitrogen",
+      "action": null,
+      "fields": [
+        "quantity",
+        "unit",
+        "basis",
+        "total_quantity"
+      ],
+      "source_text": "92 kg nitrogen"
+    },
+    {
+      "subject": "phosphorus",
+      "crop": "garlic",
+      "product": null,
+      "nutrient": "phosphorus",
+      "action": null,
+      "fields": [
+        "quantity",
+        "unit",
+        "basis",
+        "total_quantity"
+      ],
+      "source_text": "40 kg phosphorus"
+    },
+    {
+      "subject": "sulphur",
+      "crop": "garlic",
+      "product": null,
+      "nutrient": "sulfur",
+      "action": null,
+      "fields": [
+        "quantity",
+        "unit",
+        "basis",
+        "total_quantity"
+      ],
+      "source_text": "30 kg sulfur"
+    },
+    {
+      "subject": "KCl (potassium chloride)",
+      "crop": "garlic",
+      "product": "potassium chloride",
+      "nutrient": null,
+      "action": null,
+      "fields": [
+        "quantity",
+        "unit",
+        "basis",
+        "total_quantity"
+      ],
+      "source_text": "140 kg potassium chloride per hectare"
+    },
+    {
+      "subject": "nitrogen",
+      "crop": null,
+      "product": null,
+      "nutrient": "nitrogen",
+      "action": null,
+      "fields": [
+        "conversion"
+      ],
+      "source_text": "Are the first three amounts nutrients or bags of fertilizer?"
+    },
+    {
+      "subject": "phosphorus",
+      "crop": null,
+      "product": null,
+      "nutrient": "phosphorus",
+      "action": null,
+      "fields": [
+        "conversion"
+      ],
+      "source_text": "Are the first three amounts nutrients or bags of fertilizer?"
+    },
+    {
+      "subject": "sulphur",
+      "crop": null,
+      "product": null,
+      "nutrient": "sulfur",
+      "action": null,
+      "fields": [
+        "conversion"
+      ],
+      "source_text": "Are the first three amounts nutrients or bags of fertilizer?"
+    }
+  ],
+  "facts": {
+    "area_ha": {
+      "status": "EXPLICIT",
+      "value": 0.22,
+      "source_text": "0.22 hectares"
+    },
+    "crop": {
+      "status": "EXPLICIT",
+      "value": "garlic",
+      "source_text": "garlic field"
+    },
+    "soil_type": {
+      "status": "EXPLICIT",
+      "value": "Vertisols",
+      "source_text": "Vertisol soil"
+    }
+  }
+}
